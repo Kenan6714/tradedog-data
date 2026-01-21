@@ -1,0 +1,37 @@
+{
+  "last_updated": "2025-01-21",
+  "version": "1.0",
+  "funds": [
+    {"code": "AFT", "name": "Ak Portföy Gelişen Ülkeler B.Y.F.", "type": "bond", "isin": "TRAAFTE00014"},
+    {"code": "AGD", "name": "Ak Portföy BIST30 Endeks H.S.F.", "type": "stock", "isin": "TRAAGDE00013"},
+    {"code": "AAK", "name": "Ak Portföy Kısa Vadeli B.P.F.", "type": "bond", "isin": "TRAAAKE00011"},
+    {"code": "ABA", "name": "Ak Portföy Birinci Değişken Fon", "type": "mixed", "isin": "TRAABAE00012"},
+    {"code": "AEU", "name": "Ak Portföy Euro B.P.F.", "type": "bond", "isin": "TRAAEUE00010"},
+    {"code": "AHY", "name": "Alternatif Portföy Hisse Senedi Fonu", "type": "stock", "isin": "TRAAHYE00011"},
+    {"code": "APF", "name": "Alternatif Portföy İkinci Fon", "type": "mixed", "isin": "TRAAPFE00010"},
+    {"code": "ATF", "name": "Allianz Yaşam ve Emeklilik A.Ş. Gruplara Yönelik H.S.F.", "type": "stock", "isin": "TRAATFE00012"},
+    {"code": "GAH", "name": "Garanti Portföy BIST30 Endeks H.S.F.", "type": "stock", "isin": "TRAGAHE00011"},
+    {"code": "GPD", "name": "Garanti Portföy Birinci Değişken Fon", "type": "mixed", "isin": "TRAGPDE00010"},
+    {"code": "GYO", "name": "Garanti Portföy GYO H.S.F.", "type": "stock", "isin": "TRAGYOE00012"},
+    {"code": "ILK", "name": "İş Portföy İlk Girişim H.S.F.", "type": "stock", "isin": "TRILKE00011"},
+    {"code": "ISE", "name": "İş Portföy BIST30 Endeks H.S.F.", "type": "stock", "isin": "TRISEE00010"},
+    {"code": "KYD", "name": "Yapı Kredi Portföy Birinci Değişken Fon", "type": "mixed", "isin": "TRKYYDE00013"},
+    {"code": "TFB", "name": "TEB Portföy B Tipi Değişken Fon", "type": "mixed", "isin": "TRTFBE00011"},
+    {"code": "VBF", "name": "Vakıf Portföy Birinci Değişken Fon", "type": "mixed", "isin": "TRVBFE00010"},
+    {"code": "ZPY", "name": "Ziraat Portföy Katılım Hisse Senedi Fonu", "type": "stock", "isin": "TRZPYE00012"}
+  ],
+  "categories": {
+    "stock": {
+      "name": "Hisse Senedi Fonları",
+      "funds": ["AGD", "AHY", "ATF", "GAH", "GYO", "ILK", "ISE", "ZPY"]
+    },
+    "bond": {
+      "name": "Borçlanma Fonları",
+      "funds": ["AFT", "AAK", "AEU"]
+    },
+    "mixed": {
+      "name": "Değişken Fonlar",
+      "funds": ["ABA", "APF", "GPD", "KYD", "TFB", "VBF"]
+    }
+  }
+}
