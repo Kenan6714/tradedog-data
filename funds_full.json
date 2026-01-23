@@ -5,7 +5,7 @@
   "funds": [
     {
       "code": "AKU",
-      "name": "Ak Portföy BIST30 Endeks Hisse Senedi Fonu",
+      "name": "Ak Portföy BIST30 Endeksi Hisse Senedi Fonu",
       "type": "stock",
       "category": "index",
       "isin": "TRAAKUE00013",
@@ -13,85 +13,31 @@
       "description": "BIST30 endeksini takip eder"
     },
     {
-      "code": "HVF",
-      "name": "Yapı Kredi Portföy Hisse Senedi Fonu",
-      "type": "stock",
-      "category": "general",
-      "isin": "TRHVFE00010",
-      "risk": "Yüksek",
-      "description": "Genel hisse senedi fonu"
-    },
-    {
-      "code": "TYD",
-      "name": "TEB Portföy Yabancı Hisse Senedi Fonu",
-      "type": "stock",
-      "category": "foreign",
-      "isin": "TRTYDF00012",
-      "risk": "Yüksek",
-      "description": "Yurt dışı hisse senetlerine yatırım yapar"
-    },
-    {
       "code": "AAK",
-      "name": "Ak Portföy Kısa Vadeli Borçlanma Araçları Fonu",
-      "type": "bond",
-      "category": "short_term",
+      "name": "Ata Portföy Çoklu Varlık Değişken Fon",
+      "type": "mixed",
+      "category": "balanced",
       "isin": "TRAAAKE00011",
-      "risk": "Düşük",
-      "description": "Kısa vadeli tahvil ve bono fonu"
+      "risk": "Orta",
+      "description": "Çoklu varlık değişken fon"
     },
     {
       "code": "GPB",
-      "name": "Garanti Portföy Kısa Vadeli Borçlanma Araçları Fonu",
-      "type": "bond",
-      "category": "short_term",
+      "name": "Garanti Portföy Birinci Değişken Fon",
+      "type": "mixed",
+      "category": "balanced",
       "isin": "TRGPBE00012",
-      "risk": "Düşük",
-      "description": "Kısa vadeli borçlanma fonu"
+      "risk": "Orta",
+      "description": "Dengeli değişken fon"
     },
     {
       "code": "GAL",
-      "name": "Garanti Portföy Altın Fonu",
-      "type": "precious",
-      "category": "gold",
+      "name": "Garanti Portföy İkinci Para Piyasası Fonu",
+      "type": "bond",
+      "category": "money_market",
       "isin": "TRGALE00013",
-      "risk": "Orta",
-      "description": "Altına yatırım yapan fon"
-    },
-    {
-      "code": "AAL",
-      "name": "Ak Portföy Altın Fonu",
-      "type": "precious",
-      "category": "gold",
-      "isin": "TRAALE00014",
-      "risk": "Orta",
-      "description": "Altına yatırım yapan fon"
-    },
-    {
-      "code": "ADA",
-      "name": "Ak Portföy Dengeli Değişken Fon",
-      "type": "mixed",
-      "category": "balanced",
-      "isin": "TRAADE00015",
-      "risk": "Orta",
-      "description": "Hisse ve tahvil karışımı dengeli fon"
-    },
-    {
-      "code": "GDA",
-      "name": "Garanti Portföy Dengeli Değişken Fon",
-      "type": "mixed",
-      "category": "balanced",
-      "isin": "TRGDAE00016",
-      "risk": "Orta",
-      "description": "Dengeli karma fon"
-    },
-    {
-      "code": "AGA",
-      "name": "Ak Portföy Agresif Değişken Fon",
-      "type": "mixed",
-      "category": "aggressive",
-      "isin": "TRAAGE00017",
-      "risk": "Yüksek",
-      "description": "Agresif büyüme odaklı fon"
+      "risk": "Düşük",
+      "description": "Para piyasası fonu - güvenli liman"
     }
   ],
   "categories": {
@@ -104,66 +50,35 @@
           "emoji": "📈",
           "description": "BIST endekslerini takip eden fonlar",
           "funds": ["AKU"]
-        },
-        "general": {
-          "name": "Genel Hisse Fonları",
-          "emoji": "📊",
-          "description": "Genel hisse senedi yatırımı",
-          "funds": ["HVF"]
-        },
-        "foreign": {
-          "name": "Yabancı Hisse Fonları",
-          "emoji": "🌍",
-          "description": "Yurt dışı hisse senetleri",
-          "funds": ["TYD"]
         }
       },
-      "all_funds": ["AKU", "HVF", "TYD"]
+      "all_funds": ["AKU"]
     },
     "bond": {
       "name": "Borçlanma Fonları",
       "emoji": "💰",
       "subcategories": {
-        "short_term": {
-          "name": "Kısa Vadeli",
-          "emoji": "⏱️",
-          "description": "Kısa vadeli tahvil/bono",
-          "funds": ["AAK", "GPB"]
+        "money_market": {
+          "name": "Para Piyasası Fonları",
+          "emoji": "💵",
+          "description": "Kısa vadeli güvenli yatırımlar",
+          "funds": ["GAL"]
         }
       },
-      "all_funds": ["AAK", "GPB"]
+      "all_funds": ["GAL"]
     },
     "mixed": {
       "name": "Değişken Fonlar",
       "emoji": "🔄",
       "subcategories": {
         "balanced": {
-          "name": "Dengeli",
+          "name": "Dengeli Fonlar",
           "emoji": "⚖️",
           "description": "Dengeli hisse/tahvil karışımı",
-          "funds": ["ADA", "GDA"]
-        },
-        "aggressive": {
-          "name": "Agresif",
-          "emoji": "📈",
-          "description": "Agresif büyüme stratejisi",
-          "funds": ["AGA"]
+          "funds": ["AAK", "GPB"]
         }
       },
-      "all_funds": ["ADA", "GDA", "AGA"]
-    },
-    "precious": {
-      "name": "Değerli Maden Fonları",
-      "emoji": "🪙",
-      "subcategories": {
-        "gold": {
-          "name": "Altın Fonları",
-          "emoji": "🥇",
-          "description": "Fiziksel altın veya altın hisseleri",
-          "funds": ["GAL", "AAL"]
-        }
-      },
-      "all_funds": ["GAL", "AAL"]
+      "all_funds": ["AAK", "GPB"]
     }
   },
   "recommendations": {
@@ -171,29 +86,25 @@
       "name": "Muhafazakar Portföy",
       "description": "Düşük riskli, istikrarlı getiri",
       "allocation": {
-        "AAK": 60,
-        "GPB": 30,
-        "GAL": 10
+        "GAL": 100
       }
     },
     "balanced": {
       "name": "Dengeli Portföy",
       "description": "Orta risk, dengeli getiri",
       "allocation": {
-        "ADA": 40,
-        "AAK": 30,
-        "AKU": 20,
-        "GAL": 10
+        "AAK": 50,
+        "GAL": 30,
+        "AKU": 20
       }
     },
     "aggressive": {
       "name": "Agresif Portföy",
       "description": "Yüksek risk, yüksek getiri potansiyeli",
       "allocation": {
-        "AKU": 40,
-        "HVF": 30,
-        "AGA": 20,
-        "TYD": 10
+        "AKU": 60,
+        "GPB": 30,
+        "GAL": 10
       }
     }
   }
