@@ -10,7 +10,11 @@
       "category": "index",
       "isin": "TRAAKUE00013",
       "risk": "Yüksek",
-      "description": "BIST30 endeksini takip eder"
+      "description": "BIST30 endeksini takip eder",
+      "allocation": {
+        "Hisse Senedi": 95.2,
+        "Nakit": 4.8
+      }
     },
     {
       "code": "AAK",
@@ -19,7 +23,14 @@
       "category": "balanced",
       "isin": "TRAAAKE00011",
       "risk": "Orta",
-      "description": "Çoklu varlık değişken fon"
+      "description": "Çoklu varlık değişken fon",
+      "allocation": {
+        "Hisse Senedi": 48.5,
+        "Devlet Tahvili": 25.3,
+        "Döviz": 18.2,
+        "Altın": 5.0,
+        "Nakit": 3.0
+      }
     },
     {
       "code": "GPB",
@@ -28,7 +39,13 @@
       "category": "balanced",
       "isin": "TRGPBE00012",
       "risk": "Orta",
-      "description": "Dengeli değişken fon"
+      "description": "Dengeli değişken fon",
+      "allocation": {
+        "Devlet Tahvili": 45.8,
+        "Hisse Senedi": 30.2,
+        "Özel Sektör Tahvili": 15.0,
+        "Nakit": 9.0
+      }
     },
     {
       "code": "GAL",
@@ -37,7 +54,12 @@
       "category": "money_market",
       "isin": "TRGALE00013",
       "risk": "Düşük",
-      "description": "Para piyasası fonu - güvenli liman"
+      "description": "Para piyasası fonu - güvenli liman",
+      "allocation": {
+        "Devlet Tahvili": 75.5,
+        "Özel Sektör Tahvili": 18.0,
+        "Nakit": 6.5
+      }
     }
   ],
   "categories": {
