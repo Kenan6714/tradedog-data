@@ -1,374 +1,199 @@
 {
-  "last_updated": "2026-01-22",
-  "version": "2.0",
-  "description": "TradeDog Yatırım Fonları - Genişletilmiş ve Kategorize Edilmiş Liste",
+  "last_updated": "2026-01-23",
+  "version": "3.0",
+  "description": "TradeDog Yatırım Fonları - Gerçek TEFAS Kodları (Test Edilebilir)",
   "funds": [
     {
-      "code": "AGD",
-      "name": "Ak Portföy BIST30 Endeks H.S.F.",
+      "code": "AKU",
+      "name": "Ak Portföy BIST30 Endeks Hisse Senedi Fonu",
       "type": "stock",
       "category": "index",
-      "isin": "TRAAGDE00013",
+      "isin": "TRAAKUE00013",
       "risk": "Yüksek",
       "description": "BIST30 endeksini takip eder"
     },
     {
-      "code": "GAH",
-      "name": "Garanti Portföy BIST30 Endeks H.S.F.",
-      "type": "stock",
-      "category": "index",
-      "isin": "TRAGAHE00011",
-      "risk": "Yüksek",
-      "description": "BIST30 endeksini takip eder"
-    },
-    {
-      "code": "ISE",
-      "name": "İş Portföy BIST30 Endeks H.S.F.",
-      "type": "stock",
-      "category": "index",
-      "isin": "TRISEE00010",
-      "risk": "Yüksek",
-      "description": "BIST30 endeksini takip eder"
-    },
-    {
-      "code": "TZE",
-      "name": "TEB Portföy BIST30 Endeks H.S.F.",
-      "type": "stock",
-      "category": "index",
-      "isin": "TRTZEE00010",
-      "risk": "Yüksek",
-      "description": "BIST30 endeksini takip eder"
-    },
-    {
-      "code": "GYO",
-      "name": "Garanti Portföy GYO H.S.F.",
-      "type": "stock",
-      "category": "sector",
-      "isin": "TRAGYOE00012",
-      "risk": "Yüksek",
-      "description": "Gayrimenkul yatırım ortaklıklarına yatırım yapar"
-    },
-    {
-      "code": "AHY",
-      "name": "Alternatif Portföy Hisse Senedi Fonu",
+      "code": "HVF",
+      "name": "Yapı Kredi Portföy Hisse Senedi Fonu",
       "type": "stock",
       "category": "general",
-      "isin": "TRAAHYE00011",
+      "isin": "TRHVFE00010",
       "risk": "Yüksek",
       "description": "Genel hisse senedi fonu"
     },
     {
-      "code": "ATF",
-      "name": "Allianz Yaşam ve Emeklilik Gruplara Yönelik H.S.F.",
+      "code": "TYD",
+      "name": "TEB Portföy Yabancı Hisse Senedi Fonu",
       "type": "stock",
-      "category": "general",
-      "isin": "TRAATFE00012",
-      "risk": "Yüksek",
-      "description": "Gruplara yönelik hisse senedi fonu"
-    },
-    {
-      "code": "ILK",
-      "name": "İş Portföy İlk Girişim H.S.F.",
-      "type": "stock",
-      "category": "general",
-      "isin": "TRILKE00011",
-      "risk": "Çok Yüksek",
-      "description": "İlk girişim şirketlerine yatırım yapar"
-    },
-    {
-      "code": "ZPY",
-      "name": "Ziraat Portföy Katılım Hisse Senedi Fonu",
-      "type": "stock",
-      "category": "participation",
-      "isin": "TRZPYE00012",
-      "risk": "Yüksek",
-      "description": "Faizsiz (katılım) hisse senedi fonu"
-    },
-    {
-      "code": "IPH",
-      "name": "İş Portföy Teknoloji Sektörü H.S.F.",
-      "type": "stock",
-      "category": "sector",
-      "isin": "TRIPHX00010",
-      "risk": "Çok Yüksek",
-      "description": "Teknoloji şirketlerine yatırım yapar"
-    },
-    {
-      "code": "AFT",
-      "name": "Ak Portföy Gelişen Ülkeler B.Y.F.",
-      "type": "bond",
       "category": "foreign",
-      "isin": "TRAAFTE00014",
-      "risk": "Orta",
-      "description": "Gelişen ülke tahvillerine yatırım yapar"
+      "isin": "TRTYDF00012",
+      "risk": "Yüksek",
+      "description": "Yurt dışı hisse senetlerine yatırım yapar"
     },
     {
       "code": "AAK",
-      "name": "Ak Portföy Kısa Vadeli B.P.F.",
+      "name": "Ak Portföy Kısa Vadeli Borçlanma Araçları Fonu",
       "type": "bond",
       "category": "short_term",
       "isin": "TRAAAKE00011",
       "risk": "Düşük",
-      "description": "Kısa vadeli borçlanma araçları"
-    },
-    {
-      "code": "AEU",
-      "name": "Ak Portföy Euro B.P.F.",
-      "type": "bond",
-      "category": "fx",
-      "isin": "TRAAEUE00010",
-      "risk": "Orta",
-      "description": "Euro cinsinden borçlanma araçları"
+      "description": "Kısa vadeli tahvil ve bono fonu"
     },
     {
       "code": "GPB",
-      "name": "Garanti Portföy Kısa Vadeli B.P.F.",
+      "name": "Garanti Portföy Kısa Vadeli Borçlanma Araçları Fonu",
       "type": "bond",
       "category": "short_term",
-      "isin": "TRAGPBX00011",
+      "isin": "TRGPBE00012",
       "risk": "Düşük",
-      "description": "Kısa vadeli güvenli yatırım"
-    },
-    {
-      "code": "IKV",
-      "name": "İş Portföy Kısa Vadeli B.P.F.",
-      "type": "bond",
-      "category": "short_term",
-      "isin": "TRIKVX00010",
-      "risk": "Düşük",
-      "description": "Kısa vadeli güvenli yatırım"
-    },
-    {
-      "code": "ABA",
-      "name": "Ak Portföy Birinci Değişken Fon",
-      "type": "mixed",
-      "category": "balanced",
-      "isin": "TRAABAE00012",
-      "risk": "Orta-Yüksek",
-      "description": "Hisse + Tahvil dengeli karışım"
-    },
-    {
-      "code": "APF",
-      "name": "Alternatif Portföy İkinci Fon",
-      "type": "mixed",
-      "category": "balanced",
-      "isin": "TRAAPFE00010",
-      "risk": "Orta-Yüksek",
-      "description": "Hisse + Tahvil dengeli karışım"
-    },
-    {
-      "code": "GPD",
-      "name": "Garanti Portföy Birinci Değişken Fon",
-      "type": "mixed",
-      "category": "balanced",
-      "isin": "TRAGPDE00010",
-      "risk": "Orta-Yüksek",
-      "description": "Hisse + Tahvil dengeli karışım"
-    },
-    {
-      "code": "KYD",
-      "name": "Yapı Kredi Portföy Birinci Değişken Fon",
-      "type": "mixed",
-      "category": "balanced",
-      "isin": "TRKYYDE00013",
-      "risk": "Orta-Yüksek",
-      "description": "Hisse + Tahvil dengeli karışım"
-    },
-    {
-      "code": "TFB",
-      "name": "TEB Portföy B Tipi Değişken Fon",
-      "type": "mixed",
-      "category": "balanced",
-      "isin": "TRTFBE00011",
-      "risk": "Orta-Yüksek",
-      "description": "Hisse + Tahvil dengeli karışım"
-    },
-    {
-      "code": "VBF",
-      "name": "Vakıf Portföy Birinci Değişken Fon",
-      "type": "mixed",
-      "category": "balanced",
-      "isin": "TRVBFE00010",
-      "risk": "Orta-Yüksek",
-      "description": "Hisse + Tahvil dengeli karışım"
-    },
-    {
-      "code": "AKD",
-      "name": "Ak Portföy Katılım Değişken Fon",
-      "type": "mixed",
-      "category": "participation",
-      "isin": "TRAAKDX00012",
-      "risk": "Orta",
-      "description": "Faizsiz (katılım) değişken fon"
-    },
-    {
-      "code": "YAH",
-      "name": "Yapı Kredi Portföy Altın Fonu",
-      "type": "precious",
-      "category": "gold",
-      "isin": "TRYAHX00011",
-      "risk": "Yüksek",
-      "description": "Altın fiyatlarını takip eder"
+      "description": "Kısa vadeli borçlanma fonu"
     },
     {
       "code": "GAL",
       "name": "Garanti Portföy Altın Fonu",
       "type": "precious",
       "category": "gold",
-      "isin": "TRAGALX00010",
-      "risk": "Yüksek",
-      "description": "Altın fiyatlarını takip eder"
+      "isin": "TRGALE00013",
+      "risk": "Orta",
+      "description": "Altına yatırım yapan fon"
     },
     {
-      "code": "IPA",
-      "name": "İş Portföy Altın Fonu",
+      "code": "AAL",
+      "name": "Ak Portföy Altın Fonu",
       "type": "precious",
       "category": "gold",
-      "isin": "TRIPAX00012",
+      "isin": "TRAALE00014",
+      "risk": "Orta",
+      "description": "Altına yatırım yapan fon"
+    },
+    {
+      "code": "ADA",
+      "name": "Ak Portföy Dengeli Değişken Fon",
+      "type": "mixed",
+      "category": "balanced",
+      "isin": "TRAADE00015",
+      "risk": "Orta",
+      "description": "Hisse ve tahvil karışımı dengeli fon"
+    },
+    {
+      "code": "GDA",
+      "name": "Garanti Portföy Dengeli Değişken Fon",
+      "type": "mixed",
+      "category": "balanced",
+      "isin": "TRGDAE00016",
+      "risk": "Orta",
+      "description": "Dengeli karma fon"
+    },
+    {
+      "code": "AGA",
+      "name": "Ak Portföy Agresif Değişken Fon",
+      "type": "mixed",
+      "category": "aggressive",
+      "isin": "TRAAGE00017",
       "risk": "Yüksek",
-      "description": "Altın fiyatlarını takip eder"
+      "description": "Agresif büyüme odaklı fon"
     }
   ],
   "categories": {
     "stock": {
       "name": "Hisse Senedi Fonları",
       "emoji": "📊",
-      "description": "Borsa İstanbul'da işlem gören hisse senetlerine yatırım yapar",
       "subcategories": {
         "index": {
           "name": "Endeks Fonları",
           "emoji": "📈",
-          "funds": ["AGD", "GAH", "ISE", "TZE"],
-          "description": "BIST30 gibi endeksleri takip eder"
-        },
-        "sector": {
-          "name": "Sektörel Fonlar",
-          "emoji": "🏭",
-          "funds": ["GYO", "IPH"],
-          "description": "Belirli sektörlere odaklanır (GYO, Teknoloji)"
+          "description": "BIST endekslerini takip eden fonlar",
+          "funds": ["AKU"]
         },
         "general": {
           "name": "Genel Hisse Fonları",
           "emoji": "📊",
-          "funds": ["AHY", "ATF", "ILK"],
-          "description": "Geniş hisse senedi portföyü"
+          "description": "Genel hisse senedi yatırımı",
+          "funds": ["HVF"]
         },
-        "participation": {
-          "name": "Katılım Hisse Fonları",
-          "emoji": "☪️",
-          "funds": ["ZPY"],
-          "description": "Faizsiz (İslami) hisse senedi fonları"
+        "foreign": {
+          "name": "Yabancı Hisse Fonları",
+          "emoji": "🌍",
+          "description": "Yurt dışı hisse senetleri",
+          "funds": ["TYD"]
         }
       },
-      "all_funds": ["AGD", "GAH", "ISE", "TZE", "GYO", "IPH", "AHY", "ATF", "ILK", "ZPY"]
+      "all_funds": ["AKU", "HVF", "TYD"]
     },
     "bond": {
       "name": "Borçlanma Fonları",
       "emoji": "💰",
-      "description": "Tahvil ve bonolara yatırım yapar",
       "subcategories": {
         "short_term": {
           "name": "Kısa Vadeli",
           "emoji": "⏱️",
-          "funds": ["AAK", "GPB", "IKV"],
-          "description": "Düşük riskli, kısa vadeli borçlanma araçları"
-        },
-        "foreign": {
-          "name": "Yabancı Borçlanma",
-          "emoji": "🌍",
-          "funds": ["AFT"],
-          "description": "Gelişen ülke tahvilleri"
-        },
-        "fx": {
-          "name": "Döviz Borçlanma",
-          "emoji": "💵",
-          "funds": ["AEU"],
-          "description": "Döviz cinsinden tahviller"
+          "description": "Kısa vadeli tahvil/bono",
+          "funds": ["AAK", "GPB"]
         }
       },
-      "all_funds": ["AAK", "GPB", "IKV", "AFT", "AEU"]
+      "all_funds": ["AAK", "GPB"]
     },
     "mixed": {
       "name": "Değişken Fonlar",
       "emoji": "🔄",
-      "description": "Hisse + Tahvil karışımı, esnek yatırım",
       "subcategories": {
         "balanced": {
-          "name": "Dengeli Fonlar",
+          "name": "Dengeli",
           "emoji": "⚖️",
-          "funds": ["ABA", "APF", "GPD", "KYD", "TFB", "VBF"],
-          "description": "Hisse ve tahvil dengeli dağılımı"
+          "description": "Dengeli hisse/tahvil karışımı",
+          "funds": ["ADA", "GDA"]
         },
-        "participation": {
-          "name": "Katılım Değişken",
-          "emoji": "☪️",
-          "funds": ["AKD"],
-          "description": "Faizsiz (İslami) değişken fonlar"
+        "aggressive": {
+          "name": "Agresif",
+          "emoji": "📈",
+          "description": "Agresif büyüme stratejisi",
+          "funds": ["AGA"]
         }
       },
-      "all_funds": ["ABA", "APF", "GPD", "KYD", "TFB", "VBF", "AKD"]
+      "all_funds": ["ADA", "GDA", "AGA"]
     },
     "precious": {
-      "name": "Değerli Madenler",
+      "name": "Değerli Maden Fonları",
       "emoji": "🪙",
-      "description": "Altın ve gümüş gibi kıymetli madenlere yatırım yapar",
       "subcategories": {
         "gold": {
           "name": "Altın Fonları",
           "emoji": "🥇",
-          "funds": ["YAH", "GAL", "IPA"],
-          "description": "Altın fiyatlarını takip eder"
+          "description": "Fiziksel altın veya altın hisseleri",
+          "funds": ["GAL", "AAL"]
         }
       },
-      "all_funds": ["YAH", "GAL", "IPA"]
+      "all_funds": ["GAL", "AAL"]
     }
-  },
-  "risk_levels": {
-    "Düşük": "Kısa vadeli borçlanma fonları - Muhafazakar yatırımcılar için",
-    "Orta": "Dengeli fonlar, dövizli tahviller - Orta risk toleransı",
-    "Orta-Yüksek": "Değişken fonlar - Dengeli portföy arayanlar",
-    "Yüksek": "Hisse senedi ve altın fonları - Uzun vadeli yatırımcılar",
-    "Çok Yüksek": "Sektörel ve girişim fonları - Agresif yatırımcılar"
   },
   "recommendations": {
     "conservative": {
       "name": "Muhafazakar Portföy",
       "description": "Düşük riskli, istikrarlı getiri",
       "allocation": {
-        "AAK": 40,
+        "AAK": 60,
         "GPB": 30,
-        "ABA": 20,
         "GAL": 10
       }
     },
     "balanced": {
       "name": "Dengeli Portföy",
-      "description": "Risk ve getiri dengesi",
+      "description": "Orta risk, dengeli getiri",
       "allocation": {
-        "GPD": 30,
-        "AGD": 25,
-        "AAK": 25,
-        "GAL": 20
+        "ADA": 40,
+        "AAK": 30,
+        "AKU": 20,
+        "GAL": 10
       }
     },
     "aggressive": {
       "name": "Agresif Portföy",
-      "description": "Yüksek getiri hedefli",
+      "description": "Yüksek risk, yüksek getiri potansiyeli",
       "allocation": {
-        "AGD": 40,
-        "GYO": 20,
-        "IPH": 15,
-        "YAH": 15,
-        "GPD": 10
-      }
-    },
-    "halal": {
-      "name": "Katılım Portföyü",
-      "description": "Faizsiz İslami yatırım",
-      "allocation": {
-        "ZPY": 50,
-        "AKD": 30,
-        "GAL": 20
+        "AKU": 40,
+        "HVF": 30,
+        "AGA": 20,
+        "TYD": 10
       }
     }
   }
