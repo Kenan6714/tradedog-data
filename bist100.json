@@ -1,772 +1,197 @@
 {
-  "last_updated": "2025-01-21",
-  "version": "1.0",
-  "update_frequency": "weekly",
+  "last_updated": "2026-05-02",
+  "version": "3.0",
+  "update_frequency": "quarterly",
   "bist100": [
-    {
-      "symbol": "THYAO",
-      "name": "Türk Hava Yolları",
-      "sector": "Ulaştırma",
-      "sector_code": "ulastirma"
-    },
-    {
-      "symbol": "ASELS",
-      "name": "ASELSAN",
-      "sector": "Teknoloji",
-      "sector_code": "teknoloji"
-    },
-    {
-      "symbol": "GARAN",
-      "name": "Garanti Bankası",
-      "sector": "Bankacılık",
-      "sector_code": "bankacilik"
-    },
-    {
-      "symbol": "ISCTR",
-      "name": "İş Bankası (C)",
-      "sector": "Bankacılık",
-      "sector_code": "bankacilik"
-    },
-    {
-      "symbol": "AKBNK",
-      "name": "Akbank",
-      "sector": "Bankacılık",
-      "sector_code": "bankacilik"
-    },
-    {
-      "symbol": "YKBNK",
-      "name": "Yapı Kredi Bankası",
-      "sector": "Bankacılık",
-      "sector_code": "bankacilik"
-    },
-    {
-      "symbol": "HALKB",
-      "name": "Halkbank",
-      "sector": "Bankacılık",
-      "sector_code": "bankacilik"
-    },
-    {
-      "symbol": "VAKBN",
-      "name": "Vakıfbank",
-      "sector": "Bankacılık",
-      "sector_code": "bankacilik"
-    },
-    {
-      "symbol": "SASA",
-      "name": "Sasa Polyester",
-      "sector": "Kimya",
-      "sector_code": "kimya"
-    },
-    {
-      "symbol": "TUPRS",
-      "name": "Tüpraş",
-      "sector": "Enerji",
-      "sector_code": "enerji"
-    },
-    {
-      "symbol": "PETKM",
-      "name": "Petkim",
-      "sector": "Kimya",
-      "sector_code": "kimya"
-    },
-    {
-      "symbol": "EREGL",
-      "name": "Ereğli Demir Çelik",
-      "sector": "Metal",
-      "sector_code": "metal"
-    },
-    {
-      "symbol": "KRDMD",
-      "name": "Kardemir (D)",
-      "sector": "Metal",
-      "sector_code": "metal"
-    },
-    {
-      "symbol": "VESTL",
-      "name": "Vestel",
-      "sector": "Teknoloji",
-      "sector_code": "teknoloji"
-    },
-    {
-      "symbol": "TTKOM",
-      "name": "Türk Telekom",
-      "sector": "İletişim",
-      "sector_code": "iletisim"
-    },
-    {
-      "symbol": "TCELL",
-      "name": "Turkcell",
-      "sector": "İletişim",
-      "sector_code": "iletisim"
-    },
-    {
-      "symbol": "ENKAI",
-      "name": "Enka İnşaat",
-      "sector": "İnşaat",
-      "sector_code": "insaat"
-    },
-    {
-      "symbol": "KCHOL",
-      "name": "Koç Holding",
-      "sector": "Holding",
-      "sector_code": "holding"
-    },
-    {
-      "symbol": "SAHOL",
-      "name": "Sabancı Holding",
-      "sector": "Holding",
-      "sector_code": "holding"
-    },
-    {
-      "symbol": "DOHOL",
-      "name": "Doğan Holding",
-      "sector": "Holding",
-      "sector_code": "holding"
-    },
-    {
-      "symbol": "TOASO",
-      "name": "Tofaş",
-      "sector": "Otomotiv",
-      "sector_code": "otomotiv"
-    },
-    {
-      "symbol": "FROTO",
-      "name": "Ford Otosan",
-      "sector": "Otomotiv",
-      "sector_code": "otomotiv"
-    },
-    {
-      "symbol": "ARCLK",
-      "name": "Arçelik",
-      "sector": "Beyaz Eşya",
-      "sector_code": "beyaz_esya"
-    },
-    {
-      "symbol": "BIMAS",
-      "name": "BİM",
-      "sector": "Perakende",
-      "sector_code": "perakende"
-    },
-    {
-      "symbol": "MGROS",
-      "name": "Migros",
-      "sector": "Perakende",
-      "sector_code": "perakende"
-    },
-    {
-      "symbol": "SOKM",
-      "name": "Şok Marketler",
-      "sector": "Perakende",
-      "sector_code": "perakende"
-    },
-    {
-      "symbol": "PGSUS",
-      "name": "Pegasus",
-      "sector": "Ulaştırma",
-      "sector_code": "ulastirma"
-    },
-    {
-      "symbol": "KOZAL",
-      "name": "Koza Altın",
-      "sector": "Madencilik",
-      "sector_code": "madencilik"
-    },
-    {
-      "symbol": "KOZAA",
-      "name": "Koza Anadolu",
-      "sector": "Madencilik",
-      "sector_code": "madencilik"
-    },
-    {
-      "symbol": "IPEKE",
-      "name": "İpek Doğal Enerji",
-      "sector": "Enerji",
-      "sector_code": "enerji"
-    },
-    {
-      "symbol": "AKENR",
-      "name": "Akenerji",
-      "sector": "Enerji",
-      "sector_code": "enerji"
-    },
-    {
-      "symbol": "AKSEN",
-      "name": "Aksa Enerji",
-      "sector": "Enerji",
-      "sector_code": "enerji"
-    },
-    {
-      "symbol": "ODAS",
-      "name": "Odaş Elektrik",
-      "sector": "Enerji",
-      "sector_code": "enerji"
-    },
-    {
-      "symbol": "CEMTS",
-      "name": "Çemtaş",
-      "sector": "Metal",
-      "sector_code": "metal"
-    },
-    {
-      "symbol": "CIMSA",
-      "name": "Çimsa",
-      "sector": "Çimento",
-      "sector_code": "cimento"
-    },
-    {
-      "symbol": "AKCNS",
-      "name": "Akçansa",
-      "sector": "Çimento",
-      "sector_code": "cimento"
-    },
-    {
-      "symbol": "KONYA",
-      "name": "Konya Çimento",
-      "sector": "Çimento",
-      "sector_code": "cimento"
-    },
-    {
-      "symbol": "BTCIM",
-      "name": "Batıçim",
-      "sector": "Çimento",
-      "sector_code": "cimento"
-    },
-    {
-      "symbol": "HEKTS",
-      "name": "Hektaş",
-      "sector": "Tekstil",
-      "sector_code": "tekstil"
-    },
-    {
-      "symbol": "YUNSA",
-      "name": "Yünsa",
-      "sector": "Tekstil",
-      "sector_code": "tekstil"
-    },
-    {
-      "symbol": "BRSAN",
-      "name": "Borusan",
-      "sector": "Metal",
-      "sector_code": "metal"
-    },
-    {
-      "symbol": "LOGO",
-      "name": "Logo Yazılım",
-      "sector": "Teknoloji",
-      "sector_code": "teknoloji"
-    },
-    {
-      "symbol": "NETAS",
-      "name": "Netaş",
-      "sector": "Teknoloji",
-      "sector_code": "teknoloji"
-    },
-    {
-      "symbol": "ALARK",
-      "name": "Alarko",
-      "sector": "İnşaat",
-      "sector_code": "insaat"
-    },
-    {
-      "symbol": "ANELE",
-      "name": "Anel Elektrik",
-      "sector": "Elektrik",
-      "sector_code": "electric"
-    },
-    {
-      "symbol": "ASUZU",
-      "name": "Anadolu Isuzu",
-      "sector": "Otomotiv",
-      "sector_code": "otomotiv"
-    },
-    {
-      "symbol": "AYGAZ",
-      "name": "Aygaz",
-      "sector": "Enerji",
-      "sector_code": "enerji"
-    },
-    {
-      "symbol": "BFREN",
-      "name": "Bosch Fren",
-      "sector": "Otomotiv",
-      "sector_code": "otomotiv"
-    },
-    {
-      "symbol": "BRISA",
-      "name": "Brisa",
-      "sector": "Otomotiv",
-      "sector_code": "otomotiv"
-    },
-    {
-      "symbol": "CCOLA",
-      "name": "Coca-Cola İçecek",
-      "sector": "Gıda",
-      "sector_code": "gida"
-    },
-    {
-      "symbol": "DOAS",
-      "name": "Doğuş Otomotiv",
-      "sector": "Otomotiv",
-      "sector_code": "otomotiv"
-    },
-    {
-      "symbol": "EGEEN",
-      "name": "Ege Endüstri",
-      "sector": "Kimya",
-      "sector_code": "kimya"
-    },
-    {
-      "symbol": "EKGYO",
-      "name": "Emlak Konut GYO",
-      "sector": "GYO",
-      "sector_code": "gyo"
-    },
-    {
-      "symbol": "ENJSA",
-      "name": "Enerjisa",
-      "sector": "Enerji",
-      "sector_code": "enerji"
-    },
-    {
-      "symbol": "EREGL",
-      "name": "Ereğli Demir Çelik",
-      "sector": "Metal",
-      "sector_code": "metal"
-    },
-    {
-      "symbol": "GARAN",
-      "name": "Garanti Bankası",
-      "sector": "Bankacılık",
-      "sector_code": "bankacilik"
-    },
-    {
-      "symbol": "GENIL",
-      "name": "Gen İlaç",
-      "sector": "İlaç",
-      "sector_code": "pharma"
-    },
-    {
-      "symbol": "GOLTS",
-      "name": "Göltaş",
-      "sector": "Çimento",
-      "sector_code": "cimento"
-    },
-    {
-      "symbol": "GOZDE",
-      "name": "Gözde Girişim",
-      "sector": "Holding",
-      "sector_code": "holding"
-    },
-    {
-      "symbol": "GUBRF",
-      "name": "Gübre Fabrikaları",
-      "sector": "Kimya",
-      "sector_code": "kimya"
-    },
-    {
-      "symbol": "HURGZ",
-      "name": "Hürriyet GYO",
-      "sector": "GYO",
-      "sector_code": "gyo"
-    },
-    {
-      "symbol": "IEYHO",
-      "name": "İş Yatırım",
-      "sector": "Mali",
-      "sector_code": "mali"
-    },
-    {
-      "symbol": "IHLAS",
-      "name": "İhlas Holding",
-      "sector": "Holding",
-      "sector_code": "holding"
-    },
-    {
-      "symbol": "INDES",
-      "name": "İndeks Bilgisayar",
-      "sector": "Teknoloji",
-      "sector_code": "teknoloji"
-    },
-    {
-      "symbol": "ISGYO",
-      "name": "İş GYO",
-      "sector": "GYO",
-      "sector_code": "gyo"
-    },
-    {
-      "symbol": "ISMEN",
-      "name": "İş Menkul",
-      "sector": "Mali",
-      "sector_code": "mali"
-    },
-    {
-      "symbol": "ITTFH",
-      "name": "İttifak Holding",
-      "sector": "Holding",
-      "sector_code": "holding"
-    },
-    {
-      "symbol": "KARSN",
-      "name": "Karsan",
-      "sector": "Otomotiv",
-      "sector_code": "otomotiv"
-    },
-    {
-      "symbol": "KARTN",
-      "name": "Kartonsan",
-      "sector": "Kağıt",
-      "sector_code": "paper"
-    },
-    {
-      "symbol": "KLMSN",
-      "name": "Klimasan",
-      "sector": "Kimya",
-      "sector_code": "kimya"
-    },
-    {
-      "symbol": "KONTR",
-      "name": "Kontrolmatik",
-      "sector": "Teknoloji",
-      "sector_code": "teknoloji"
-    },
-    {
-      "symbol": "KORDS",
-      "name": "Kordsa",
-      "sector": "Kimya",
-      "sector_code": "kimya"
-    },
-    {
-      "symbol": "KOZAL",
-      "name": "Koza Altın",
-      "sector": "Madencilik",
-      "sector_code": "madencilik"
-    },
-    {
-      "symbol": "KRDMA",
-      "name": "Kardemir (A)",
-      "sector": "Metal",
-      "sector_code": "metal"
-    },
-    {
-      "symbol": "KTLEV",
-      "name": "Katılım Emeklilik",
-      "sector": "Sigorta",
-      "sector_code": "insurance"
-    },
-    {
-      "symbol": "MAVI",
-      "name": "Mavi Giyim",
-      "sector": "Tekstil",
-      "sector_code": "tekstil"
-    },
-    {
-      "symbol": "MPARK",
-      "name": "MLP Sağlık",
-      "sector": "Sağlık",
-      "sector_code": "healthcare"
-    },
-    {
-      "symbol": "OTKAR",
-      "name": "Otokar",
-      "sector": "Otomotiv",
-      "sector_code": "otomotiv"
-    },
-    {
-      "symbol": "OYAKC",
-      "name": "Oyak Çimento",
-      "sector": "Çimento",
-      "sector_code": "cimento"
-    },
-    {
-      "symbol": "PARSN",
-      "name": "Parsan",
-      "sector": "Makine",
-      "sector_code": "machinery"
-    },
-    {
-      "symbol": "PEGYO",
-      "name": "Pera GYO",
-      "sector": "GYO",
-      "sector_code": "gyo"
-    },
-    {
-      "symbol": "PENTA",
-      "name": "Penta Teknoloji",
-      "sector": "Teknoloji",
-      "sector_code": "teknoloji"
-    },
-    {
-      "symbol": "PNSUT",
-      "name": "Pınar Süt",
-      "sector": "Gıda",
-      "sector_code": "gida"
-    },
-    {
-      "symbol": "PRKME",
-      "name": "Park Elektrik",
-      "sector": "Enerji",
-      "sector_code": "enerji"
-    },
-    {
-      "symbol": "SAHOL",
-      "name": "Sabancı Holding",
-      "sector": "Holding",
-      "sector_code": "holding"
-    },
-    {
-      "symbol": "SISE",
-      "name": "Şişe Cam",
-      "sector": "Cam",
-      "sector_code": "glass"
-    },
-    {
-      "symbol": "TAVHL",
-      "name": "TAV Havalimanları",
-      "sector": "Ulaştırma",
-      "sector_code": "ulastirma"
-    },
-    {
-      "symbol": "TKFEN",
-      "name": "Tekfen",
-      "sector": "İnşaat",
-      "sector_code": "insaat"
-    },
-    {
-      "symbol": "TMSN",
-      "name": "Tümosan",
-      "sector": "Makine",
-      "sector_code": "machinery"
-    },
-    {
-      "symbol": "TRGYO",
-      "name": "Torunlar GYO",
-      "sector": "GYO",
-      "sector_code": "gyo"
-    },
-    {
-      "symbol": "TSKB",
-      "name": "TSKB",
-      "sector": "Mali",
-      "sector_code": "mali"
-    },
-    {
-      "symbol": "TTRAK",
-      "name": "Türk Traktör",
-      "sector": "Makine",
-      "sector_code": "machinery"
-    },
-    {
-      "symbol": "ULKER",
-      "name": "Ülker",
-      "sector": "Gıda",
-      "sector_code": "gida"
-    },
-    {
-      "symbol": "VAKKO",
-      "name": "Vakko",
-      "sector": "Tekstil",
-      "sector_code": "tekstil"
-    },
-    {
-      "symbol": "VKING",
-      "name": "Viking Kağıt",
-      "sector": "Kağıt",
-      "sector_code": "paper"
-    },
-    {
-      "symbol": "YATAS",
-      "name": "Yataş",
-      "sector": "Mobilya",
-      "sector_code": "furniture"
-    },
-    {
-      "symbol": "YEOTK",
-      "name": "Yeşil GYO",
-      "sector": "GYO",
-      "sector_code": "gyo"
-    },
-    {
-      "symbol": "YGGYO",
-      "name": "Yeni Gimat GYO",
-      "sector": "GYO",
-      "sector_code": "gyo"
-    }
+    { "symbol": "AKBNK", "name": "Akbank", "sector": "Bankacılık", "sector_code": "bankacilik" },
+    { "symbol": "GARAN", "name": "Garanti BBVA", "sector": "Bankacılık", "sector_code": "bankacilik" },
+    { "symbol": "ISCTR", "name": "İş Bankası (C)", "sector": "Bankacılık", "sector_code": "bankacilik" },
+    { "symbol": "YKBNK", "name": "Yapı Kredi Bankası", "sector": "Bankacılık", "sector_code": "bankacilik" },
+    { "symbol": "HALKB", "name": "Halkbank", "sector": "Bankacılık", "sector_code": "bankacilik" },
+    { "symbol": "VAKBN", "name": "Vakıfbank", "sector": "Bankacılık", "sector_code": "bankacilik" },
+    { "symbol": "TSKB", "name": "TSKB", "sector": "Bankacılık", "sector_code": "bankacilik" },
+    { "symbol": "ALBRK", "name": "Albaraka Türk", "sector": "Bankacılık", "sector_code": "bankacilik" },
+    { "symbol": "SKBNK", "name": "Şekerbank", "sector": "Bankacılık", "sector_code": "bankacilik" },
+    { "symbol": "THYAO", "name": "Türk Hava Yolları", "sector": "Ulaştırma", "sector_code": "ulastirma" },
+    { "symbol": "PGSUS", "name": "Pegasus", "sector": "Ulaştırma", "sector_code": "ulastirma" },
+    { "symbol": "TAVHL", "name": "TAV Havalimanları", "sector": "Ulaştırma", "sector_code": "ulastirma" },
+    { "symbol": "DOCO", "name": "DO & CO", "sector": "Ulaştırma", "sector_code": "ulastirma" },
+    { "symbol": "TCELL", "name": "Turkcell", "sector": "İletişim", "sector_code": "iletisim" },
+    { "symbol": "TTKOM", "name": "Türk Telekom", "sector": "İletişim", "sector_code": "iletisim" },
+    { "symbol": "ASELS", "name": "ASELSAN", "sector": "Teknoloji", "sector_code": "teknoloji" },
+    { "symbol": "MIATK", "name": "Mia Teknoloji", "sector": "Teknoloji", "sector_code": "teknoloji" },
+    { "symbol": "KONTR", "name": "Kontrolmatik", "sector": "Teknoloji", "sector_code": "teknoloji" },
+    { "symbol": "SDTTR", "name": "SDT Uzay ve Savunma", "sector": "Teknoloji", "sector_code": "teknoloji" },
+    { "symbol": "REEDER", "name": "Reeder Teknoloji", "sector": "Teknoloji", "sector_code": "teknoloji" },
+    { "symbol": "LOGO", "name": "Logo Yazılım", "sector": "Teknoloji", "sector_code": "teknoloji" },
+    { "symbol": "INDES", "name": "İndeks Bilgisayar", "sector": "Teknoloji", "sector_code": "teknoloji" },
+    { "symbol": "TUPRS", "name": "Tüpraş", "sector": "Enerji", "sector_code": "enerji" },
+    { "symbol": "ENJSA", "name": "Enerjisa", "sector": "Enerji", "sector_code": "enerji" },
+    { "symbol": "AKSEN", "name": "Aksa Enerji", "sector": "Enerji", "sector_code": "enerji" },
+    { "symbol": "ODAS", "name": "Odaş", "sector": "Enerji", "sector_code": "enerji" },
+    { "symbol": "ZOREN", "name": "Zorlu Enerji", "sector": "Enerji", "sector_code": "enerji" },
+    { "symbol": "ASTOR", "name": "Astor Enerji", "sector": "Enerji", "sector_code": "enerji" },
+    { "symbol": "CWENE", "name": "CW Enerji", "sector": "Enerji", "sector_code": "enerji" },
+    { "symbol": "ALFAS", "name": "Alfa Solar Enerji", "sector": "Enerji", "sector_code": "enerji" },
+    { "symbol": "EUPWR", "name": "Europower Enerji", "sector": "Enerji", "sector_code": "enerji" },
+    { "symbol": "SMRTG", "name": "Smart Güneş Teknolojileri", "sector": "Enerji", "sector_code": "enerji" },
+    { "symbol": "YEOTK", "name": "Yeo Teknoloji", "sector": "Enerji", "sector_code": "enerji" },
+    { "symbol": "GWIND", "name": "Galata Wind Enerji", "sector": "Enerji", "sector_code": "enerji" },
+    { "symbol": "ENERY", "name": "Enerya Enerji", "sector": "Enerji", "sector_code": "enerji" },
+    { "symbol": "AYGAZ", "name": "Aygaz", "sector": "Enerji", "sector_code": "enerji" },
+    { "symbol": "KCHOL", "name": "Koç Holding", "sector": "Holding", "sector_code": "holding" },
+    { "symbol": "SAHOL", "name": "Sabancı Holding", "sector": "Holding", "sector_code": "holding" },
+    { "symbol": "DOHOL", "name": "Doğan Holding", "sector": "Holding", "sector_code": "holding" },
+    { "symbol": "ALARK", "name": "Alarko Holding", "sector": "Holding", "sector_code": "holding" },
+    { "symbol": "ENKAI", "name": "Enka İnşaat", "sector": "Holding", "sector_code": "holding" },
+    { "symbol": "TKFEN", "name": "Tekfen Holding", "sector": "Holding", "sector_code": "holding" },
+    { "symbol": "AGHOL", "name": "AG Anadolu Grubu Holding", "sector": "Holding", "sector_code": "holding" },
+    { "symbol": "GSDHO", "name": "GSD Holding", "sector": "Holding", "sector_code": "holding" },
+    { "symbol": "EREGL", "name": "Ereğli Demir Çelik", "sector": "Metal", "sector_code": "metal" },
+    { "symbol": "KRDMD", "name": "Kardemir (D)", "sector": "Metal", "sector_code": "metal" },
+    { "symbol": "BRSAN", "name": "Borusan Boru", "sector": "Metal", "sector_code": "metal" },
+    { "symbol": "KCAER", "name": "Kocaer Çelik", "sector": "Metal", "sector_code": "metal" },
+    { "symbol": "CEMTS", "name": "Çemtaş", "sector": "Metal", "sector_code": "metal" },
+    { "symbol": "KOZAL", "name": "Koza Altın", "sector": "Madencilik", "sector_code": "madencilik" },
+    { "symbol": "KOZAA", "name": "Koza Anadolu", "sector": "Madencilik", "sector_code": "madencilik" },
+    { "symbol": "IPEKE", "name": "İpek Doğal Enerji", "sector": "Madencilik", "sector_code": "madencilik" },
+    { "symbol": "PETKM", "name": "Petkim", "sector": "Kimya", "sector_code": "kimya" },
+    { "symbol": "SASA", "name": "Sasa Polyester", "sector": "Kimya", "sector_code": "kimya" },
+    { "symbol": "GUBRF", "name": "Gübre Fabrikaları", "sector": "Kimya", "sector_code": "kimya" },
+    { "symbol": "KORDS", "name": "Kordsa", "sector": "Kimya", "sector_code": "kimya" },
+    { "symbol": "AKSA", "name": "Aksa Akrilik", "sector": "Kimya", "sector_code": "kimya" },
+    { "symbol": "KMPUR", "name": "Kimteks Poliüretan", "sector": "Kimya", "sector_code": "kimya" },
+    { "symbol": "FROTO", "name": "Ford Otosan", "sector": "Otomotiv", "sector_code": "otomotiv" },
+    { "symbol": "TOASO", "name": "Tofaş", "sector": "Otomotiv", "sector_code": "otomotiv" },
+    { "symbol": "DOAS", "name": "Doğuş Otomotiv", "sector": "Otomotiv", "sector_code": "otomotiv" },
+    { "symbol": "OTKAR", "name": "Otokar", "sector": "Otomotiv", "sector_code": "otomotiv" },
+    { "symbol": "KARSN", "name": "Karsan", "sector": "Otomotiv", "sector_code": "otomotiv" },
+    { "symbol": "TTRAK", "name": "Türk Traktör", "sector": "Otomotiv", "sector_code": "otomotiv" },
+    { "symbol": "EGEEN", "name": "Ege Endüstri", "sector": "Otomotiv", "sector_code": "otomotiv" },
+    { "symbol": "BIMAS", "name": "BİM", "sector": "Perakende", "sector_code": "perakende" },
+    { "symbol": "MGROS", "name": "Migros", "sector": "Perakende", "sector_code": "perakende" },
+    { "symbol": "SOKM", "name": "Şok Marketler", "sector": "Perakende", "sector_code": "perakende" },
+    { "symbol": "TABGD", "name": "TAB Gıda", "sector": "Perakende", "sector_code": "perakende" },
+    { "symbol": "ULKER", "name": "Ülker", "sector": "Gıda", "sector_code": "gida" },
+    { "symbol": "CCOLA", "name": "Coca-Cola İçecek", "sector": "Gıda", "sector_code": "gida" },
+    { "symbol": "AEFES", "name": "Anadolu Efes", "sector": "Gıda", "sector_code": "gida" },
+    { "symbol": "TATGD", "name": "Tat Gıda", "sector": "Gıda", "sector_code": "gida" },
+    { "symbol": "TUKAS", "name": "Tukaş", "sector": "Gıda", "sector_code": "gida" },
+    { "symbol": "PNSUT", "name": "Pınar Süt", "sector": "Gıda", "sector_code": "gida" },
+    { "symbol": "HEKTS", "name": "Hektaş", "sector": "Tarım", "sector_code": "tarim" },
+    { "symbol": "EKGYO", "name": "Emlak Konut GYO", "sector": "GYO", "sector_code": "gyo" },
+    { "symbol": "TRGYO", "name": "Torunlar GYO", "sector": "GYO", "sector_code": "gyo" },
+    { "symbol": "ISGYO", "name": "İş GYO", "sector": "GYO", "sector_code": "gyo" },
+    { "symbol": "ZRGYO", "name": "Ziraat GYO", "sector": "GYO", "sector_code": "gyo" },
+    { "symbol": "HLGYO", "name": "Halk GYO", "sector": "GYO", "sector_code": "gyo" },
+    { "symbol": "ARCLK", "name": "Arçelik", "sector": "Beyaz Eşya", "sector_code": "beyaz_esya" },
+    { "symbol": "VESTL", "name": "Vestel", "sector": "Beyaz Eşya", "sector_code": "beyaz_esya" },
+    { "symbol": "SISE", "name": "Şişe Cam", "sector": "Cam", "sector_code": "cam" },
+    { "symbol": "KLSER", "name": "Kaleseramik", "sector": "Seramik", "sector_code": "seramik" },
+    { "symbol": "QUAGR", "name": "Qua Granite", "sector": "Seramik", "sector_code": "seramik" },
+    { "symbol": "AKCNS", "name": "Akçansa", "sector": "Çimento", "sector_code": "cimento" },
+    { "symbol": "CIMSA", "name": "Çimsa", "sector": "Çimento", "sector_code": "cimento" },
+    { "symbol": "OYAKC", "name": "Oyak Çimento", "sector": "Çimento", "sector_code": "cimento" },
+    { "symbol": "BTCIM", "name": "Batıçim", "sector": "Çimento", "sector_code": "cimento" },
+    { "symbol": "BOBET", "name": "Boğaziçi Beton", "sector": "Çimento", "sector_code": "cimento" },
+    { "symbol": "MAVI", "name": "Mavi Giyim", "sector": "Tekstil", "sector_code": "tekstil" },
+    { "symbol": "YUNSA", "name": "Yünsa", "sector": "Tekstil", "sector_code": "tekstil" },
+    { "symbol": "SUWEN", "name": "Suwen Tekstil", "sector": "Tekstil", "sector_code": "tekstil" },
+    { "symbol": "ISMEN", "name": "İş Yatırım", "sector": "Mali", "sector_code": "mali" },
+    { "symbol": "INVES", "name": "Investco Holding", "sector": "Mali", "sector_code": "mali" },
+    { "symbol": "MPARK", "name": "MLP Sağlık", "sector": "Sağlık", "sector_code": "saglik" },
+    { "symbol": "GENIL", "name": "Gen İlaç", "sector": "Sağlık", "sector_code": "saglik" },
+    { "symbol": "TMSN", "name": "Tümosan", "sector": "Makine", "sector_code": "makine" },
+    { "symbol": "GESAN", "name": "Girişim Elektrik Sanayi", "sector": "Makine", "sector_code": "makine" }
   ],
   "sectors": {
     "bankacilik": {
       "name": "Bankacılık",
-      "stocks": [
-        "GARAN",
-        "ISCTR",
-        "AKBNK",
-        "YKBNK",
-        "HALKB",
-        "VAKBN"
-      ]
-    },
-    "teknoloji": {
-      "name": "Teknoloji",
-      "stocks": [
-        "ASELS",
-        "VESTL",
-        "LOGO",
-        "NETAS",
-        "INDES",
-        "KONTR",
-        "PENTA"
-      ]
+      "stocks": [ "AKBNK", "GARAN", "ISCTR", "YKBNK", "HALKB", "VAKBN", "TSKB", "ALBRK", "SKBNK" ]
     },
     "ulastirma": {
       "name": "Ulaştırma",
-      "stocks": [
-        "THYAO",
-        "PGSUS",
-        "TAVHL"
-      ]
-    },
-    "enerji": {
-      "name": "Enerji",
-      "stocks": [
-        "TUPRS",
-        "IPEKE",
-        "AKENR",
-        "AKSEN",
-        "ODAS",
-        "AYGAZ",
-        "ENJSA",
-        "PRKME"
-      ]
-    },
-    "holding": {
-      "name": "Holding",
-      "stocks": [
-        "KCHOL",
-        "SAHOL",
-        "DOHOL",
-        "GOZDE",
-        "IHLAS",
-        "ITTFH"
-      ]
-    },
-    "otomotiv": {
-      "name": "Otomotiv",
-      "stocks": [
-        "TOASO",
-        "FROTO",
-        "ASUZU",
-        "BFREN",
-        "BRISA",
-        "DOAS",
-        "KARSN",
-        "OTKAR"
-      ]
-    },
-    "perakende": {
-      "name": "Perakende",
-      "stocks": [
-        "BIMAS",
-        "MGROS",
-        "SOKM"
-      ]
-    },
-    "metal": {
-      "name": "Metal",
-      "stocks": [
-        "EREGL",
-        "KRDMD",
-        "CEMTS",
-        "BRSAN",
-        "KRDMA"
-      ]
-    },
-    "kimya": {
-      "name": "Kimya",
-      "stocks": [
-        "SASA",
-        "PETKM",
-        "EGEEN",
-        "GUBRF",
-        "KLMSN",
-        "KORDS"
-      ]
-    },
-    "insaat": {
-      "name": "İnşaat",
-      "stocks": [
-        "ENKAI",
-        "ALARK",
-        "TKFEN"
-      ]
+      "stocks": [ "THYAO", "PGSUS", "TAVHL", "DOCO" ]
     },
     "iletisim": {
       "name": "İletişim",
-      "stocks": [
-        "TTKOM",
-        "TCELL"
-      ]
+      "stocks": [ "TCELL", "TTKOM" ]
     },
-    "gida": {
-      "name": "Gıda",
-      "stocks": [
-        "CCOLA",
-        "PNSUT",
-        "ULKER"
-      ]
+    "teknoloji": {
+      "name": "Teknoloji",
+      "stocks": [ "ASELS", "MIATK", "KONTR", "SDTTR", "REEDER", "LOGO", "INDES" ]
     },
-    "cimento": {
-      "name": "Çimento",
-      "stocks": [
-        "CIMSA",
-        "AKCNS",
-        "KONYA",
-        "BTCIM",
-        "GOLTS",
-        "OYAKC"
-      ]
+    "enerji": {
+      "name": "Enerji",
+      "stocks": [ "TUPRS", "ENJSA", "AKSEN", "ODAS", "ZOREN", "ASTOR", "CWENE", "ALFAS", "EUPWR", "SMRTG", "YEOTK", "GWIND", "ENERY", "AYGAZ" ]
     },
-    "tekstil": {
-      "name": "Tekstil",
-      "stocks": [
-        "HEKTS",
-        "YUNSA",
-        "MAVI",
-        "VAKKO"
-      ]
+    "holding": {
+      "name": "Holding",
+      "stocks": [ "KCHOL", "SAHOL", "DOHOL", "ALARK", "ENKAI", "TKFEN", "AGHOL", "GSDHO" ]
     },
-    "gyo": {
-      "name": "GYO",
-      "stocks": [
-        "EKGYO",
-        "HURGZ",
-        "ISGYO",
-        "PEGYO",
-        "TRGYO",
-        "YEOTK",
-        "YGGYO"
-      ]
+    "metal": {
+      "name": "Metal",
+      "stocks": [ "EREGL", "KRDMD", "BRSAN", "KCAER", "CEMTS" ]
     },
     "madencilik": {
       "name": "Madencilik",
-      "stocks": [
-        "KOZAL",
-        "KOZAA"
-      ]
+      "stocks": [ "KOZAL", "KOZAA", "IPEKE" ]
+    },
+    "kimya": {
+      "name": "Kimya",
+      "stocks": [ "PETKM", "SASA", "GUBRF", "KORDS", "AKSA", "KMPUR" ]
+    },
+    "otomotiv": {
+      "name": "Otomotiv",
+      "stocks": [ "FROTO", "TOASO", "DOAS", "OTKAR", "KARSN", "TTRAK", "EGEEN" ]
+    },
+    "perakende": {
+      "name": "Perakende",
+      "stocks": [ "BIMAS", "MGROS", "SOKM", "TABGD" ]
+    },
+    "gida": {
+      "name": "Gıda",
+      "stocks": [ "ULKER", "CCOLA", "AEFES", "TATGD", "TUKAS", "PNSUT" ]
+    },
+    "tarim": {
+      "name": "Tarım",
+      "stocks": [ "HEKTS" ]
+    },
+    "gyo": {
+      "name": "GYO",
+      "stocks": [ "EKGYO", "TRGYO", "ISGYO", "ZRGYO", "HLGYO" ]
     },
     "beyaz_esya": {
       "name": "Beyaz Eşya",
-      "stocks": [
-        "ARCLK"
-      ]
+      "stocks": [ "ARCLK", "VESTL" ]
+    },
+    "cam": {
+      "name": "Cam",
+      "stocks": [ "SISE" ]
+    },
+    "seramik": {
+      "name": "Seramik",
+      "stocks": [ "KLSER", "QUAGR" ]
+    },
+    "cimento": {
+      "name": "Çimento",
+      "stocks": [ "AKCNS", "CIMSA", "OYAKC", "BTCIM", "BOBET" ]
+    },
+    "tekstil": {
+      "name": "Tekstil",
+      "stocks": [ "MAVI", "YUNSA", "SUWEN" ]
     },
     "mali": {
-      "name": "Mali Kuruluşlar",
-      "stocks": [
-        "IEYHO",
-        "ISMEN",
-        "TSKB"
-      ]
+      "name": "Mali",
+      "stocks": [ "ISMEN", "INVES" ]
+    },
+    "saglik": {
+      "name": "Sağlık",
+      "stocks": [ "MPARK", "GENIL" ]
+    },
+    "makine": {
+      "name": "Makine",
+      "stocks": [ "TMSN", "GESAN" ]
     }
-  },
-  "cached_at": "2026-01-21T16:09:09.278063",
-  "cache_source": "github"
+  }
 }
