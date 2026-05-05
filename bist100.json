@@ -1,197 +1,4524 @@
 {
-  "last_updated": "2026-05-02",
-  "version": "3.0",
+  "last_updated": "2026-05-05",
+  "version": "4.0",
   "update_frequency": "quarterly",
   "bist100": [
-    { "symbol": "AKBNK", "name": "Akbank", "sector": "Bankacılık", "sector_code": "bankacilik" },
-    { "symbol": "GARAN", "name": "Garanti BBVA", "sector": "Bankacılık", "sector_code": "bankacilik" },
-    { "symbol": "ISCTR", "name": "İş Bankası (C)", "sector": "Bankacılık", "sector_code": "bankacilik" },
-    { "symbol": "YKBNK", "name": "Yapı Kredi Bankası", "sector": "Bankacılık", "sector_code": "bankacilik" },
-    { "symbol": "HALKB", "name": "Halkbank", "sector": "Bankacılık", "sector_code": "bankacilik" },
-    { "symbol": "VAKBN", "name": "Vakıfbank", "sector": "Bankacılık", "sector_code": "bankacilik" },
-    { "symbol": "TSKB", "name": "TSKB", "sector": "Bankacılık", "sector_code": "bankacilik" },
-    { "symbol": "ALBRK", "name": "Albaraka Türk", "sector": "Bankacılık", "sector_code": "bankacilik" },
-    { "symbol": "SKBNK", "name": "Şekerbank", "sector": "Bankacılık", "sector_code": "bankacilik" },
-    { "symbol": "THYAO", "name": "Türk Hava Yolları", "sector": "Ulaştırma", "sector_code": "ulastirma" },
-    { "symbol": "PGSUS", "name": "Pegasus", "sector": "Ulaştırma", "sector_code": "ulastirma" },
-    { "symbol": "TAVHL", "name": "TAV Havalimanları", "sector": "Ulaştırma", "sector_code": "ulastirma" },
-    { "symbol": "DOCO", "name": "DO & CO", "sector": "Ulaştırma", "sector_code": "ulastirma" },
-    { "symbol": "TCELL", "name": "Turkcell", "sector": "İletişim", "sector_code": "iletisim" },
-    { "symbol": "TTKOM", "name": "Türk Telekom", "sector": "İletişim", "sector_code": "iletisim" },
-    { "symbol": "ASELS", "name": "ASELSAN", "sector": "Teknoloji", "sector_code": "teknoloji" },
-    { "symbol": "MIATK", "name": "Mia Teknoloji", "sector": "Teknoloji", "sector_code": "teknoloji" },
-    { "symbol": "KONTR", "name": "Kontrolmatik", "sector": "Teknoloji", "sector_code": "teknoloji" },
-    { "symbol": "SDTTR", "name": "SDT Uzay ve Savunma", "sector": "Teknoloji", "sector_code": "teknoloji" },
-    { "symbol": "REEDER", "name": "Reeder Teknoloji", "sector": "Teknoloji", "sector_code": "teknoloji" },
-    { "symbol": "LOGO", "name": "Logo Yazılım", "sector": "Teknoloji", "sector_code": "teknoloji" },
-    { "symbol": "INDES", "name": "İndeks Bilgisayar", "sector": "Teknoloji", "sector_code": "teknoloji" },
-    { "symbol": "TUPRS", "name": "Tüpraş", "sector": "Enerji", "sector_code": "enerji" },
-    { "symbol": "ENJSA", "name": "Enerjisa", "sector": "Enerji", "sector_code": "enerji" },
-    { "symbol": "AKSEN", "name": "Aksa Enerji", "sector": "Enerji", "sector_code": "enerji" },
-    { "symbol": "ODAS", "name": "Odaş", "sector": "Enerji", "sector_code": "enerji" },
-    { "symbol": "ZOREN", "name": "Zorlu Enerji", "sector": "Enerji", "sector_code": "enerji" },
-    { "symbol": "ASTOR", "name": "Astor Enerji", "sector": "Enerji", "sector_code": "enerji" },
-    { "symbol": "CWENE", "name": "CW Enerji", "sector": "Enerji", "sector_code": "enerji" },
-    { "symbol": "ALFAS", "name": "Alfa Solar Enerji", "sector": "Enerji", "sector_code": "enerji" },
-    { "symbol": "EUPWR", "name": "Europower Enerji", "sector": "Enerji", "sector_code": "enerji" },
-    { "symbol": "SMRTG", "name": "Smart Güneş Teknolojileri", "sector": "Enerji", "sector_code": "enerji" },
-    { "symbol": "YEOTK", "name": "Yeo Teknoloji", "sector": "Enerji", "sector_code": "enerji" },
-    { "symbol": "GWIND", "name": "Galata Wind Enerji", "sector": "Enerji", "sector_code": "enerji" },
-    { "symbol": "ENERY", "name": "Enerya Enerji", "sector": "Enerji", "sector_code": "enerji" },
-    { "symbol": "AYGAZ", "name": "Aygaz", "sector": "Enerji", "sector_code": "enerji" },
-    { "symbol": "KCHOL", "name": "Koç Holding", "sector": "Holding", "sector_code": "holding" },
-    { "symbol": "SAHOL", "name": "Sabancı Holding", "sector": "Holding", "sector_code": "holding" },
-    { "symbol": "DOHOL", "name": "Doğan Holding", "sector": "Holding", "sector_code": "holding" },
-    { "symbol": "ALARK", "name": "Alarko Holding", "sector": "Holding", "sector_code": "holding" },
-    { "symbol": "ENKAI", "name": "Enka İnşaat", "sector": "Holding", "sector_code": "holding" },
-    { "symbol": "TKFEN", "name": "Tekfen Holding", "sector": "Holding", "sector_code": "holding" },
-    { "symbol": "AGHOL", "name": "AG Anadolu Grubu Holding", "sector": "Holding", "sector_code": "holding" },
-    { "symbol": "GSDHO", "name": "GSD Holding", "sector": "Holding", "sector_code": "holding" },
-    { "symbol": "EREGL", "name": "Ereğli Demir Çelik", "sector": "Metal", "sector_code": "metal" },
-    { "symbol": "KRDMD", "name": "Kardemir (D)", "sector": "Metal", "sector_code": "metal" },
-    { "symbol": "BRSAN", "name": "Borusan Boru", "sector": "Metal", "sector_code": "metal" },
-    { "symbol": "KCAER", "name": "Kocaer Çelik", "sector": "Metal", "sector_code": "metal" },
-    { "symbol": "CEMTS", "name": "Çemtaş", "sector": "Metal", "sector_code": "metal" },
-    { "symbol": "KOZAL", "name": "Koza Altın", "sector": "Madencilik", "sector_code": "madencilik" },
-    { "symbol": "KOZAA", "name": "Koza Anadolu", "sector": "Madencilik", "sector_code": "madencilik" },
-    { "symbol": "IPEKE", "name": "İpek Doğal Enerji", "sector": "Madencilik", "sector_code": "madencilik" },
-    { "symbol": "PETKM", "name": "Petkim", "sector": "Kimya", "sector_code": "kimya" },
-    { "symbol": "SASA", "name": "Sasa Polyester", "sector": "Kimya", "sector_code": "kimya" },
-    { "symbol": "GUBRF", "name": "Gübre Fabrikaları", "sector": "Kimya", "sector_code": "kimya" },
-    { "symbol": "KORDS", "name": "Kordsa", "sector": "Kimya", "sector_code": "kimya" },
-    { "symbol": "AKSA", "name": "Aksa Akrilik", "sector": "Kimya", "sector_code": "kimya" },
-    { "symbol": "KMPUR", "name": "Kimteks Poliüretan", "sector": "Kimya", "sector_code": "kimya" },
-    { "symbol": "FROTO", "name": "Ford Otosan", "sector": "Otomotiv", "sector_code": "otomotiv" },
-    { "symbol": "TOASO", "name": "Tofaş", "sector": "Otomotiv", "sector_code": "otomotiv" },
-    { "symbol": "DOAS", "name": "Doğuş Otomotiv", "sector": "Otomotiv", "sector_code": "otomotiv" },
-    { "symbol": "OTKAR", "name": "Otokar", "sector": "Otomotiv", "sector_code": "otomotiv" },
-    { "symbol": "KARSN", "name": "Karsan", "sector": "Otomotiv", "sector_code": "otomotiv" },
-    { "symbol": "TTRAK", "name": "Türk Traktör", "sector": "Otomotiv", "sector_code": "otomotiv" },
-    { "symbol": "EGEEN", "name": "Ege Endüstri", "sector": "Otomotiv", "sector_code": "otomotiv" },
-    { "symbol": "BIMAS", "name": "BİM", "sector": "Perakende", "sector_code": "perakende" },
-    { "symbol": "MGROS", "name": "Migros", "sector": "Perakende", "sector_code": "perakende" },
-    { "symbol": "SOKM", "name": "Şok Marketler", "sector": "Perakende", "sector_code": "perakende" },
-    { "symbol": "TABGD", "name": "TAB Gıda", "sector": "Perakende", "sector_code": "perakende" },
-    { "symbol": "ULKER", "name": "Ülker", "sector": "Gıda", "sector_code": "gida" },
-    { "symbol": "CCOLA", "name": "Coca-Cola İçecek", "sector": "Gıda", "sector_code": "gida" },
-    { "symbol": "AEFES", "name": "Anadolu Efes", "sector": "Gıda", "sector_code": "gida" },
-    { "symbol": "TATGD", "name": "Tat Gıda", "sector": "Gıda", "sector_code": "gida" },
-    { "symbol": "TUKAS", "name": "Tukaş", "sector": "Gıda", "sector_code": "gida" },
-    { "symbol": "PNSUT", "name": "Pınar Süt", "sector": "Gıda", "sector_code": "gida" },
-    { "symbol": "HEKTS", "name": "Hektaş", "sector": "Tarım", "sector_code": "tarim" },
-    { "symbol": "EKGYO", "name": "Emlak Konut GYO", "sector": "GYO", "sector_code": "gyo" },
-    { "symbol": "TRGYO", "name": "Torunlar GYO", "sector": "GYO", "sector_code": "gyo" },
-    { "symbol": "ISGYO", "name": "İş GYO", "sector": "GYO", "sector_code": "gyo" },
-    { "symbol": "ZRGYO", "name": "Ziraat GYO", "sector": "GYO", "sector_code": "gyo" },
-    { "symbol": "HLGYO", "name": "Halk GYO", "sector": "GYO", "sector_code": "gyo" },
-    { "symbol": "ARCLK", "name": "Arçelik", "sector": "Beyaz Eşya", "sector_code": "beyaz_esya" },
-    { "symbol": "VESTL", "name": "Vestel", "sector": "Beyaz Eşya", "sector_code": "beyaz_esya" },
-    { "symbol": "SISE", "name": "Şişe Cam", "sector": "Cam", "sector_code": "cam" },
-    { "symbol": "KLSER", "name": "Kaleseramik", "sector": "Seramik", "sector_code": "seramik" },
-    { "symbol": "QUAGR", "name": "Qua Granite", "sector": "Seramik", "sector_code": "seramik" },
-    { "symbol": "AKCNS", "name": "Akçansa", "sector": "Çimento", "sector_code": "cimento" },
-    { "symbol": "CIMSA", "name": "Çimsa", "sector": "Çimento", "sector_code": "cimento" },
-    { "symbol": "OYAKC", "name": "Oyak Çimento", "sector": "Çimento", "sector_code": "cimento" },
-    { "symbol": "BTCIM", "name": "Batıçim", "sector": "Çimento", "sector_code": "cimento" },
-    { "symbol": "BOBET", "name": "Boğaziçi Beton", "sector": "Çimento", "sector_code": "cimento" },
-    { "symbol": "MAVI", "name": "Mavi Giyim", "sector": "Tekstil", "sector_code": "tekstil" },
-    { "symbol": "YUNSA", "name": "Yünsa", "sector": "Tekstil", "sector_code": "tekstil" },
-    { "symbol": "SUWEN", "name": "Suwen Tekstil", "sector": "Tekstil", "sector_code": "tekstil" },
-    { "symbol": "ISMEN", "name": "İş Yatırım", "sector": "Mali", "sector_code": "mali" },
-    { "symbol": "INVES", "name": "Investco Holding", "sector": "Mali", "sector_code": "mali" },
-    { "symbol": "MPARK", "name": "MLP Sağlık", "sector": "Sağlık", "sector_code": "saglik" },
-    { "symbol": "GENIL", "name": "Gen İlaç", "sector": "Sağlık", "sector_code": "saglik" },
-    { "symbol": "TMSN", "name": "Tümosan", "sector": "Makine", "sector_code": "makine" },
-    { "symbol": "GESAN", "name": "Girişim Elektrik Sanayi", "sector": "Makine", "sector_code": "makine" }
+    {
+      "symbol": "A1CAP",
+      "name": "A1 Capital Yatitim Menkul Degerler A.S.",
+      "sector": "Finans",
+      "sector_code": "finans"
+    },
+    {
+      "symbol": "A1YEN",
+      "name": "A1 Yenilenebilir Enerji Uretim AS",
+      "sector": "Elektrik, Su, Gaz Hizmetleri",
+      "sector_code": "utilities"
+    },
+    {
+      "symbol": "AAGYO",
+      "name": "Agaoglu Avrasya Gayrimenkul Yatirim Ortakligi AS",
+      "sector": "Finans",
+      "sector_code": "finans"
+    },
+    {
+      "symbol": "ACSEL",
+      "name": "Aciselsan Acipayam Seluloz Sanayi ve Ticaret AS",
+      "sector": "Islenebilen Endustriler",
+      "sector_code": "process_industries"
+    },
+    {
+      "symbol": "ADEL",
+      "name": "Adel Kalemcilik Ticaret ve Sanayi A.S.",
+      "sector": "Dayanikli Tuketim Mallari",
+      "sector_code": "consumer_durables"
+    },
+    {
+      "symbol": "ADESE",
+      "name": "Adese Gayrimenkul Yatirim AS",
+      "sector": "Finans",
+      "sector_code": "finans"
+    },
+    {
+      "symbol": "ADGYO",
+      "name": "Adra Gayrimenkul Yatirim Ortakligi A.S.",
+      "sector": "Finans",
+      "sector_code": "finans"
+    },
+    {
+      "symbol": "AEFES",
+      "name": "Anadolu Efes Biracilik ve Malt Sanayii A.S.",
+      "sector": "Dayaniksiz Tuketim Mallari",
+      "sector_code": "consumer_non_durables"
+    },
+    {
+      "symbol": "AFYON",
+      "name": "Afyon Cimento Sanayii T.A.S.",
+      "sector": "Enerji Disi Mineraller",
+      "sector_code": "non_energy_minerals"
+    },
+    {
+      "symbol": "AGESA",
+      "name": "AgeSA Hayat ve Emeklilik A.S.",
+      "sector": "Finans",
+      "sector_code": "finans"
+    },
+    {
+      "symbol": "AGHOL",
+      "name": "AG Anadolu Grubu Holding Anonim Sirketi",
+      "sector": "Dayaniksiz Tuketim Mallari",
+      "sector_code": "consumer_non_durables"
+    },
+    {
+      "symbol": "AGROT",
+      "name": "Agrotech Yuksek Teknoloji ve Yatirim AS",
+      "sector": "Teknoloji Hizmetleri",
+      "sector_code": "technology_services"
+    },
+    {
+      "symbol": "AGYO",
+      "name": "Atakule Gayrimenkul Yatirim Ortakligi A.S.",
+      "sector": "Finans",
+      "sector_code": "finans"
+    },
+    {
+      "symbol": "AHGAZ",
+      "name": "Ahlatci Dogal Gaz Dagitim Enerji ve Yatirim AS",
+      "sector": "Elektrik, Su, Gaz Hizmetleri",
+      "sector_code": "utilities"
+    },
+    {
+      "symbol": "AHSGY",
+      "name": "Ahes Gayrimenkul Yatirim Ortakligi AS",
+      "sector": "Finans",
+      "sector_code": "finans"
+    },
+    {
+      "symbol": "AKBNK",
+      "name": "Akbank T.A.S.",
+      "sector": "Finans",
+      "sector_code": "finans"
+    },
+    {
+      "symbol": "AKCNS",
+      "name": "Akcansa Cimento Sanayi ve Ticaret A.S.",
+      "sector": "Enerji Disi Mineraller",
+      "sector_code": "non_energy_minerals"
+    },
+    {
+      "symbol": "AKENR",
+      "name": "Akenerji Elektrik Uretim A.S.",
+      "sector": "Elektrik, Su, Gaz Hizmetleri",
+      "sector_code": "utilities"
+    },
+    {
+      "symbol": "AKFGY",
+      "name": "Akfen Gayrimenkul Yatirim Ortakligi A.S.",
+      "sector": "Finans",
+      "sector_code": "finans"
+    },
+    {
+      "symbol": "AKFIS",
+      "name": "Akfen insaat Turizm ve Ticaret AS",
+      "sector": "Endustriyel Hizmetler",
+      "sector_code": "industrial_services"
+    },
+    {
+      "symbol": "AKFYE",
+      "name": "AKFEN YENILENEBILIR ENERJI A.S.",
+      "sector": "Elektrik, Su, Gaz Hizmetleri",
+      "sector_code": "utilities"
+    },
+    {
+      "symbol": "AKGRT",
+      "name": "Aksigorta AS",
+      "sector": "Finans",
+      "sector_code": "finans"
+    },
+    {
+      "symbol": "AKHAN",
+      "name": "Akhan Un Fabrikasi Ve Tarim Urunleri Gida Sanayi Ticaret Anonim Sirketi",
+      "sector": "Islenebilen Endustriler",
+      "sector_code": "process_industries"
+    },
+    {
+      "symbol": "AKMGY",
+      "name": "Akmerkez Gayrimenkul Yatirim Ortakligi A.S.",
+      "sector": "Finans",
+      "sector_code": "finans"
+    },
+    {
+      "symbol": "AKSA",
+      "name": "Aksa Akrilik Kimya Sanayii A.S.",
+      "sector": "Islenebilen Endustriler",
+      "sector_code": "process_industries"
+    },
+    {
+      "symbol": "AKSEN",
+      "name": "Aksa Enerji Uretim A.S.",
+      "sector": "Elektrik, Su, Gaz Hizmetleri",
+      "sector_code": "utilities"
+    },
+    {
+      "symbol": "AKSGY",
+      "name": "Akis Gayrimenkul Yatirim Ortakligi A.S.",
+      "sector": "Finans",
+      "sector_code": "finans"
+    },
+    {
+      "symbol": "AKSUE",
+      "name": "Aksu Enerji ve Ticaret A.S.",
+      "sector": "Elektrik, Su, Gaz Hizmetleri",
+      "sector_code": "utilities"
+    },
+    {
+      "symbol": "AKYHO",
+      "name": "Akdeniz Yatirim Holding A.S.",
+      "sector": "Ticari Hizmetler",
+      "sector_code": "commercial_services"
+    },
+    {
+      "symbol": "ALARK",
+      "name": "Alarko Holding A.S.",
+      "sector": "Finans",
+      "sector_code": "finans"
+    },
+    {
+      "symbol": "ALBRK",
+      "name": "Albaraka Turk Katilim Bankasi A.S.",
+      "sector": "Finans",
+      "sector_code": "finans"
+    },
+    {
+      "symbol": "ALCAR",
+      "name": "Alarko Carrier Sanayi ve Ticaret A.S.",
+      "sector": "Uretici Imalat",
+      "sector_code": "producer_manufacturing"
+    },
+    {
+      "symbol": "ALCTL",
+      "name": "Alcatel Lucent Teletas Telekomunikasyon A.S.",
+      "sector": "Elektronik Teknoloji",
+      "sector_code": "electronic_technology"
+    },
+    {
+      "symbol": "ALFAS",
+      "name": "ALFA SOLAR ENERJI SANAYI VE TICARET A.S.",
+      "sector": "Elektrik, Su, Gaz Hizmetleri",
+      "sector_code": "utilities"
+    },
+    {
+      "symbol": "ALGYO",
+      "name": "Alarko Gayrimenkul Yatirim Ortakligi A.S.",
+      "sector": "Finans",
+      "sector_code": "finans"
+    },
+    {
+      "symbol": "ALKA",
+      "name": "Alkim Kagit Sanayi ve Ticaret A.S.",
+      "sector": "Islenebilen Endustriler",
+      "sector_code": "process_industries"
+    },
+    {
+      "symbol": "ALKIM",
+      "name": "Alkim Alkali Kimya A.S.",
+      "sector": "Islenebilen Endustriler",
+      "sector_code": "process_industries"
+    },
+    {
+      "symbol": "ALKLC",
+      "name": "Altinkilic Gida ve Sut Sanayi Ticaret AS",
+      "sector": "Dayaniksiz Tuketim Mallari",
+      "sector_code": "consumer_non_durables"
+    },
+    {
+      "symbol": "ALTIN",
+      "name": "DARPHANE ALTIN SERTIFIKASI",
+      "sector": "Diger",
+      "sector_code": "diger"
+    },
+    {
+      "symbol": "ALTNY",
+      "name": "Altinay Savunma Teknolojileri A.S.",
+      "sector": "Elektronik Teknoloji",
+      "sector_code": "electronic_technology"
+    },
+    {
+      "symbol": "ALVES",
+      "name": "Alves Kablo Sanayi ve Ticaret A. S.",
+      "sector": "Uretici Imalat",
+      "sector_code": "producer_manufacturing"
+    },
+    {
+      "symbol": "ANELE",
+      "name": "Anel Elektrik Proje Taahhut ve Ticaret A.S.",
+      "sector": "Endustriyel Hizmetler",
+      "sector_code": "industrial_services"
+    },
+    {
+      "symbol": "ANGEN",
+      "name": "Anatolia Tani ve Biyoteknoloji Urunleri Arastirma Gelistirme Sanayi ve Ticaret AS",
+      "sector": "Saglik Teknolojisi",
+      "sector_code": "health_technology"
+    },
+    {
+      "symbol": "ANHYT",
+      "name": "Anadolu Hayat Emeklilik A.S.",
+      "sector": "Finans",
+      "sector_code": "finans"
+    },
+    {
+      "symbol": "ANSGR",
+      "name": "Anadolu Anonim Turk Sigorta Sirketi A.S.",
+      "sector": "Finans",
+      "sector_code": "finans"
+    },
+    {
+      "symbol": "APBDL",
+      "name": "Ak Portfoy BIST Banka Disi Likit 10 Endeksi Hisse Senedi Yogun",
+      "sector": "Cesitli",
+      "sector_code": "miscellaneous"
+    },
+    {
+      "symbol": "APX30",
+      "name": "AK Portfoy BIST 30 Endeksi Hisse Senedi Fonu (Hisse Senedi Yo)",
+      "sector": "Cesitli",
+      "sector_code": "miscellaneous"
+    },
+    {
+      "symbol": "ARASE",
+      "name": "Dogu Aras Enerji Yatirimlari AS",
+      "sector": "Elektrik, Su, Gaz Hizmetleri",
+      "sector_code": "utilities"
+    },
+    {
+      "symbol": "ARCLK",
+      "name": "Arcelik A.S.",
+      "sector": "Dayanikli Tuketim Mallari",
+      "sector_code": "consumer_durables"
+    },
+    {
+      "symbol": "ARDYZ",
+      "name": "ARD Grup Bilisim Teknolojileri AS",
+      "sector": "Teknoloji Hizmetleri",
+      "sector_code": "technology_services"
+    },
+    {
+      "symbol": "ARENA",
+      "name": "Arena Bilgisayar AS",
+      "sector": "Dagitim Hizmetleri",
+      "sector_code": "distribution_services"
+    },
+    {
+      "symbol": "ARFYE",
+      "name": "ARF Bio Yenilenebilir Enerji Uretim AS",
+      "sector": "Elektrik, Su, Gaz Hizmetleri",
+      "sector_code": "utilities"
+    },
+    {
+      "symbol": "ARMGD",
+      "name": "Armada Gida Ticaret ve Sanayi Anonim Sirketi",
+      "sector": "Dayaniksiz Tuketim Mallari",
+      "sector_code": "consumer_non_durables"
+    },
+    {
+      "symbol": "ARSAN",
+      "name": "Arsan Holding A.S.",
+      "sector": "Islenebilen Endustriler",
+      "sector_code": "process_industries"
+    },
+    {
+      "symbol": "ARTMS",
+      "name": "Artemis Hali A. S.",
+      "sector": "Perakende Ticaret",
+      "sector_code": "retail_trade"
+    },
+    {
+      "symbol": "ARZUM",
+      "name": "Arzum Elektrikli Ev Aletleri Sanayi ve Ticaret AS",
+      "sector": "Dagitim Hizmetleri",
+      "sector_code": "distribution_services"
+    },
+    {
+      "symbol": "ASELS",
+      "name": "Aselsan Elektronik Sanayi ve Ticaret A.S. Class B",
+      "sector": "Elektronik Teknoloji",
+      "sector_code": "electronic_technology"
+    },
+    {
+      "symbol": "ASGYO",
+      "name": "ASCE GAYRIMENKUL YATIRIM ORTAKLIGI A.S.",
+      "sector": "Finans",
+      "sector_code": "finans"
+    },
+    {
+      "symbol": "ASTOR",
+      "name": "Astor Enerji A.S.",
+      "sector": "Uretici Imalat",
+      "sector_code": "producer_manufacturing"
+    },
+    {
+      "symbol": "ASUZU",
+      "name": "Anadolu Isuzu Otomotiv Sanayi ve Ticaret A.S. Class C",
+      "sector": "Dayanikli Tuketim Mallari",
+      "sector_code": "consumer_durables"
+    },
+    {
+      "symbol": "ATAGY",
+      "name": "Ata Gayrimenkul Yatirim Ortakligi A.S.",
+      "sector": "Finans",
+      "sector_code": "finans"
+    },
+    {
+      "symbol": "ATAKP",
+      "name": "Atakey Patates Gida Sanayi ve Ticaret AS",
+      "sector": "Dayaniksiz Tuketim Mallari",
+      "sector_code": "consumer_non_durables"
+    },
+    {
+      "symbol": "ATATP",
+      "name": "ATP Yazilim ve Teknoloji AS",
+      "sector": "Teknoloji Hizmetleri",
+      "sector_code": "technology_services"
+    },
+    {
+      "symbol": "ATATR",
+      "name": "Ata Turizm Isletmecilik Tasimacilik Madencilik Kuyumculu",
+      "sector": "Tuketici Hizmetleri",
+      "sector_code": "consumer_services"
+    },
+    {
+      "symbol": "ATEKS",
+      "name": "Akin Tekstil A.S.",
+      "sector": "Islenebilen Endustriler",
+      "sector_code": "process_industries"
+    },
+    {
+      "symbol": "ATLAS",
+      "name": "Atlas Menkul Kiymetler Yatirim Ortakligi A.S.",
+      "sector": "Cesitli",
+      "sector_code": "miscellaneous"
+    },
+    {
+      "symbol": "ATSYH",
+      "name": "Atlantis Yatirim Holding A.S.",
+      "sector": "Cesitli",
+      "sector_code": "miscellaneous"
+    },
+    {
+      "symbol": "AVGYO",
+      "name": "Avrasya Gayrimenkul Yatirim Ortakligi A.S.",
+      "sector": "Finans",
+      "sector_code": "finans"
+    },
+    {
+      "symbol": "AVHOL",
+      "name": "Avrupa Yatirim Holding AS",
+      "sector": "Saglik Hizmetleri",
+      "sector_code": "health_services"
+    },
+    {
+      "symbol": "AVOD",
+      "name": "A.V.O.D. KURUTULMUS GIDA VE TARIM URUNLERI SANAYI TICARET A.S.",
+      "sector": "Dayaniksiz Tuketim Mallari",
+      "sector_code": "consumer_non_durables"
+    },
+    {
+      "symbol": "AVPGY",
+      "name": "Avrupakent Gayrimenkul Yatirim Ortakligi SA",
+      "sector": "Finans",
+      "sector_code": "finans"
+    },
+    {
+      "symbol": "AVTUR",
+      "name": "Avrasya Petrol ve Turistik Tesisler Yatirimlar AS",
+      "sector": "Cesitli",
+      "sector_code": "miscellaneous"
+    },
+    {
+      "symbol": "AYCES",
+      "name": "Altin Yunus Cesme Turistik Tesisler A.S.",
+      "sector": "Tuketici Hizmetleri",
+      "sector_code": "consumer_services"
+    },
+    {
+      "symbol": "AYDEM",
+      "name": "Aydem Yenilenebilir Enerji AS",
+      "sector": "Elektrik, Su, Gaz Hizmetleri",
+      "sector_code": "utilities"
+    },
+    {
+      "symbol": "AYEN",
+      "name": "Ayen Enerji A.S.",
+      "sector": "Elektrik, Su, Gaz Hizmetleri",
+      "sector_code": "utilities"
+    },
+    {
+      "symbol": "AYES",
+      "name": "Ayes Celik Hasir ve Cit Sanayi AS",
+      "sector": "Uretici Imalat",
+      "sector_code": "producer_manufacturing"
+    },
+    {
+      "symbol": "AYGAZ",
+      "name": "Aygaz Anonim Sirketi",
+      "sector": "Elektrik, Su, Gaz Hizmetleri",
+      "sector_code": "utilities"
+    },
+    {
+      "symbol": "AZTEK",
+      "name": "Aztek Teknoloji Urunleri Ticaret A.S.",
+      "sector": "Dagitim Hizmetleri",
+      "sector_code": "distribution_services"
+    },
+    {
+      "symbol": "BAGFS",
+      "name": "Bagfas Bandirma Gubre Fabrikalari A.S.",
+      "sector": "Islenebilen Endustriler",
+      "sector_code": "process_industries"
+    },
+    {
+      "symbol": "BAHKM",
+      "name": "Bahadir Kimya Sanayi Ve Ticaret Anonim Sirketi",
+      "sector": "Islenebilen Endustriler",
+      "sector_code": "process_industries"
+    },
+    {
+      "symbol": "BAKAB",
+      "name": "Bak Ambalaj Sanayi ve Ticaret A.S.",
+      "sector": "Islenebilen Endustriler",
+      "sector_code": "process_industries"
+    },
+    {
+      "symbol": "BALAT",
+      "name": "Balatacilar Balatacilik Sanayi ve Ticaret AS",
+      "sector": "Uretici Imalat",
+      "sector_code": "producer_manufacturing"
+    },
+    {
+      "symbol": "BALSU",
+      "name": "Balsu Gida Sanayi ve Ticaret Anonim Sirketi",
+      "sector": "Dayaniksiz Tuketim Mallari",
+      "sector_code": "consumer_non_durables"
+    },
+    {
+      "symbol": "BANVT",
+      "name": "Banvit Bandirma Vitaminli Yem Sanayii A.S.",
+      "sector": "Islenebilen Endustriler",
+      "sector_code": "process_industries"
+    },
+    {
+      "symbol": "BARMA",
+      "name": "Barem Ambalaj Sanayi ve Ticaret AS",
+      "sector": "Islenebilen Endustriler",
+      "sector_code": "process_industries"
+    },
+    {
+      "symbol": "BASCM",
+      "name": "Bastas Baskent Cimento Sanayi ve Ticaret AS",
+      "sector": "Enerji Disi Mineraller",
+      "sector_code": "non_energy_minerals"
+    },
+    {
+      "symbol": "BASGZ",
+      "name": "Baskent Dogalgaz Dagitim Gayrimenkul Yatirim Ortakligi AS",
+      "sector": "Elektrik, Su, Gaz Hizmetleri",
+      "sector_code": "utilities"
+    },
+    {
+      "symbol": "BAYRK",
+      "name": "BAYRAK EBT TABAN SANAYI VE TICARET A.S.",
+      "sector": "Dayaniksiz Tuketim Mallari",
+      "sector_code": "consumer_non_durables"
+    },
+    {
+      "symbol": "BEGYO",
+      "name": "Bati Ege Gayrimenkul Yatirim Ortakligi A.S.",
+      "sector": "Finans",
+      "sector_code": "finans"
+    },
+    {
+      "symbol": "BERA",
+      "name": "Bera Holding AS",
+      "sector": "Uretici Imalat",
+      "sector_code": "producer_manufacturing"
+    },
+    {
+      "symbol": "BESLR",
+      "name": "Besler Gida Ve Kimya Sanayi Ve Ticaret AS",
+      "sector": "Dayaniksiz Tuketim Mallari",
+      "sector_code": "consumer_non_durables"
+    },
+    {
+      "symbol": "BESTE",
+      "name": "Best Brands Grup Enerji Yatirim as",
+      "sector": "Elektrik, Su, Gaz Hizmetleri",
+      "sector_code": "utilities"
+    },
+    {
+      "symbol": "BEYAZ",
+      "name": "Beyaz Filo Oto Kiralama AS",
+      "sector": "Perakende Ticaret",
+      "sector_code": "retail_trade"
+    },
+    {
+      "symbol": "BFREN",
+      "name": "Bosch Fren Sistemleri Sanayi ve Ticaret A.S.",
+      "sector": "Uretici Imalat",
+      "sector_code": "producer_manufacturing"
+    },
+    {
+      "symbol": "BIENY",
+      "name": "Bien Yapi Urunleri Sanayi Turizm Ve Ticaret Anonim Sirketi",
+      "sector": "Enerji Disi Mineraller",
+      "sector_code": "non_energy_minerals"
+    },
+    {
+      "symbol": "BIGCH",
+      "name": "Buyuk Sefler Gida Turizm Tekstil Danismanlik Organizasyon Egitim Sanayi ve Ticaret A.S.",
+      "sector": "Tuketici Hizmetleri",
+      "sector_code": "consumer_services"
+    },
+    {
+      "symbol": "BIGEN",
+      "name": "Birlesim Grup Enerji Yatirimlari AS",
+      "sector": "Elektrik, Su, Gaz Hizmetleri",
+      "sector_code": "utilities"
+    },
+    {
+      "symbol": "BIGTK",
+      "name": "Big Medya Teknoloji A.S.",
+      "sector": "Tuketici Hizmetleri",
+      "sector_code": "consumer_services"
+    },
+    {
+      "symbol": "BIMAS",
+      "name": "BIM Birlesik Magazalar A.S.",
+      "sector": "Perakende Ticaret",
+      "sector_code": "retail_trade"
+    },
+    {
+      "symbol": "BINBN",
+      "name": "Bin Ulasim Ve Akilli Sehir Teknolojileri AS",
+      "sector": "Ticari Hizmetler",
+      "sector_code": "commercial_services"
+    },
+    {
+      "symbol": "BINHO",
+      "name": "1000 Yatirimlar Holding AS",
+      "sector": "Teknoloji Hizmetleri",
+      "sector_code": "technology_services"
+    },
+    {
+      "symbol": "BIOEN",
+      "name": "BIotrend Cevre ve EnerjI Yatirimlari AS",
+      "sector": "Elektrik, Su, Gaz Hizmetleri",
+      "sector_code": "utilities"
+    },
+    {
+      "symbol": "BIZIM",
+      "name": "Bizim Toptan SatiG Magazalari A.g.",
+      "sector": "Perakende Ticaret",
+      "sector_code": "retail_trade"
+    },
+    {
+      "symbol": "BJKAS",
+      "name": "Besiktas Futbol Yatirimlari Sanayi ve Ticaret A.S.",
+      "sector": "Tuketici Hizmetleri",
+      "sector_code": "consumer_services"
+    },
+    {
+      "symbol": "BLCYT",
+      "name": "Bilici Yatirim Sanayi ve Ticaret A.S.",
+      "sector": "Islenebilen Endustriler",
+      "sector_code": "process_industries"
+    },
+    {
+      "symbol": "BLUME",
+      "name": "Blume Metal Kimya Anonim Sirketi",
+      "sector": "Tuketici Hizmetleri",
+      "sector_code": "consumer_services"
+    },
+    {
+      "symbol": "BMSCH",
+      "name": "BMS Celik Hasir Sanayi Ve Ticaret A.S.",
+      "sector": "Uretici Imalat",
+      "sector_code": "producer_manufacturing"
+    },
+    {
+      "symbol": "BMSTL",
+      "name": "BMS Birlesik Metal Sanayi ve Ticaret AS Class B",
+      "sector": "Uretici Imalat",
+      "sector_code": "producer_manufacturing"
+    },
+    {
+      "symbol": "BNTAS",
+      "name": "Bantas Bandirma Ambalaj Sanayi ve Ticaret A.S.",
+      "sector": "Islenebilen Endustriler",
+      "sector_code": "process_industries"
+    },
+    {
+      "symbol": "BOBET",
+      "name": "Bogazici Beton Sanayi ve Ticaret AS",
+      "sector": "Enerji Disi Mineraller",
+      "sector_code": "non_energy_minerals"
+    },
+    {
+      "symbol": "BORLS",
+      "name": "Borlease Otomotiv AS",
+      "sector": "Finans",
+      "sector_code": "finans"
+    },
+    {
+      "symbol": "BORSK",
+      "name": "Bor Seker A.S.",
+      "sector": "Islenebilen Endustriler",
+      "sector_code": "process_industries"
+    },
+    {
+      "symbol": "BOSSA",
+      "name": "Bossa Ticaret ve Sanayi Isletmeleri T.A.S.",
+      "sector": "Islenebilen Endustriler",
+      "sector_code": "process_industries"
+    },
+    {
+      "symbol": "BRISA",
+      "name": "Brisa Bridgestone Sabanci Lastik Sanayi ve Ticaret A.S.",
+      "sector": "Dayanikli Tuketim Mallari",
+      "sector_code": "consumer_durables"
+    },
+    {
+      "symbol": "BRKO",
+      "name": "Birko Birlesik Koyunlulular Mensucat ve Ticaret A.S.",
+      "sector": "Dayanikli Tuketim Mallari",
+      "sector_code": "consumer_durables"
+    },
+    {
+      "symbol": "BRKSN",
+      "name": "Berkosan Yalitim ve Tecrit Maddeleri Uretim ve Ticaret A.S.",
+      "sector": "Islenebilen Endustriler",
+      "sector_code": "process_industries"
+    },
+    {
+      "symbol": "BRKVY",
+      "name": "Birikim Varlik Yonetim A.S.",
+      "sector": "Finans",
+      "sector_code": "finans"
+    },
+    {
+      "symbol": "BRLSM",
+      "name": "Birlesim Muhendislik Isitma Sogutma Havalandirma Sanayi ve Ticaret A.S.",
+      "sector": "Enerji Disi Mineraller",
+      "sector_code": "non_energy_minerals"
+    },
+    {
+      "symbol": "BRMEN",
+      "name": "Birlik Mensucat Ticaret ve Sanayi Isletmesi A.S.",
+      "sector": "Islenebilen Endustriler",
+      "sector_code": "process_industries"
+    },
+    {
+      "symbol": "BRSAN",
+      "name": "BORUSAN BIRLESIK BORU FABRIKALARI SANAYI VE TICARET ANONIM SIRKETI",
+      "sector": "Enerji Disi Mineraller",
+      "sector_code": "non_energy_minerals"
+    },
+    {
+      "symbol": "BRYAT",
+      "name": "Borusan Yatirim ve Pazarlama AS",
+      "sector": "Cesitli",
+      "sector_code": "miscellaneous"
+    },
+    {
+      "symbol": "BSOKE",
+      "name": "Batisoke Soke Cimento Sanayii T.A.S.",
+      "sector": "Enerji Disi Mineraller",
+      "sector_code": "non_energy_minerals"
+    },
+    {
+      "symbol": "BTCIM",
+      "name": "Baticim Bati Anadolu Cimento Sanayii A.S.",
+      "sector": "Enerji Disi Mineraller",
+      "sector_code": "non_energy_minerals"
+    },
+    {
+      "symbol": "BUCIM",
+      "name": "Bursa Cimento Fabrikasi A.S.",
+      "sector": "Enerji Disi Mineraller",
+      "sector_code": "non_energy_minerals"
+    },
+    {
+      "symbol": "BULGS",
+      "name": "Bulls Girisim Sermayesi Yatirim Ortakligi Anonim Sirketi",
+      "sector": "Finans",
+      "sector_code": "finans"
+    },
+    {
+      "symbol": "BURCE",
+      "name": "Burcelik Bursa Celik Doekum Sanayii A.S.",
+      "sector": "Enerji Disi Mineraller",
+      "sector_code": "non_energy_minerals"
+    },
+    {
+      "symbol": "BURVA",
+      "name": "Burcelik Vana Sanayi ve Ticaret A.S.",
+      "sector": "Uretici Imalat",
+      "sector_code": "producer_manufacturing"
+    },
+    {
+      "symbol": "BVSAN",
+      "name": "BULBULOGLU VINC SANAYI VE TICARET A.S.",
+      "sector": "Uretici Imalat",
+      "sector_code": "producer_manufacturing"
+    },
+    {
+      "symbol": "BYDNR",
+      "name": "Baydoner Restoranlari A.S.",
+      "sector": "Tuketici Hizmetleri",
+      "sector_code": "consumer_services"
+    },
+    {
+      "symbol": "CANTE",
+      "name": "CAN2 TERMIK A.S.",
+      "sector": "Elektrik, Su, Gaz Hizmetleri",
+      "sector_code": "utilities"
+    },
+    {
+      "symbol": "CASA",
+      "name": "Casa Emtia Petrol Kimyevi ve Turevleri Sanayi Ticaret AS",
+      "sector": "Dagitim Hizmetleri",
+      "sector_code": "distribution_services"
+    },
+    {
+      "symbol": "CATES",
+      "name": "Cates Elektrik Uretim Anonim Sirketi",
+      "sector": "Elektrik, Su, Gaz Hizmetleri",
+      "sector_code": "utilities"
+    },
+    {
+      "symbol": "CCOLA",
+      "name": "Coca-Cola Icecek A.S.",
+      "sector": "Dayaniksiz Tuketim Mallari",
+      "sector_code": "consumer_non_durables"
+    },
+    {
+      "symbol": "CELHA",
+      "name": "Celik Halat ve Tel Sanayii A.S.",
+      "sector": "Enerji Disi Mineraller",
+      "sector_code": "non_energy_minerals"
+    },
+    {
+      "symbol": "CEMAS",
+      "name": "Cemas Dokum Sanayi A.S.",
+      "sector": "Enerji Disi Mineraller",
+      "sector_code": "non_energy_minerals"
+    },
+    {
+      "symbol": "CEMTS",
+      "name": "Cemtas Celik Makina Sanayi ve Ticaret A.S.",
+      "sector": "Enerji Disi Mineraller",
+      "sector_code": "non_energy_minerals"
+    },
+    {
+      "symbol": "CEMZY",
+      "name": "CEM ZEYTIN ANONIM SIRKETI",
+      "sector": "Dayaniksiz Tuketim Mallari",
+      "sector_code": "consumer_non_durables"
+    },
+    {
+      "symbol": "CEOEM",
+      "name": "CEO Event Medya AS",
+      "sector": "Tuketici Hizmetleri",
+      "sector_code": "consumer_services"
+    },
+    {
+      "symbol": "CGCAM",
+      "name": "Cagdas Cam Sanayi ve Ticaret AS",
+      "sector": "Dayanikli Tuketim Mallari",
+      "sector_code": "consumer_durables"
+    },
+    {
+      "symbol": "CIMSA",
+      "name": "Cimsa Cimento Sanayi ve Ticaret A.S.",
+      "sector": "Enerji Disi Mineraller",
+      "sector_code": "non_energy_minerals"
+    },
+    {
+      "symbol": "CLEBI",
+      "name": "Celebi Hava Servisi A.S.",
+      "sector": "Ulastirma",
+      "sector_code": "transportation"
+    },
+    {
+      "symbol": "CMBTN",
+      "name": "Cimbeton Hazir Beton ve Prefabrik Yapi Elemanlari Sanayi ve Ticaret A.S.",
+      "sector": "Enerji Disi Mineraller",
+      "sector_code": "non_energy_minerals"
+    },
+    {
+      "symbol": "CMENT",
+      "name": "Cimentas Izmir Cimento Fabrikasi Turk A.S.",
+      "sector": "Enerji Disi Mineraller",
+      "sector_code": "non_energy_minerals"
+    },
+    {
+      "symbol": "CONSE",
+      "name": "Consus Enerji Isletmeciligi ve Hizmetleri A.S.",
+      "sector": "Elektrik, Su, Gaz Hizmetleri",
+      "sector_code": "utilities"
+    },
+    {
+      "symbol": "COSMO",
+      "name": "Cosmos Yatirim Holding A.S.",
+      "sector": "Dagitim Hizmetleri",
+      "sector_code": "distribution_services"
+    },
+    {
+      "symbol": "CRDFA",
+      "name": "Creditwest Faktoring A.S.",
+      "sector": "Finans",
+      "sector_code": "finans"
+    },
+    {
+      "symbol": "CRFSA",
+      "name": "CarrefourSA Carrefour Sabanci Ticaret Merkezi A.S.",
+      "sector": "Perakende Ticaret",
+      "sector_code": "retail_trade"
+    },
+    {
+      "symbol": "CUSAN",
+      "name": "Cuhadaroglu Metal Sanayi ve Pazarlama AS",
+      "sector": "Enerji Disi Mineraller",
+      "sector_code": "non_energy_minerals"
+    },
+    {
+      "symbol": "CVKMD",
+      "name": "CVK MADEN ISLETMELERI SANAYI VE TICARET A.S",
+      "sector": "Enerji Disi Mineraller",
+      "sector_code": "non_energy_minerals"
+    },
+    {
+      "symbol": "CWENE",
+      "name": "CW ENERJI MUHENDISLIK TICARET VE SANAYI A.S.",
+      "sector": "Elektronik Teknoloji",
+      "sector_code": "electronic_technology"
+    },
+    {
+      "symbol": "DAGI",
+      "name": "Dagi Giyim Sanayi ve Ticaret A.S.",
+      "sector": "Dayaniksiz Tuketim Mallari",
+      "sector_code": "consumer_non_durables"
+    },
+    {
+      "symbol": "DAPGM",
+      "name": "DAP GAYRIMENKUL GELISTIRME AS",
+      "sector": "Finans",
+      "sector_code": "finans"
+    },
+    {
+      "symbol": "DARDL",
+      "name": "Dardanel Onentas Gida San. A.S.",
+      "sector": "Dayaniksiz Tuketim Mallari",
+      "sector_code": "consumer_non_durables"
+    },
+    {
+      "symbol": "DCTTR",
+      "name": "DCT Trading Dis Ticaret Anonim Sirketi",
+      "sector": "Dagitim Hizmetleri",
+      "sector_code": "distribution_services"
+    },
+    {
+      "symbol": "DENGE",
+      "name": "Denge Yatirim Holding AS",
+      "sector": "Finans",
+      "sector_code": "finans"
+    },
+    {
+      "symbol": "DERHL",
+      "name": "Derluks Yatirim Holding AS",
+      "sector": "Dayaniksiz Tuketim Mallari",
+      "sector_code": "consumer_non_durables"
+    },
+    {
+      "symbol": "DERIM",
+      "name": "Derimod Konfeksiyon Ayakkabi Deri Sanayi ve Ticaret A.S.",
+      "sector": "Dayaniksiz Tuketim Mallari",
+      "sector_code": "consumer_non_durables"
+    },
+    {
+      "symbol": "DESA",
+      "name": "Desa Deri Sanayi ve Ticaret A.S.",
+      "sector": "Dayaniksiz Tuketim Mallari",
+      "sector_code": "consumer_non_durables"
+    },
+    {
+      "symbol": "DESPC",
+      "name": "Despec Bilgisayar Pazarlama ve Ticaret A.S.",
+      "sector": "Dagitim Hizmetleri",
+      "sector_code": "distribution_services"
+    },
+    {
+      "symbol": "DEVA",
+      "name": "Deva Holding A.S.",
+      "sector": "Saglik Teknolojisi",
+      "sector_code": "health_technology"
+    },
+    {
+      "symbol": "DGATE",
+      "name": "Datagate Bilgisayar Malzemeleri Ticaret A.S.",
+      "sector": "Dagitim Hizmetleri",
+      "sector_code": "distribution_services"
+    },
+    {
+      "symbol": "DGGYO",
+      "name": "Dogus Gayrimenkul Yatirim Ortakligi A.S.",
+      "sector": "Finans",
+      "sector_code": "finans"
+    },
+    {
+      "symbol": "DGNMO",
+      "name": "Doganlar Mobilya Grubu Imalat Sanayi ve Ticaret A.S.",
+      "sector": "Dayanikli Tuketim Mallari",
+      "sector_code": "consumer_durables"
+    },
+    {
+      "symbol": "DIRIT",
+      "name": "Diriteks Dirilis Tekstil Sanayi ve Ticaret AS",
+      "sector": "Islenebilen Endustriler",
+      "sector_code": "process_industries"
+    },
+    {
+      "symbol": "DITAS",
+      "name": "Ditas Dogan Yedek Parca Imalat ve Teknik A.S.",
+      "sector": "Uretici Imalat",
+      "sector_code": "producer_manufacturing"
+    },
+    {
+      "symbol": "DMLKT",
+      "name": "Emlak Konut Gayrimenkul Yatirim Ortakligi A.S. 0 % Certificates 2025-31.12.2199",
+      "sector": "Finans",
+      "sector_code": "finans"
+    },
+    {
+      "symbol": "DMRGD",
+      "name": "DMR Unlu Mamuller Uretim Gida Toptan Perakende Ihracat A.S.",
+      "sector": "Dayaniksiz Tuketim Mallari",
+      "sector_code": "consumer_non_durables"
+    },
+    {
+      "symbol": "DMSAS",
+      "name": "Demisas Dokum Emaye Mamulleri Sanayi A.S.",
+      "sector": "Uretici Imalat",
+      "sector_code": "producer_manufacturing"
+    },
+    {
+      "symbol": "DNISI",
+      "name": "Dinamik Isi Makina Yalitim Malzemeleri Sanayi ve Ticaret AS",
+      "sector": "Islenebilen Endustriler",
+      "sector_code": "process_industries"
+    },
+    {
+      "symbol": "DOAS",
+      "name": "Dogus Otomotiv Servis ve Ticaret Anonim Sirketi",
+      "sector": "Perakende Ticaret",
+      "sector_code": "retail_trade"
+    },
+    {
+      "symbol": "DOCO",
+      "name": "DO & CO Aktiengesellschaft",
+      "sector": "Tuketici Hizmetleri",
+      "sector_code": "consumer_services"
+    },
+    {
+      "symbol": "DOFER",
+      "name": "Dofer Yapi Maizemeleri Sanayi ve Ticaret A.S.",
+      "sector": "Enerji Disi Mineraller",
+      "sector_code": "non_energy_minerals"
+    },
+    {
+      "symbol": "DOFRB",
+      "name": "DOF Robotik Sanayi Anonim Sirketi",
+      "sector": "Uretici Imalat",
+      "sector_code": "producer_manufacturing"
+    },
+    {
+      "symbol": "DOGUB",
+      "name": "Dogusan Boru Sanayii ve Ticaret A.S.",
+      "sector": "Enerji Disi Mineraller",
+      "sector_code": "non_energy_minerals"
+    },
+    {
+      "symbol": "DOHOL",
+      "name": "Dogan Sirketler Grubu Holding A.S.",
+      "sector": "Perakende Ticaret",
+      "sector_code": "retail_trade"
+    },
+    {
+      "symbol": "DOKTA",
+      "name": "Doktas Dokumculuk Ticaret ve Sanayi A.S.",
+      "sector": "Uretici Imalat",
+      "sector_code": "producer_manufacturing"
+    },
+    {
+      "symbol": "DSTKF",
+      "name": "Destek Finans Faktoring A.S.",
+      "sector": "Finans",
+      "sector_code": "finans"
+    },
+    {
+      "symbol": "DUNYH",
+      "name": "Dunya Holding Anonim Sirketi",
+      "sector": "Dayaniksiz Tuketim Mallari",
+      "sector_code": "consumer_non_durables"
+    },
+    {
+      "symbol": "DURDO",
+      "name": "Duran Dogan Basim ve Ambalaj Sanayi A.S.",
+      "sector": "Islenebilen Endustriler",
+      "sector_code": "process_industries"
+    },
+    {
+      "symbol": "DURKN",
+      "name": "Durukan Sekerleme Sanayi ve Ticaret AS",
+      "sector": "Dayaniksiz Tuketim Mallari",
+      "sector_code": "consumer_non_durables"
+    },
+    {
+      "symbol": "DYOBY",
+      "name": "Dyo Boya Fabrikalari Sanayi ve Ticaret A.S.",
+      "sector": "Islenebilen Endustriler",
+      "sector_code": "process_industries"
+    },
+    {
+      "symbol": "DZGYO",
+      "name": "Deniz Gayrimenkul Yatirim Ortakligi A.S.",
+      "sector": "Finans",
+      "sector_code": "finans"
+    },
+    {
+      "symbol": "EBEBK",
+      "name": "EBEBEK MAGAZACILIK ANONIM SIRKETI",
+      "sector": "Perakende Ticaret",
+      "sector_code": "retail_trade"
+    },
+    {
+      "symbol": "ECILC",
+      "name": "EIS Eczacibasi Ilac, Sinai ve Finansal Yatirimlar Sanayi ve Ticaret A.S.",
+      "sector": "Saglik Teknolojisi",
+      "sector_code": "health_technology"
+    },
+    {
+      "symbol": "ECOGR",
+      "name": "Ecogreen Enerji Holding A.S.",
+      "sector": "Elektrik, Su, Gaz Hizmetleri",
+      "sector_code": "utilities"
+    },
+    {
+      "symbol": "ECZYT",
+      "name": "Eczacibasi Yatirim Holding Ortakligi AS",
+      "sector": "Finans",
+      "sector_code": "finans"
+    },
+    {
+      "symbol": "EDATA",
+      "name": "E-Data Teknoloji Pazarlama AS",
+      "sector": "Ticari Hizmetler",
+      "sector_code": "commercial_services"
+    },
+    {
+      "symbol": "EDIP",
+      "name": "Edip Gayrimenkul Yatirim Sanayi ve Ticaret A.S.",
+      "sector": "Finans",
+      "sector_code": "finans"
+    },
+    {
+      "symbol": "EFOR",
+      "name": "Efor Yatirim Sanayi Ticaret A.S.",
+      "sector": "Dayaniksiz Tuketim Mallari",
+      "sector_code": "consumer_non_durables"
+    },
+    {
+      "symbol": "EGEEN",
+      "name": "Ege Endustri ve Ticaret A.S.",
+      "sector": "Uretici Imalat",
+      "sector_code": "producer_manufacturing"
+    },
+    {
+      "symbol": "EGEGY",
+      "name": "Egeyapi Avrupa Gayrimenkul Yatirim Ortakligi A.S.",
+      "sector": "Finans",
+      "sector_code": "finans"
+    },
+    {
+      "symbol": "EGEPO",
+      "name": "Nasmed Ozel Saglik Hizmetleri Ticaret A.S.",
+      "sector": "Saglik Hizmetleri",
+      "sector_code": "health_services"
+    },
+    {
+      "symbol": "EGGUB",
+      "name": "Ege Gubre Sanayii A.S.",
+      "sector": "Islenebilen Endustriler",
+      "sector_code": "process_industries"
+    },
+    {
+      "symbol": "EGPRO",
+      "name": "Ege Profil Ticaret ve Sanayi A.S.",
+      "sector": "Islenebilen Endustriler",
+      "sector_code": "process_industries"
+    },
+    {
+      "symbol": "EGSER",
+      "name": "Ege Seramik Sanayi ve Ticaret A.S.",
+      "sector": "Uretici Imalat",
+      "sector_code": "producer_manufacturing"
+    },
+    {
+      "symbol": "EKGYO",
+      "name": "Emlak Konut Gayrimenkul Yatirim Ortakligi A.S.",
+      "sector": "Finans",
+      "sector_code": "finans"
+    },
+    {
+      "symbol": "EKIZ",
+      "name": "Ekiz Kimya Sanayi ve Ticaret A.S.",
+      "sector": "Islenebilen Endustriler",
+      "sector_code": "process_industries"
+    },
+    {
+      "symbol": "EKOS",
+      "name": "Ekos Teknoloji ve Elektrik AS",
+      "sector": "Uretici Imalat",
+      "sector_code": "producer_manufacturing"
+    },
+    {
+      "symbol": "EKSUN",
+      "name": "Eksun Gida Tarim Sanayi ve Ticaret",
+      "sector": "Islenebilen Endustriler",
+      "sector_code": "process_industries"
+    },
+    {
+      "symbol": "ELITE",
+      "name": "Elite Naturel Organik Gida Sanayi ve Ticaret AS",
+      "sector": "Dayaniksiz Tuketim Mallari",
+      "sector_code": "consumer_non_durables"
+    },
+    {
+      "symbol": "EMKEL",
+      "name": "Emek Elektrik Endustrisi A.S.",
+      "sector": "Uretici Imalat",
+      "sector_code": "producer_manufacturing"
+    },
+    {
+      "symbol": "EMNIS",
+      "name": "Eminis Ambalaj Sanayi ve Ticaret A.S.",
+      "sector": "Islenebilen Endustriler",
+      "sector_code": "process_industries"
+    },
+    {
+      "symbol": "EMPAE",
+      "name": "Empa Elektronik Sanayi ve Ticaret A.S.",
+      "sector": "Elektronik Teknoloji",
+      "sector_code": "electronic_technology"
+    },
+    {
+      "symbol": "ENDAE",
+      "name": "Enda Enerji Holding Anonim Sirketi",
+      "sector": "Finans",
+      "sector_code": "finans"
+    },
+    {
+      "symbol": "ENERY",
+      "name": "Enerya Enerji A.S.",
+      "sector": "Elektrik, Su, Gaz Hizmetleri",
+      "sector_code": "utilities"
+    },
+    {
+      "symbol": "ENJSA",
+      "name": "Enerjisa Enerji A.S.",
+      "sector": "Elektrik, Su, Gaz Hizmetleri",
+      "sector_code": "utilities"
+    },
+    {
+      "symbol": "ENKAI",
+      "name": "Enka Insaat ve Sanayi A.S.",
+      "sector": "Endustriyel Hizmetler",
+      "sector_code": "industrial_services"
+    },
+    {
+      "symbol": "ENPRA",
+      "name": "Enpara Bank A.S.",
+      "sector": "Finans",
+      "sector_code": "finans"
+    },
+    {
+      "symbol": "ENSRI",
+      "name": "Ensari Sinai Yatirimlar A.S.",
+      "sector": "Dayaniksiz Tuketim Mallari",
+      "sector_code": "consumer_non_durables"
+    },
+    {
+      "symbol": "ENTRA",
+      "name": "IC Enterra Yenilenebilir Enerji AS",
+      "sector": "Elektrik, Su, Gaz Hizmetleri",
+      "sector_code": "utilities"
+    },
+    {
+      "symbol": "EPLAS",
+      "name": "Egeplast Ege Plastik Ticaret ve Sanayi A.S.",
+      "sector": "Uretici Imalat",
+      "sector_code": "producer_manufacturing"
+    },
+    {
+      "symbol": "ERBOS",
+      "name": "Erbosan Erciyas Boru Sanayii ve Ticaret A.S.",
+      "sector": "Enerji Disi Mineraller",
+      "sector_code": "non_energy_minerals"
+    },
+    {
+      "symbol": "ERCB",
+      "name": "Erciyas Celik Boru Sanayi A.S.",
+      "sector": "Enerji Disi Mineraller",
+      "sector_code": "non_energy_minerals"
+    },
+    {
+      "symbol": "EREGL",
+      "name": "Eregli Demir Ve Celik Fabrikalari T.A.S.",
+      "sector": "Enerji Disi Mineraller",
+      "sector_code": "non_energy_minerals"
+    },
+    {
+      "symbol": "ERSU",
+      "name": "Ersu Meyve ve Gida Sanayi A.S.",
+      "sector": "Dayaniksiz Tuketim Mallari",
+      "sector_code": "consumer_non_durables"
+    },
+    {
+      "symbol": "ESCAR",
+      "name": "Escar Filo Kiralama Hizmetleri Anonim Sirketi",
+      "sector": "Finans",
+      "sector_code": "finans"
+    },
+    {
+      "symbol": "ESCOM",
+      "name": "Escort Teknoloji Yatirim A.S.",
+      "sector": "Elektronik Teknoloji",
+      "sector_code": "electronic_technology"
+    },
+    {
+      "symbol": "ESEN",
+      "name": "Esenboga Elektrik Uretim AS",
+      "sector": "Elektrik, Su, Gaz Hizmetleri",
+      "sector_code": "utilities"
+    },
+    {
+      "symbol": "ETILR",
+      "name": "Etiler Gida ve Ticari Yatirimlar Sanayi ve Ticaret A.S.",
+      "sector": "Tuketici Hizmetleri",
+      "sector_code": "consumer_services"
+    },
+    {
+      "symbol": "ETYAT",
+      "name": "Euro Trend Yatirim Ortakligi A.S.",
+      "sector": "Finans",
+      "sector_code": "finans"
+    },
+    {
+      "symbol": "EUHOL",
+      "name": "Euro Yatirim Holding A.S.",
+      "sector": "Finans",
+      "sector_code": "finans"
+    },
+    {
+      "symbol": "EUKYO",
+      "name": "Euro Kapital Yatirim Ortakligi AS",
+      "sector": "Finans",
+      "sector_code": "finans"
+    },
+    {
+      "symbol": "EUPWR",
+      "name": "Europower Enerji ve Otomasyon Teknolojileri Sanayi Ticaret AS",
+      "sector": "Uretici Imalat",
+      "sector_code": "producer_manufacturing"
+    },
+    {
+      "symbol": "EUREN",
+      "name": "Europen Endustri Insaat Sanayi ve Ticaret A.S.",
+      "sector": "Uretici Imalat",
+      "sector_code": "producer_manufacturing"
+    },
+    {
+      "symbol": "EUYO",
+      "name": "Euro Menkul Kiymet Yatirim Ortakligi A.S.",
+      "sector": "Finans",
+      "sector_code": "finans"
+    },
+    {
+      "symbol": "EYGYO",
+      "name": "EYG Gayrimenkul Yatirim Ortakligi AS",
+      "sector": "Finans",
+      "sector_code": "finans"
+    },
+    {
+      "symbol": "FADE",
+      "name": "Fade Gida Yatirim Sanayi Ticaret A.S.",
+      "sector": "Dayaniksiz Tuketim Mallari",
+      "sector_code": "consumer_non_durables"
+    },
+    {
+      "symbol": "FENER",
+      "name": "Fenerbahce Futbol A.S.",
+      "sector": "Tuketici Hizmetleri",
+      "sector_code": "consumer_services"
+    },
+    {
+      "symbol": "FLAP",
+      "name": "Flap Kongre Toplanti Hizmetleri Otomotiv ve Turizm A.S.",
+      "sector": "Tuketici Hizmetleri",
+      "sector_code": "consumer_services"
+    },
+    {
+      "symbol": "FMIZP",
+      "name": "Federal-Mogul Izmit Piston ve Pim Uretim Tesisleri A.S.",
+      "sector": "Uretici Imalat",
+      "sector_code": "producer_manufacturing"
+    },
+    {
+      "symbol": "FONET",
+      "name": "Fonet Bilgi Teknolojileri AS",
+      "sector": "Teknoloji Hizmetleri",
+      "sector_code": "technology_services"
+    },
+    {
+      "symbol": "FORMT",
+      "name": "FORMET METAL VE CAM SANAYI A.S.",
+      "sector": "Enerji Disi Mineraller",
+      "sector_code": "non_energy_minerals"
+    },
+    {
+      "symbol": "FORTE",
+      "name": "FORTE BILGI ILETISIM TEKNOLOJILERI VE SAVUNMA SANAYI A.S.",
+      "sector": "Teknoloji Hizmetleri",
+      "sector_code": "technology_services"
+    },
+    {
+      "symbol": "FRIGO",
+      "name": "Frigo-Pak Gida Maddeleri Sanayi ve Ticaret A.S.",
+      "sector": "Dayaniksiz Tuketim Mallari",
+      "sector_code": "consumer_non_durables"
+    },
+    {
+      "symbol": "FRMPL",
+      "name": "Formul Plastik Ve Metal Sanayi AS",
+      "sector": "Uretici Imalat",
+      "sector_code": "producer_manufacturing"
+    },
+    {
+      "symbol": "FROTO",
+      "name": "Ford Otomotiv Sanayi A.S.",
+      "sector": "Dayanikli Tuketim Mallari",
+      "sector_code": "consumer_durables"
+    },
+    {
+      "symbol": "FZLGY",
+      "name": "FUZUL GAYRIMENKUL YATIRIM ORTAKLIGI A.S.",
+      "sector": "Dayanikli Tuketim Mallari",
+      "sector_code": "consumer_durables"
+    },
+    {
+      "symbol": "GARAN",
+      "name": "Turkiye Garanti Bankasi Anonim Sirketi",
+      "sector": "Finans",
+      "sector_code": "finans"
+    },
+    {
+      "symbol": "GARFA",
+      "name": "Garanti Faktoring A.S.",
+      "sector": "Finans",
+      "sector_code": "finans"
+    },
+    {
+      "symbol": "GATEG",
+      "name": "Gate Group Teknoloji Medya Ve Siber Guvenlik Hizmetleri A.S.",
+      "sector": "Ticari Hizmetler",
+      "sector_code": "commercial_services"
+    },
+    {
+      "symbol": "GEDIK",
+      "name": "Gedik Yatirim Menkul Degerler A.S.",
+      "sector": "Finans",
+      "sector_code": "finans"
+    },
+    {
+      "symbol": "GEDZA",
+      "name": "Gediz Ambalaj Sanayi ve Ticaret AS",
+      "sector": "Islenebilen Endustriler",
+      "sector_code": "process_industries"
+    },
+    {
+      "symbol": "GENIL",
+      "name": "Gen Ilac ve Saglik Urunleri Sanayi ve Ticaret A.S.",
+      "sector": "Saglik Teknolojisi",
+      "sector_code": "health_technology"
+    },
+    {
+      "symbol": "GENKM",
+      "name": "Gentas Kimya Sanayi ve Ticaret Pazarlama",
+      "sector": "Islenebilen Endustriler",
+      "sector_code": "process_industries"
+    },
+    {
+      "symbol": "GENTS",
+      "name": "Gentas Dekoratif Yuzeyler Sanayi ve Ticaret A.S.",
+      "sector": "Uretici Imalat",
+      "sector_code": "producer_manufacturing"
+    },
+    {
+      "symbol": "GEREL",
+      "name": "Gersan Elektrik Ticaret ve Sanayi A.S.",
+      "sector": "Uretici Imalat",
+      "sector_code": "producer_manufacturing"
+    },
+    {
+      "symbol": "GESAN",
+      "name": "GIRISIM ELEKTRIK SANAYI TAAHHUT VE TICARET A.S.",
+      "sector": "Elektronik Teknoloji",
+      "sector_code": "electronic_technology"
+    },
+    {
+      "symbol": "GIPTA",
+      "name": "Gipta Ofis Kirtasiye ve Promosyon Urunleri Imalat Sanayi A.S.",
+      "sector": "Uretici Imalat",
+      "sector_code": "producer_manufacturing"
+    },
+    {
+      "symbol": "GLBMD",
+      "name": "Global Menkul Degerler A.S.",
+      "sector": "Finans",
+      "sector_code": "finans"
+    },
+    {
+      "symbol": "GLCVY",
+      "name": "GELECEK VARLIK YONETIMI A.S",
+      "sector": "Finans",
+      "sector_code": "finans"
+    },
+    {
+      "symbol": "GLDTR",
+      "name": "GOLDIST - Istanbul Gold ETF",
+      "sector": "Cesitli",
+      "sector_code": "miscellaneous"
+    },
+    {
+      "symbol": "GLRMK",
+      "name": "Gulermak Agir Sanayi Insaat Ve Taahhut A.S.",
+      "sector": "Endustriyel Hizmetler",
+      "sector_code": "industrial_services"
+    },
+    {
+      "symbol": "GLRYH",
+      "name": "Guler Yatirim Holding A.S.",
+      "sector": "Finans",
+      "sector_code": "finans"
+    },
+    {
+      "symbol": "GLYHO",
+      "name": "Global Yatirim Holding A.S.",
+      "sector": "Finans",
+      "sector_code": "finans"
+    },
+    {
+      "symbol": "GMSTR",
+      "name": "Istanbul Silver B Tipi Gumus Borsa Yatirim Fonu",
+      "sector": "Cesitli",
+      "sector_code": "miscellaneous"
+    },
+    {
+      "symbol": "GMTAS",
+      "name": "Gimat Magazacilik Insaat Sanayi ve Ticaret A.S.",
+      "sector": "Perakende Ticaret",
+      "sector_code": "retail_trade"
+    },
+    {
+      "symbol": "GOKNR",
+      "name": "GOKNUR GIDA MADDELERI ENERJI IMALAT ITHALAT IHRACAT TICARET VE SANAYI A.S.",
+      "sector": "Dayaniksiz Tuketim Mallari",
+      "sector_code": "consumer_non_durables"
+    },
+    {
+      "symbol": "GOLTS",
+      "name": "Goltas Goller Bolgesi Cimento Sanayi ve Ticaret A.S.",
+      "sector": "Enerji Disi Mineraller",
+      "sector_code": "non_energy_minerals"
+    },
+    {
+      "symbol": "GOODY",
+      "name": "Goodyear Lastikleri T.A.S.",
+      "sector": "Dayanikli Tuketim Mallari",
+      "sector_code": "consumer_durables"
+    },
+    {
+      "symbol": "GOZDE",
+      "name": "Gozde Girisim Sermayesi Yatirim Ortakligi A.S.",
+      "sector": "Finans",
+      "sector_code": "finans"
+    },
+    {
+      "symbol": "GRNYO",
+      "name": "Garanti Yatirim Ortakligi A.S.",
+      "sector": "Finans",
+      "sector_code": "finans"
+    },
+    {
+      "symbol": "GRSEL",
+      "name": "Gur-Sel Turizm Tasimacilik Ve Servis Ticaret A.S.",
+      "sector": "Tuketici Hizmetleri",
+      "sector_code": "consumer_services"
+    },
+    {
+      "symbol": "GRTHO",
+      "name": "Grainturk Holding A.S.",
+      "sector": "Dagitim Hizmetleri",
+      "sector_code": "distribution_services"
+    },
+    {
+      "symbol": "GSDDE",
+      "name": "GSD Denizcilik Gayrimenkul Insaat Sanayi ve Ticaret AS",
+      "sector": "Ulastirma",
+      "sector_code": "transportation"
+    },
+    {
+      "symbol": "GSDHO",
+      "name": "GSD Holding A.S.",
+      "sector": "Ulastirma",
+      "sector_code": "transportation"
+    },
+    {
+      "symbol": "GSRAY",
+      "name": "Galatasaray Sportif Sinai Veticari Yatirimlar A.S.",
+      "sector": "Tuketici Hizmetleri",
+      "sector_code": "consumer_services"
+    },
+    {
+      "symbol": "GUBRF",
+      "name": "Gubre Fabrikalari T.A.S.",
+      "sector": "Islenebilen Endustriler",
+      "sector_code": "process_industries"
+    },
+    {
+      "symbol": "GUNDG",
+      "name": "Gundogdu Gida Sut Urunleri Sanayi Ve Dis Ticaret AS",
+      "sector": "Dayaniksiz Tuketim Mallari",
+      "sector_code": "consumer_non_durables"
+    },
+    {
+      "symbol": "GWIND",
+      "name": "GALATA WIND ENERJI A.S.",
+      "sector": "Elektrik, Su, Gaz Hizmetleri",
+      "sector_code": "utilities"
+    },
+    {
+      "symbol": "GZNMI",
+      "name": "Gezinomi Seyahat Turizm Ticaret A.S.",
+      "sector": "Tuketici Hizmetleri",
+      "sector_code": "consumer_services"
+    },
+    {
+      "symbol": "HALKB",
+      "name": "Turkiye Halk Bankasi Anonim Sirketi",
+      "sector": "Finans",
+      "sector_code": "finans"
+    },
+    {
+      "symbol": "HATEK",
+      "name": "Hateks Hatay Tekstil Isletmeleri A.S.",
+      "sector": "Islenebilen Endustriler",
+      "sector_code": "process_industries"
+    },
+    {
+      "symbol": "HATSN",
+      "name": "Hat-San Gemi Insaa Bakim Onarim Deniz Nakliyat Sanayi ve Ticaret A.S.",
+      "sector": "Uretici Imalat",
+      "sector_code": "producer_manufacturing"
+    },
+    {
+      "symbol": "HDFGS",
+      "name": "Hedef Girisim Sermayesi Yatirim Ortakligi A.S.",
+      "sector": "Finans",
+      "sector_code": "finans"
+    },
+    {
+      "symbol": "HEDEF",
+      "name": "Hedef Holding AS",
+      "sector": "Finans",
+      "sector_code": "finans"
+    },
+    {
+      "symbol": "HEKTS",
+      "name": "Hektas Ticaret T.A.S.",
+      "sector": "Islenebilen Endustriler",
+      "sector_code": "process_industries"
+    },
+    {
+      "symbol": "HKTM",
+      "name": "HIDROPAR HAREKET KONTROL TEKNOLOJILERI MERKEZI SANAYI VE TICARET ANONIM SIRKETI",
+      "sector": "Uretici Imalat",
+      "sector_code": "producer_manufacturing"
+    },
+    {
+      "symbol": "HLGYO",
+      "name": "Halk Gayrimenkul Yatirim Ortakligi AS",
+      "sector": "Finans",
+      "sector_code": "finans"
+    },
+    {
+      "symbol": "HOROZ",
+      "name": "Horoz Lojistik Kargo Hizmetleri Ve Ticaret AS",
+      "sector": "Ulastirma",
+      "sector_code": "transportation"
+    },
+    {
+      "symbol": "HRKET",
+      "name": "Hareket Proje Tasimaciligi ve Yuk Muhendisligi AS",
+      "sector": "Ulastirma",
+      "sector_code": "transportation"
+    },
+    {
+      "symbol": "HTTBT",
+      "name": "Hitit Bilgisayar Hizmetleri A.S.",
+      "sector": "Teknoloji Hizmetleri",
+      "sector_code": "technology_services"
+    },
+    {
+      "symbol": "HUBVC",
+      "name": "Hub Girisim Sermayesi Yatirim Ortakligi A.S.",
+      "sector": "Finans",
+      "sector_code": "finans"
+    },
+    {
+      "symbol": "HUNER",
+      "name": "Hun Yenilenebilir Enerji Uretim AS",
+      "sector": "Elektrik, Su, Gaz Hizmetleri",
+      "sector_code": "utilities"
+    },
+    {
+      "symbol": "HURGZ",
+      "name": "Hurriyet Gazetecilik ve Matbaacilik A.S.",
+      "sector": "Tuketici Hizmetleri",
+      "sector_code": "consumer_services"
+    },
+    {
+      "symbol": "ICBCT",
+      "name": "ICBC Turkey Bank Anonim Sirketi",
+      "sector": "Finans",
+      "sector_code": "finans"
+    },
+    {
+      "symbol": "ICUGS",
+      "name": "ICU Girisim Sermayesi Yatirim Ortakligi A.S.",
+      "sector": "Finans",
+      "sector_code": "finans"
+    },
+    {
+      "symbol": "IDGYO",
+      "name": "Idealist Gayrimenkul Yatirim Ortakligi A.S.",
+      "sector": "Finans",
+      "sector_code": "finans"
+    },
+    {
+      "symbol": "IEYHO",
+      "name": "Isiklar Enerji ve Yapi Holding Anonim Sirketi",
+      "sector": "Islenebilen Endustriler",
+      "sector_code": "process_industries"
+    },
+    {
+      "symbol": "IHAAS",
+      "name": "Ihlas Haber Ajansi SA",
+      "sector": "Ticari Hizmetler",
+      "sector_code": "commercial_services"
+    },
+    {
+      "symbol": "IHEVA",
+      "name": "Ihlas Ev Aletleri Imalat, Sanayi ve Ticaret A.S.",
+      "sector": "Dayanikli Tuketim Mallari",
+      "sector_code": "consumer_durables"
+    },
+    {
+      "symbol": "IHGZT",
+      "name": "Ihlas Gazetecilik A.S.",
+      "sector": "Tuketici Hizmetleri",
+      "sector_code": "consumer_services"
+    },
+    {
+      "symbol": "IHLAS",
+      "name": "Ihlas Holding A.S.",
+      "sector": "Finans",
+      "sector_code": "finans"
+    },
+    {
+      "symbol": "IHLGM",
+      "name": "Ihlas Gayrimenkul Proje Gelistirme ve Ticaret A.S.",
+      "sector": "Finans",
+      "sector_code": "finans"
+    },
+    {
+      "symbol": "IHYAY",
+      "name": "Ihlas Yayin Holding A.S.",
+      "sector": "Tuketici Hizmetleri",
+      "sector_code": "consumer_services"
+    },
+    {
+      "symbol": "IMASM",
+      "name": "IMAS Makina Sanayi Anonim Sirketi",
+      "sector": "Uretici Imalat",
+      "sector_code": "producer_manufacturing"
+    },
+    {
+      "symbol": "INDES",
+      "name": "Indeks Bilgisayar Sistemleri Muhendislik Sanayi ve Ticaret A.S",
+      "sector": "Dagitim Hizmetleri",
+      "sector_code": "distribution_services"
+    },
+    {
+      "symbol": "INFO",
+      "name": "INFO YATIRIM MENKUL DEGERLER A.S",
+      "sector": "Finans",
+      "sector_code": "finans"
+    },
+    {
+      "symbol": "INGRM",
+      "name": "Ingram Micro Bilisim Sistemleri A.S.",
+      "sector": "Dagitim Hizmetleri",
+      "sector_code": "distribution_services"
+    },
+    {
+      "symbol": "INTEK",
+      "name": "Innosa Teknoloji Anonim Sirketi",
+      "sector": "Islenebilen Endustriler",
+      "sector_code": "process_industries"
+    },
+    {
+      "symbol": "INTEM",
+      "name": "Intema Insaat ve Tesisat Malzemeleri Yatirim ve Pazarlama A.S.",
+      "sector": "Uretici Imalat",
+      "sector_code": "producer_manufacturing"
+    },
+    {
+      "symbol": "INVEO",
+      "name": "Inveo Yatirim Holding AS",
+      "sector": "Finans",
+      "sector_code": "finans"
+    },
+    {
+      "symbol": "INVES",
+      "name": "Investco Holding A.S.",
+      "sector": "Finans",
+      "sector_code": "finans"
+    },
+    {
+      "symbol": "ISBIR",
+      "name": "Isbir Holding AS",
+      "sector": "Islenebilen Endustriler",
+      "sector_code": "process_industries"
+    },
+    {
+      "symbol": "ISBTR",
+      "name": "Turkiye Is Bankasi Anonim Sirketi Class B",
+      "sector": "Finans",
+      "sector_code": "finans"
+    },
+    {
+      "symbol": "ISCTR",
+      "name": "Turkiye Is Bankasi Anonim Sirketi Class C",
+      "sector": "Finans",
+      "sector_code": "finans"
+    },
+    {
+      "symbol": "ISDMR",
+      "name": "Iskenderun Demir ve Celik AS",
+      "sector": "Enerji Disi Mineraller",
+      "sector_code": "non_energy_minerals"
+    },
+    {
+      "symbol": "ISFIN",
+      "name": "Is Finansal Kiralama A.S.",
+      "sector": "Finans",
+      "sector_code": "finans"
+    },
+    {
+      "symbol": "ISGLK",
+      "name": "Is Portfoy Yonetim ETF",
+      "sector": "Diger",
+      "sector_code": "diger"
+    },
+    {
+      "symbol": "ISGSY",
+      "name": "Is Girisim Sermayesi Yatirim Ortakligi A.S.",
+      "sector": "Finans",
+      "sector_code": "finans"
+    },
+    {
+      "symbol": "ISGYO",
+      "name": "Is Gayrimenkul Yatirim Ortakligi A.S.",
+      "sector": "Finans",
+      "sector_code": "finans"
+    },
+    {
+      "symbol": "ISKPL",
+      "name": "Isik Plastik Sanayi VE Dis Ticaret Pazarlama AS",
+      "sector": "Uretici Imalat",
+      "sector_code": "producer_manufacturing"
+    },
+    {
+      "symbol": "ISKUR",
+      "name": "Turkiye Is Bankasi Anonim Sirketi",
+      "sector": "Finans",
+      "sector_code": "finans"
+    },
+    {
+      "symbol": "ISMEN",
+      "name": "Is Yatirim Menkul Degerler AS",
+      "sector": "Finans",
+      "sector_code": "finans"
+    },
+    {
+      "symbol": "ISSEN",
+      "name": "Isbir Sentetik Dokuma Sanayi AS",
+      "sector": "Islenebilen Endustriler",
+      "sector_code": "process_industries"
+    },
+    {
+      "symbol": "ISYAT",
+      "name": "Is Yatirim Ortakligi A.S.",
+      "sector": "Cesitli",
+      "sector_code": "miscellaneous"
+    },
+    {
+      "symbol": "IZENR",
+      "name": "Izdemir Enerji Elektrik Uretim A.S.",
+      "sector": "Elektrik, Su, Gaz Hizmetleri",
+      "sector_code": "utilities"
+    },
+    {
+      "symbol": "IZFAS",
+      "name": "Izmir Firca Sanayi ve Ticaret AS",
+      "sector": "Uretici Imalat",
+      "sector_code": "producer_manufacturing"
+    },
+    {
+      "symbol": "IZINV",
+      "name": "Iz Yatirim Holding AS",
+      "sector": "Dayaniksiz Tuketim Mallari",
+      "sector_code": "consumer_non_durables"
+    },
+    {
+      "symbol": "IZMDC",
+      "name": "Izmir Demir Celik Sanayi A.S.",
+      "sector": "Enerji Disi Mineraller",
+      "sector_code": "non_energy_minerals"
+    },
+    {
+      "symbol": "JANTS",
+      "name": "Jantsa Jant Sanayi ve Ticaret AS",
+      "sector": "Uretici Imalat",
+      "sector_code": "producer_manufacturing"
+    },
+    {
+      "symbol": "KAPLM",
+      "name": "Kaplamin Ambalaj Sanayi ve Ticaret A.S.",
+      "sector": "Islenebilen Endustriler",
+      "sector_code": "process_industries"
+    },
+    {
+      "symbol": "KAREL",
+      "name": "Karel Elektronik Sanayi ve Ticaret SA",
+      "sector": "Elektronik Teknoloji",
+      "sector_code": "electronic_technology"
+    },
+    {
+      "symbol": "KARSN",
+      "name": "Karsan Otomotiv Sanayii ve Ticaret A.S.",
+      "sector": "Uretici Imalat",
+      "sector_code": "producer_manufacturing"
+    },
+    {
+      "symbol": "KARTN",
+      "name": "Kartonsan Karton Sanayi ve Ticaret Anonim Sirketi",
+      "sector": "Islenebilen Endustriler",
+      "sector_code": "process_industries"
+    },
+    {
+      "symbol": "KATMR",
+      "name": "Katmerciler Arac Ustu Ekipman Sanayi ve Ticaret A.S.",
+      "sector": "Uretici Imalat",
+      "sector_code": "producer_manufacturing"
+    },
+    {
+      "symbol": "KAYSE",
+      "name": "Kayseri Seker Fabrikasi AS",
+      "sector": "Saglik Teknolojisi",
+      "sector_code": "health_technology"
+    },
+    {
+      "symbol": "KBORU",
+      "name": "Kuzey Boru A.S.",
+      "sector": "Uretici Imalat",
+      "sector_code": "producer_manufacturing"
+    },
+    {
+      "symbol": "KCAER",
+      "name": "Kocaer Celik Sanayi ve Ticaret AS",
+      "sector": "Enerji Disi Mineraller",
+      "sector_code": "non_energy_minerals"
+    },
+    {
+      "symbol": "KCHOL",
+      "name": "Koc Holding A.S.",
+      "sector": "Enerji Mineralleri",
+      "sector_code": "energy_minerals"
+    },
+    {
+      "symbol": "KENT",
+      "name": "Kent Gida Maddeleri Sanayii ve Ticaret A.S.",
+      "sector": "Dayaniksiz Tuketim Mallari",
+      "sector_code": "consumer_non_durables"
+    },
+    {
+      "symbol": "KERVN",
+      "name": "Kervansaray Yatirim Holding A.S.",
+      "sector": "Tuketici Hizmetleri",
+      "sector_code": "consumer_services"
+    },
+    {
+      "symbol": "KFEIN",
+      "name": "Kafein Yazilim Hizmetleri Ticaret AS",
+      "sector": "Teknoloji Hizmetleri",
+      "sector_code": "technology_services"
+    },
+    {
+      "symbol": "KGYO",
+      "name": "KORAY GAYRIMENKUL YATIRIM ORTAKLIGI A.S. Class B",
+      "sector": "Finans",
+      "sector_code": "finans"
+    },
+    {
+      "symbol": "KIMMR",
+      "name": "Ersan Alisveris Hizmetleri ve Gida Sanayi Ticaret A.S.",
+      "sector": "Perakende Ticaret",
+      "sector_code": "retail_trade"
+    },
+    {
+      "symbol": "KLGYO",
+      "name": "Kiler Gayrimenkul Yatirim Ortakligi A.S.",
+      "sector": "Finans",
+      "sector_code": "finans"
+    },
+    {
+      "symbol": "KLKIM",
+      "name": "Kalekim Kimyevi Maddeler Sanayi ve Ticaret AS",
+      "sector": "Islenebilen Endustriler",
+      "sector_code": "process_industries"
+    },
+    {
+      "symbol": "KLMSN",
+      "name": "Klimasan Klima Sanayi ve Ticaret A.S.",
+      "sector": "Uretici Imalat",
+      "sector_code": "producer_manufacturing"
+    },
+    {
+      "symbol": "KLNMA",
+      "name": "Turkiye Kalkinma ve Yatirim Bankasi A.S.",
+      "sector": "Finans",
+      "sector_code": "finans"
+    },
+    {
+      "symbol": "KLRHO",
+      "name": "KILER HOLDING A.S.",
+      "sector": "Dayaniksiz Tuketim Mallari",
+      "sector_code": "consumer_non_durables"
+    },
+    {
+      "symbol": "KLSER",
+      "name": "Kaleseramik Canakkale Kalebodur Seramik A.S.",
+      "sector": "Uretici Imalat",
+      "sector_code": "producer_manufacturing"
+    },
+    {
+      "symbol": "KLSYN",
+      "name": "Koleksiyon Mobilya Sanayi AS",
+      "sector": "Dayanikli Tuketim Mallari",
+      "sector_code": "consumer_durables"
+    },
+    {
+      "symbol": "KLYPV",
+      "name": "Kalyon Gunes Teknolojileri Uretim Anonim Sirketi",
+      "sector": "Uretici Imalat",
+      "sector_code": "producer_manufacturing"
+    },
+    {
+      "symbol": "KMPUR",
+      "name": "Kimteks Poliuretan Sanayi ve Ticaret AS",
+      "sector": "Uretici Imalat",
+      "sector_code": "producer_manufacturing"
+    },
+    {
+      "symbol": "KNFRT",
+      "name": "Konfrut Tarim A.S.",
+      "sector": "Dayaniksiz Tuketim Mallari",
+      "sector_code": "consumer_non_durables"
+    },
+    {
+      "symbol": "KOCMT",
+      "name": "Koc Metalurji AS",
+      "sector": "Enerji Disi Mineraller",
+      "sector_code": "non_energy_minerals"
+    },
+    {
+      "symbol": "KONKA",
+      "name": "Konya Kagit Sanayi ve Ticaret AS",
+      "sector": "Islenebilen Endustriler",
+      "sector_code": "process_industries"
+    },
+    {
+      "symbol": "KONTR",
+      "name": "Kontrolmatik Teknoloji Enerji ve Muhendislik AS",
+      "sector": "Elektrik, Su, Gaz Hizmetleri",
+      "sector_code": "utilities"
+    },
+    {
+      "symbol": "KONYA",
+      "name": "Konya Cimento Sanayi A.S.",
+      "sector": "Enerji Disi Mineraller",
+      "sector_code": "non_energy_minerals"
+    },
+    {
+      "symbol": "KOPOL",
+      "name": "KOZA POLYESTER SANAYI VE TICARET A.S.",
+      "sector": "Islenebilen Endustriler",
+      "sector_code": "process_industries"
+    },
+    {
+      "symbol": "KORDS",
+      "name": "Kordsa Teknik Tekstil A.S.",
+      "sector": "Islenebilen Endustriler",
+      "sector_code": "process_industries"
+    },
+    {
+      "symbol": "KOTON",
+      "name": "Koton Magazacilik Tekstil Sanayi ve Ticaret A.S.",
+      "sector": "Dayaniksiz Tuketim Mallari",
+      "sector_code": "consumer_non_durables"
+    },
+    {
+      "symbol": "KRDMA",
+      "name": "Kardemir Karabiik Demir celik Sanayi ve Ticaret A.S. Class A",
+      "sector": "Enerji Disi Mineraller",
+      "sector_code": "non_energy_minerals"
+    },
+    {
+      "symbol": "KRDMB",
+      "name": "Kardemir Karabiik Demir celik Sanayi ve Ticaret A.S. Class B",
+      "sector": "Enerji Disi Mineraller",
+      "sector_code": "non_energy_minerals"
+    },
+    {
+      "symbol": "KRDMD",
+      "name": "Kardemir Karabiik Demir celik Sanayi ve Ticaret A.S. Class D",
+      "sector": "Enerji Disi Mineraller",
+      "sector_code": "non_energy_minerals"
+    },
+    {
+      "symbol": "KRGYO",
+      "name": "Korfez Gayrimenkul Yatirim Ortakligi AS",
+      "sector": "Finans",
+      "sector_code": "finans"
+    },
+    {
+      "symbol": "KRONT",
+      "name": "Kron Teknoloji AS",
+      "sector": "Iletisim",
+      "sector_code": "communications"
+    },
+    {
+      "symbol": "KRPLS",
+      "name": "Koroplast Temizlik Ambalaj Urunleri Sanayi ve dis Ticaret AS",
+      "sector": "Dayaniksiz Tuketim Mallari",
+      "sector_code": "consumer_non_durables"
+    },
+    {
+      "symbol": "KRSTL",
+      "name": "Kristal Kola ve Mesrubat Sanayi Ticaret A.S.",
+      "sector": "Dayaniksiz Tuketim Mallari",
+      "sector_code": "consumer_non_durables"
+    },
+    {
+      "symbol": "KRTEK",
+      "name": "Karsu Tekstil Sanayii ve Ticaret A.S.",
+      "sector": "Islenebilen Endustriler",
+      "sector_code": "process_industries"
+    },
+    {
+      "symbol": "KRVGD",
+      "name": "Kervan Gida Sanayi ve Ticaret AS",
+      "sector": "Dayaniksiz Tuketim Mallari",
+      "sector_code": "consumer_non_durables"
+    },
+    {
+      "symbol": "KSTUR",
+      "name": "Kustur Kusadasi Turizm Endustrisi A.S.",
+      "sector": "Tuketici Hizmetleri",
+      "sector_code": "consumer_services"
+    },
+    {
+      "symbol": "KTLEV",
+      "name": "KATILIMEVIM TASARRUF FINANSMAN A.S.",
+      "sector": "Finans",
+      "sector_code": "finans"
+    },
+    {
+      "symbol": "KTSKR",
+      "name": "Kutahya Seker Fabrikasi AS",
+      "sector": "Islenebilen Endustriler",
+      "sector_code": "process_industries"
+    },
+    {
+      "symbol": "KUTPO",
+      "name": "Kutahya Porselen Sanayi A.S.",
+      "sector": "Dayanikli Tuketim Mallari",
+      "sector_code": "consumer_durables"
+    },
+    {
+      "symbol": "KUVVA",
+      "name": "Kuvva Gida Ticaret ve Sanayi Yatirimlari A.S.",
+      "sector": "Dayanikli Tuketim Mallari",
+      "sector_code": "consumer_durables"
+    },
+    {
+      "symbol": "KUYAS",
+      "name": "Kuyas Yatirim A.S.",
+      "sector": "Finans",
+      "sector_code": "finans"
+    },
+    {
+      "symbol": "KZBGY",
+      "name": "KIZILBUK GAYRIMENKUL YATIRIM ORTAKLIGI A.S.",
+      "sector": "Finans",
+      "sector_code": "finans"
+    },
+    {
+      "symbol": "KZGYO",
+      "name": "Kuzugrup Gayrimenkul Yatirim Ortakligi AS",
+      "sector": "Finans",
+      "sector_code": "finans"
+    },
+    {
+      "symbol": "LIDER",
+      "name": "LDR Turizm A.S.",
+      "sector": "Finans",
+      "sector_code": "finans"
+    },
+    {
+      "symbol": "LIDFA",
+      "name": "Lider Faktoring Anonim Sirketi",
+      "sector": "Finans",
+      "sector_code": "finans"
+    },
+    {
+      "symbol": "LILAK",
+      "name": "Lila Kagit Sanayi Ve Ticaret Anonim Sirketi",
+      "sector": "Dayaniksiz Tuketim Mallari",
+      "sector_code": "consumer_non_durables"
+    },
+    {
+      "symbol": "LINK",
+      "name": "Link Bilgisayar Sistemleri Yazilimi ve Donanimi Sanayi ve Ticaret A.S.",
+      "sector": "Teknoloji Hizmetleri",
+      "sector_code": "technology_services"
+    },
+    {
+      "symbol": "LKMNH",
+      "name": "Lokman Hekim Engurusag Saglik, Turizm, Egitim Hizmetleri ve Insaat Taahhut A.S.",
+      "sector": "Saglik Hizmetleri",
+      "sector_code": "health_services"
+    },
+    {
+      "symbol": "LMKDC",
+      "name": "Limak Dogu Anadolu Cimento Sanayi Ve Ticaret AS",
+      "sector": "Enerji Disi Mineraller",
+      "sector_code": "non_energy_minerals"
+    },
+    {
+      "symbol": "LOGO",
+      "name": "Logo Yazilim Sanayi ve Ticaret A.S.",
+      "sector": "Teknoloji Hizmetleri",
+      "sector_code": "technology_services"
+    },
+    {
+      "symbol": "LRSHO",
+      "name": "Loras Holding Anonim Sirketi",
+      "sector": "Dayaniksiz Tuketim Mallari",
+      "sector_code": "consumer_non_durables"
+    },
+    {
+      "symbol": "LUKSK",
+      "name": "Luks Kadife Ticaret ve Sanayi A.S.",
+      "sector": "Islenebilen Endustriler",
+      "sector_code": "process_industries"
+    },
+    {
+      "symbol": "LXGYO",
+      "name": "Luxera Gayrimenkul Yatirim Ortakligi A.S.",
+      "sector": "Finans",
+      "sector_code": "finans"
+    },
+    {
+      "symbol": "LYDHO",
+      "name": "Lydia Holding A.S.",
+      "sector": "Dagitim Hizmetleri",
+      "sector_code": "distribution_services"
+    },
+    {
+      "symbol": "LYDYE",
+      "name": "Lydia Yesil Enerji kaynaklari A.S.",
+      "sector": "Dayaniksiz Tuketim Mallari",
+      "sector_code": "consumer_non_durables"
+    },
+    {
+      "symbol": "MAALT",
+      "name": "Marmaris Altinyunus Turistik Tesisler A.S",
+      "sector": "Tuketici Hizmetleri",
+      "sector_code": "consumer_services"
+    },
+    {
+      "symbol": "MACKO",
+      "name": "Mackolik Internet Hizmetleri Ticaret AS",
+      "sector": "Ticari Hizmetler",
+      "sector_code": "commercial_services"
+    },
+    {
+      "symbol": "MAGEN",
+      "name": "MARGUN ENERJI URETIM SANAYI VE TICARET A.S.",
+      "sector": "Elektrik, Su, Gaz Hizmetleri",
+      "sector_code": "utilities"
+    },
+    {
+      "symbol": "MAKIM",
+      "name": "MAKIM MAKINA TEKNOLOJILERI SANAYIVE TICARET A.S.",
+      "sector": "Elektronik Teknoloji",
+      "sector_code": "electronic_technology"
+    },
+    {
+      "symbol": "MAKTK",
+      "name": "Makina Takim Endustrisi A.S.",
+      "sector": "Uretici Imalat",
+      "sector_code": "producer_manufacturing"
+    },
+    {
+      "symbol": "MANAS",
+      "name": "Manas Enerji Yonetimi Sanayi ve Ticaret A.S.",
+      "sector": "Uretici Imalat",
+      "sector_code": "producer_manufacturing"
+    },
+    {
+      "symbol": "MARBL",
+      "name": "Tureks Turunc Madencilik Ic ve Dis Ticaret A.S.",
+      "sector": "Enerji Disi Mineraller",
+      "sector_code": "non_energy_minerals"
+    },
+    {
+      "symbol": "MARKA",
+      "name": "Marka Yatirim Holding A.S.",
+      "sector": "Dagitim Hizmetleri",
+      "sector_code": "distribution_services"
+    },
+    {
+      "symbol": "MARMR",
+      "name": "Marmara Holding AS",
+      "sector": "Finans",
+      "sector_code": "finans"
+    },
+    {
+      "symbol": "MARTI",
+      "name": "Marti Otel Isletmeleri A.S.",
+      "sector": "Tuketici Hizmetleri",
+      "sector_code": "consumer_services"
+    },
+    {
+      "symbol": "MAVI",
+      "name": "Mavi Giyim Sanayi ve Ticaret A.S.",
+      "sector": "Dayaniksiz Tuketim Mallari",
+      "sector_code": "consumer_non_durables"
+    },
+    {
+      "symbol": "MCARD",
+      "name": "Metropal Kurumsal Hizmetler A.S.",
+      "sector": "Ticari Hizmetler",
+      "sector_code": "commercial_services"
+    },
+    {
+      "symbol": "MEDTR",
+      "name": "Meditera Tibbi Malzeme Sanayi Ve Ticaret A.S.",
+      "sector": "Saglik Teknolojisi",
+      "sector_code": "health_technology"
+    },
+    {
+      "symbol": "MEGAP",
+      "name": "Mega Polietilen Kopuk Sanayi ve Ticaret AS",
+      "sector": "Islenebilen Endustriler",
+      "sector_code": "process_industries"
+    },
+    {
+      "symbol": "MEGMT",
+      "name": "Mega Metal Sanayi Ve Ticaret A.S.",
+      "sector": "Enerji Disi Mineraller",
+      "sector_code": "non_energy_minerals"
+    },
+    {
+      "symbol": "MEKAG",
+      "name": "Meka Global Makine Imalat Sanayi Ve Ticaret A.S.",
+      "sector": "Uretici Imalat",
+      "sector_code": "producer_manufacturing"
+    },
+    {
+      "symbol": "MEPET",
+      "name": "Mepet Metro Petrol ve Tesisleri Sanayi Ticaret AS",
+      "sector": "Perakende Ticaret",
+      "sector_code": "retail_trade"
+    },
+    {
+      "symbol": "MERCN",
+      "name": "MERCAN KIMYA SANAYI VE TICARET A.S.",
+      "sector": "Islenebilen Endustriler",
+      "sector_code": "process_industries"
+    },
+    {
+      "symbol": "MERIT",
+      "name": "Merit Turizm Yatirim ve Isletmeleri AS",
+      "sector": "Tuketici Hizmetleri",
+      "sector_code": "consumer_services"
+    },
+    {
+      "symbol": "MERKO",
+      "name": "Merko Gida Sanayi ve Ticaret A.S. Class A",
+      "sector": "Dayaniksiz Tuketim Mallari",
+      "sector_code": "consumer_non_durables"
+    },
+    {
+      "symbol": "METRO",
+      "name": "Metro Ticari ve Mali Yatirimlar Holding A.S.",
+      "sector": "Dayaniksiz Tuketim Mallari",
+      "sector_code": "consumer_non_durables"
+    },
+    {
+      "symbol": "MEYSU",
+      "name": "Meysu Gida Sanayi Ve Ticaret A.S.",
+      "sector": "Dayaniksiz Tuketim Mallari",
+      "sector_code": "consumer_non_durables"
+    },
+    {
+      "symbol": "MGROS",
+      "name": "Migros Ticaret A.S.",
+      "sector": "Perakende Ticaret",
+      "sector_code": "retail_trade"
+    },
+    {
+      "symbol": "MHRGY",
+      "name": "MHR Gayrimenkul Yatirim Ortakligi Anonim Sirketi",
+      "sector": "Finans",
+      "sector_code": "finans"
+    },
+    {
+      "symbol": "MIATK",
+      "name": "MIA Teknoloji AS",
+      "sector": "Teknoloji Hizmetleri",
+      "sector_code": "technology_services"
+    },
+    {
+      "symbol": "MMCAS",
+      "name": "MMC Sanayi ve Ticari Yatirimlar A.S",
+      "sector": "Ulastirma",
+      "sector_code": "transportation"
+    },
+    {
+      "symbol": "MNDRS",
+      "name": "Menderes Tekstil Sanayi ve Ticaret Anonim Sirketi",
+      "sector": "Dayaniksiz Tuketim Mallari",
+      "sector_code": "consumer_non_durables"
+    },
+    {
+      "symbol": "MNDTR",
+      "name": "Mondi Turkey Oluklu Mukavva Kagit ve Ambalaj Sanayi A.S.",
+      "sector": "Islenebilen Endustriler",
+      "sector_code": "process_industries"
+    },
+    {
+      "symbol": "MOBTL",
+      "name": "Mobitel Iletisim Nizmetleri Sanayi ve Ticaret A.S",
+      "sector": "Dagitim Hizmetleri",
+      "sector_code": "distribution_services"
+    },
+    {
+      "symbol": "MOGAN",
+      "name": "Mogan Enerji Yatirim Holding",
+      "sector": "Elektrik, Su, Gaz Hizmetleri",
+      "sector_code": "utilities"
+    },
+    {
+      "symbol": "MOPAS",
+      "name": "Mopas Marketcilik Gida Sanayi Ve Ticaret A.S.",
+      "sector": "Perakende Ticaret",
+      "sector_code": "retail_trade"
+    },
+    {
+      "symbol": "MPARK",
+      "name": "MLP Saglik Hizmetleri AS Class B",
+      "sector": "Saglik Hizmetleri",
+      "sector_code": "health_services"
+    },
+    {
+      "symbol": "MRGYO",
+      "name": "Marti Gayrimenkul Yatirim Ortakligi A.S.",
+      "sector": "Finans",
+      "sector_code": "finans"
+    },
+    {
+      "symbol": "MRSHL",
+      "name": "Marshall Boya ve Vernik Sanayi A.S.",
+      "sector": "Islenebilen Endustriler",
+      "sector_code": "process_industries"
+    },
+    {
+      "symbol": "MSGYO",
+      "name": "Mistral Gayrimenkul Yatirim Ortakligi AS",
+      "sector": "Finans",
+      "sector_code": "finans"
+    },
+    {
+      "symbol": "MTRKS",
+      "name": "Matriks Finansal Teknolojiler A.S.",
+      "sector": "Teknoloji Hizmetleri",
+      "sector_code": "technology_services"
+    },
+    {
+      "symbol": "MTRYO",
+      "name": "Metro Yatirim Ortakligi A.S.",
+      "sector": "Cesitli",
+      "sector_code": "miscellaneous"
+    },
+    {
+      "symbol": "MZHLD",
+      "name": "Mazhar Zorlu Holding Anonim Sirketi",
+      "sector": "Uretici Imalat",
+      "sector_code": "producer_manufacturing"
+    },
+    {
+      "symbol": "NATEN",
+      "name": "Naturel Yenilenebilir Enerji Ticaret A.S.",
+      "sector": "Endustriyel Hizmetler",
+      "sector_code": "industrial_services"
+    },
+    {
+      "symbol": "NETAS",
+      "name": "Netas Telekomunikasyon A.S.",
+      "sector": "Teknoloji Hizmetleri",
+      "sector_code": "technology_services"
+    },
+    {
+      "symbol": "NETCD",
+      "name": "Netcad Yazilim A.S.",
+      "sector": "Teknoloji Hizmetleri",
+      "sector_code": "technology_services"
+    },
+    {
+      "symbol": "NIBAS",
+      "name": "Nigbas Nigde Beton Sanayi ve Ticarte A.S.",
+      "sector": "Endustriyel Hizmetler",
+      "sector_code": "industrial_services"
+    },
+    {
+      "symbol": "NTGAZ",
+      "name": "Naturelgaz Sanayi Ve Ticaret A.S.",
+      "sector": "Elektrik, Su, Gaz Hizmetleri",
+      "sector_code": "utilities"
+    },
+    {
+      "symbol": "NTHOL",
+      "name": "Net Holding A.S.",
+      "sector": "Tuketici Hizmetleri",
+      "sector_code": "consumer_services"
+    },
+    {
+      "symbol": "NUGYO",
+      "name": "Nurol Gayrimenkul Yatirim Ortakligi A.S.",
+      "sector": "Finans",
+      "sector_code": "finans"
+    },
+    {
+      "symbol": "NUHCM",
+      "name": "Nuh Cimento Sanayi A.S.",
+      "sector": "Enerji Disi Mineraller",
+      "sector_code": "non_energy_minerals"
+    },
+    {
+      "symbol": "OBAMS",
+      "name": "Oba Makarnacilik Sanayi Ve Ticaret A. S.",
+      "sector": "Dayaniksiz Tuketim Mallari",
+      "sector_code": "consumer_non_durables"
+    },
+    {
+      "symbol": "OBASE",
+      "name": "Obase Bilgisayar ve Danismanlik Hizmetleri Ticaret A.S.",
+      "sector": "Teknoloji Hizmetleri",
+      "sector_code": "technology_services"
+    },
+    {
+      "symbol": "ODAS",
+      "name": "ODAS Elektrik Uretim Sanayi Ticaret A.S.",
+      "sector": "Elektrik, Su, Gaz Hizmetleri",
+      "sector_code": "utilities"
+    },
+    {
+      "symbol": "ODINE",
+      "name": "Odine Solutions Teknoloji Ticaret ve Sanayi AS",
+      "sector": "Teknoloji Hizmetleri",
+      "sector_code": "technology_services"
+    },
+    {
+      "symbol": "OFSYM",
+      "name": "Ofis Yem Gida Sanayi ve Ticaret A.S.",
+      "sector": "Islenebilen Endustriler",
+      "sector_code": "process_industries"
+    },
+    {
+      "symbol": "ONCSM",
+      "name": "ONCOSEM ONKOLOJIK SISTEMLER SANAYI VE TICARET A.S.",
+      "sector": "Saglik Teknolojisi",
+      "sector_code": "health_technology"
+    },
+    {
+      "symbol": "ONRYT",
+      "name": "Onur Yuksek Teknoloji AS",
+      "sector": "Elektronik Teknoloji",
+      "sector_code": "electronic_technology"
+    },
+    {
+      "symbol": "OPK30",
+      "name": "Osmanli Portfoy Ka Katilim 30 Endeksi Hisse Se",
+      "sector": "Diger",
+      "sector_code": "diger"
+    },
+    {
+      "symbol": "OPT25",
+      "name": "OSMANLI P BIST TEM 25 END HY BYF",
+      "sector": "Diger",
+      "sector_code": "diger"
+    },
+    {
+      "symbol": "OPTGY",
+      "name": "Osmanli Pf. Kar Payi Od. BIST GYO En. Hi. Se. Yogun TL ETF",
+      "sector": "Diger",
+      "sector_code": "diger"
+    },
+    {
+      "symbol": "OPTLR",
+      "name": "Osmanli Portfoy Bist 30 Endeksi Hisse Senedi Yogun Borsa Yatir",
+      "sector": "Diger",
+      "sector_code": "diger"
+    },
+    {
+      "symbol": "OPX30",
+      "name": "Osmanli Portfoy Bi Osmanli Py/Etf",
+      "sector": "Diger",
+      "sector_code": "diger"
+    },
+    {
+      "symbol": "ORCAY",
+      "name": "ORCAY ORTAKOY CAY SANAYI VE TICARET A.S.",
+      "sector": "Dayaniksiz Tuketim Mallari",
+      "sector_code": "consumer_non_durables"
+    },
+    {
+      "symbol": "ORGE",
+      "name": "Orge Enerji Elektrik Taahhut AS",
+      "sector": "Endustriyel Hizmetler",
+      "sector_code": "industrial_services"
+    },
+    {
+      "symbol": "ORMA",
+      "name": "Orma Orman Mahsulleri Integre Sanayi ve Ticaret AS",
+      "sector": "Enerji Disi Mineraller",
+      "sector_code": "non_energy_minerals"
+    },
+    {
+      "symbol": "OSMEN",
+      "name": "Osmanli Yatirim Menkul Degerler a.s.",
+      "sector": "Finans",
+      "sector_code": "finans"
+    },
+    {
+      "symbol": "OSTIM",
+      "name": "Ostim Endustriyel Yatirimlar ve Isletme AS",
+      "sector": "Cesitli",
+      "sector_code": "miscellaneous"
+    },
+    {
+      "symbol": "OTKAR",
+      "name": "Otokar Otomotiv ve Savunma Sanayi A.S.",
+      "sector": "Dayanikli Tuketim Mallari",
+      "sector_code": "consumer_durables"
+    },
+    {
+      "symbol": "OTTO",
+      "name": "OTTO HOLDING A.S",
+      "sector": "Islenebilen Endustriler",
+      "sector_code": "process_industries"
+    },
+    {
+      "symbol": "OYAKC",
+      "name": "OYAK Cimento Fabrikalari A.S.",
+      "sector": "Enerji Disi Mineraller",
+      "sector_code": "non_energy_minerals"
+    },
+    {
+      "symbol": "OYAYO",
+      "name": "Oyak Yatirim Ortakligi Anonim Sirketi",
+      "sector": "Finans",
+      "sector_code": "finans"
+    },
+    {
+      "symbol": "OYLUM",
+      "name": "Oylum Sinai Yatirimlar A.S.",
+      "sector": "Dayaniksiz Tuketim Mallari",
+      "sector_code": "consumer_non_durables"
+    },
+    {
+      "symbol": "OYYAT",
+      "name": "Oyak Yatirim Menkul Degerler A.S.",
+      "sector": "Finans",
+      "sector_code": "finans"
+    },
+    {
+      "symbol": "OZATD",
+      "name": "OZATA DENIZCILIK SANAYI VE TICARET AS",
+      "sector": "Uretici Imalat",
+      "sector_code": "producer_manufacturing"
+    },
+    {
+      "symbol": "OZGYO",
+      "name": "Ozderici Gayrimenkul Yatirim Ortakligi A.S.",
+      "sector": "Finans",
+      "sector_code": "finans"
+    },
+    {
+      "symbol": "OZKGY",
+      "name": "Ozak Gayrimenkul Yatirim Ortakligi AS",
+      "sector": "Finans",
+      "sector_code": "finans"
+    },
+    {
+      "symbol": "OZRDN",
+      "name": "Ozerden Ambalaj Sanayi A.S.",
+      "sector": "Islenebilen Endustriler",
+      "sector_code": "process_industries"
+    },
+    {
+      "symbol": "OZSUB",
+      "name": "Ozsu Balik Uretim A.S.",
+      "sector": "Islenebilen Endustriler",
+      "sector_code": "process_industries"
+    },
+    {
+      "symbol": "OZYSR",
+      "name": "Ozyasar Tel ve Galvanizleme Sanayi Anonim Sirketi",
+      "sector": "Uretici Imalat",
+      "sector_code": "producer_manufacturing"
+    },
+    {
+      "symbol": "PAGYO",
+      "name": "Panora Gayrimenkul Yatirim Ortakligi A.S.",
+      "sector": "Finans",
+      "sector_code": "finans"
+    },
+    {
+      "symbol": "PAHOL",
+      "name": "PASIFIK HOLDING A.S",
+      "sector": "Cesitli",
+      "sector_code": "miscellaneous"
+    },
+    {
+      "symbol": "PAMEL",
+      "name": "Pamel Yenilenebilir Elektrik Uretim AS",
+      "sector": "Elektrik, Su, Gaz Hizmetleri",
+      "sector_code": "utilities"
+    },
+    {
+      "symbol": "PAPIL",
+      "name": "PAPILON SAVUNMA TEKNOLOJI VE TICARET A.S",
+      "sector": "Elektronik Teknoloji",
+      "sector_code": "electronic_technology"
+    },
+    {
+      "symbol": "PARSN",
+      "name": "Parsan Makina Parcalari Sanayii Anonim Sirketi",
+      "sector": "Uretici Imalat",
+      "sector_code": "producer_manufacturing"
+    },
+    {
+      "symbol": "PASEU",
+      "name": "Pasifik Eurasia Lojistik dis Ticaret AS",
+      "sector": "Ulastirma",
+      "sector_code": "transportation"
+    },
+    {
+      "symbol": "PATEK",
+      "name": "Pasifik Teknoloji AS",
+      "sector": "Teknoloji Hizmetleri",
+      "sector_code": "technology_services"
+    },
+    {
+      "symbol": "PCILT",
+      "name": "PC Iletisim ve Medya Hizmetleri Sanayi Ticaret AS",
+      "sector": "Ticari Hizmetler",
+      "sector_code": "commercial_services"
+    },
+    {
+      "symbol": "PEKGY",
+      "name": "Peker Gayrimenkul Yatirim Ortakligi AS",
+      "sector": "Finans",
+      "sector_code": "finans"
+    },
+    {
+      "symbol": "PENGD",
+      "name": "Penguen Gida Sanayi A.S.",
+      "sector": "Dayaniksiz Tuketim Mallari",
+      "sector_code": "consumer_non_durables"
+    },
+    {
+      "symbol": "PENTA",
+      "name": "Penta Teknoloji Urunleri Dagitim Ticaret AS",
+      "sector": "Dagitim Hizmetleri",
+      "sector_code": "distribution_services"
+    },
+    {
+      "symbol": "PETKM",
+      "name": "Petkim Petrokimya Holding Anonim Sirketi",
+      "sector": "Islenebilen Endustriler",
+      "sector_code": "process_industries"
+    },
+    {
+      "symbol": "PETUN",
+      "name": "Pinar Entegre Et ve Un Sanayii Anonim Sirketi",
+      "sector": "Dayaniksiz Tuketim Mallari",
+      "sector_code": "consumer_non_durables"
+    },
+    {
+      "symbol": "PGSUS",
+      "name": "Pegasus Hava Tasimaciligi Anonim Sirketi",
+      "sector": "Ulastirma",
+      "sector_code": "transportation"
+    },
+    {
+      "symbol": "PINSU",
+      "name": "Pinar Su ve Icecek Sanayi ve Ticaret A.S.",
+      "sector": "Dayaniksiz Tuketim Mallari",
+      "sector_code": "consumer_non_durables"
+    },
+    {
+      "symbol": "PKART",
+      "name": "Plastikkart Akilli Kart Iletisim Sistemleri Sanayi ve Ticaret A.S.",
+      "sector": "Ticari Hizmetler",
+      "sector_code": "commercial_services"
+    },
+    {
+      "symbol": "PKENT",
+      "name": "Petrokent Turizm A.S.",
+      "sector": "Tuketici Hizmetleri",
+      "sector_code": "consumer_services"
+    },
+    {
+      "symbol": "PLTUR",
+      "name": "PLATFORM TURIZM TASIMACILIK GIDA INSAAT TEMIZLIK HIZMETLERI SANAYI VE TICARET A.S.",
+      "sector": "Ulastirma",
+      "sector_code": "transportation"
+    },
+    {
+      "symbol": "PNLSN",
+      "name": "Panelsan Cati Cephe Sistemleri Sanayi ve Ticaret AS",
+      "sector": "Enerji Disi Mineraller",
+      "sector_code": "non_energy_minerals"
+    },
+    {
+      "symbol": "PNSUT",
+      "name": "Pinar Sut Mamulleri Sanayii A.S.",
+      "sector": "Dayaniksiz Tuketim Mallari",
+      "sector_code": "consumer_non_durables"
+    },
+    {
+      "symbol": "POLHO",
+      "name": "Polisan Holding AS",
+      "sector": "Islenebilen Endustriler",
+      "sector_code": "process_industries"
+    },
+    {
+      "symbol": "POLTK",
+      "name": "Politeknik Metal Sanayi ve Ticaret AS",
+      "sector": "Islenebilen Endustriler",
+      "sector_code": "process_industries"
+    },
+    {
+      "symbol": "PRDGS",
+      "name": "PARDUS GIRISIM SERMAYESI YATIRIM ORTAKLIGI A.S.",
+      "sector": "Finans",
+      "sector_code": "finans"
+    },
+    {
+      "symbol": "PRKAB",
+      "name": "Turk Prysmian Kablo ve Sistemleri A.S.",
+      "sector": "Uretici Imalat",
+      "sector_code": "producer_manufacturing"
+    },
+    {
+      "symbol": "PRKME",
+      "name": "Park Elektrik Uretim Madencilik Sanayi ve Ticaret A.S.",
+      "sector": "Enerji Disi Mineraller",
+      "sector_code": "non_energy_minerals"
+    },
+    {
+      "symbol": "PRZMA",
+      "name": "Prizma Pres Matbaacilik Yayincilik Sanayi ve Ticaret AS",
+      "sector": "Ticari Hizmetler",
+      "sector_code": "commercial_services"
+    },
+    {
+      "symbol": "PSDTC",
+      "name": "Pergamon Status Dis Ticaret A.S.",
+      "sector": "Islenebilen Endustriler",
+      "sector_code": "process_industries"
+    },
+    {
+      "symbol": "PSGYO",
+      "name": "Pasifik Gayrimenkul Yatirim Ortakligi AS",
+      "sector": "Finans",
+      "sector_code": "finans"
+    },
+    {
+      "symbol": "QNBFK",
+      "name": "QNB Finansal Kiralama A.S.",
+      "sector": "Finans",
+      "sector_code": "finans"
+    },
+    {
+      "symbol": "QNBTR",
+      "name": "QNB Bank AS",
+      "sector": "Finans",
+      "sector_code": "finans"
+    },
+    {
+      "symbol": "QTEMZ",
+      "name": "DJIST - Dow Jones Istanbul 20",
+      "sector": "Cesitli",
+      "sector_code": "miscellaneous"
+    },
+    {
+      "symbol": "QUAGR",
+      "name": "Qua Granite Hayal Yapi ve Urunleri Sanayi Ticaret AS",
+      "sector": "Enerji Disi Mineraller",
+      "sector_code": "non_energy_minerals"
+    },
+    {
+      "symbol": "RALYH",
+      "name": "Ral Yatirim Holding A.S.",
+      "sector": "Endustriyel Hizmetler",
+      "sector_code": "industrial_services"
+    },
+    {
+      "symbol": "RAYSG",
+      "name": "Ray Sigorta A.S.",
+      "sector": "Finans",
+      "sector_code": "finans"
+    },
+    {
+      "symbol": "REEDR",
+      "name": "Reeder Teknoloji Sanayi ve Ticaret A.S.",
+      "sector": "Teknoloji Hizmetleri",
+      "sector_code": "technology_services"
+    },
+    {
+      "symbol": "RGYAS",
+      "name": "Ronesans Gayrimenkul Yatirim A.S.",
+      "sector": "Finans",
+      "sector_code": "finans"
+    },
+    {
+      "symbol": "RNPOL",
+      "name": "Rainbow Polikarbonat Sanayi Ticaret Anonim Sirketi",
+      "sector": "Uretici Imalat",
+      "sector_code": "producer_manufacturing"
+    },
+    {
+      "symbol": "RODRG",
+      "name": "Rodrigo Tekstil Sanayi ve Ticaret AS",
+      "sector": "Dayaniksiz Tuketim Mallari",
+      "sector_code": "consumer_non_durables"
+    },
+    {
+      "symbol": "RTALB",
+      "name": "RTA Laboratuvarlari Biyolojik Urunler Ilac ve Makina Sanayi Ticaret A.S.",
+      "sector": "Saglik Teknolojisi",
+      "sector_code": "health_technology"
+    },
+    {
+      "symbol": "RUBNS",
+      "name": "Rubenis Tekstil Sanayi Ticaret AS",
+      "sector": "Islenebilen Endustriler",
+      "sector_code": "process_industries"
+    },
+    {
+      "symbol": "RUZYE",
+      "name": "Ruzy Madencilik Ve Enerji Yatirimlari Sanayi Ve Ticaret A.S.",
+      "sector": "Islenebilen Endustriler",
+      "sector_code": "process_industries"
+    },
+    {
+      "symbol": "RYGYO",
+      "name": "Reysas Gayrimenkul Yatirim Ortakligi A.S.",
+      "sector": "Finans",
+      "sector_code": "finans"
+    },
+    {
+      "symbol": "RYSAS",
+      "name": "Reysas Tasimacilik ve Lojistik Ticaret Anonim Sirketi",
+      "sector": "Ulastirma",
+      "sector_code": "transportation"
+    },
+    {
+      "symbol": "SAFKR",
+      "name": "Safkar Ege Cooling Air Conditioning Cold Air Tes.Ihr.Ith.A.S",
+      "sector": "Uretici Imalat",
+      "sector_code": "producer_manufacturing"
+    },
+    {
+      "symbol": "SAHOL",
+      "name": "Haci Omer Sabanci Holding A.S.",
+      "sector": "Finans",
+      "sector_code": "finans"
+    },
+    {
+      "symbol": "SAMAT",
+      "name": "Saray Matbaacilik Kagitcilik Kirtasiyecilik Ticaret Ve Sanayi A.S.",
+      "sector": "Ticari Hizmetler",
+      "sector_code": "commercial_services"
+    },
+    {
+      "symbol": "SANEL",
+      "name": "San-El Muhendislik Elektrik Taahhut Sanayi ve Ticaret A.S.",
+      "sector": "Uretici Imalat",
+      "sector_code": "producer_manufacturing"
+    },
+    {
+      "symbol": "SANFM",
+      "name": "SANIFOAM ENDUSTRI VE TUKETIM URUNLERI SANAYI TICARET A.S.",
+      "sector": "Islenebilen Endustriler",
+      "sector_code": "process_industries"
+    },
+    {
+      "symbol": "SANKO",
+      "name": "Sanko Pazarlama Ithalat Ihracat Anonim Sirketi",
+      "sector": "Islenebilen Endustriler",
+      "sector_code": "process_industries"
+    },
+    {
+      "symbol": "SARKY",
+      "name": "Sarkuysan Elektrolitik Bakir Sanayi ve Ticaret A.S.",
+      "sector": "Uretici Imalat",
+      "sector_code": "producer_manufacturing"
+    },
+    {
+      "symbol": "SASA",
+      "name": "Sasa Polyester Sanayi A.S.",
+      "sector": "Islenebilen Endustriler",
+      "sector_code": "process_industries"
+    },
+    {
+      "symbol": "SAYAS",
+      "name": "Say Yenilenebilir Enerji Ekipmanlari Sanayi ve Ticaret A.S.",
+      "sector": "Uretici Imalat",
+      "sector_code": "producer_manufacturing"
+    },
+    {
+      "symbol": "SDTTR",
+      "name": "SDT Uzay ve Savunma Teknolojileri A.S.",
+      "sector": "Elektronik Teknoloji",
+      "sector_code": "electronic_technology"
+    },
+    {
+      "symbol": "SEGMN",
+      "name": "Segmen Kardesler Gida Uretim ve Ambalaj Sanayi AS",
+      "sector": "Dayaniksiz Tuketim Mallari",
+      "sector_code": "consumer_non_durables"
+    },
+    {
+      "symbol": "SEGYO",
+      "name": "SEKER GAYRIMENKUL YATIRIM ORTAKLIGI A.S.",
+      "sector": "Finans",
+      "sector_code": "finans"
+    },
+    {
+      "symbol": "SEKFK",
+      "name": "Seker Finansal Kiralama A.S.",
+      "sector": "Finans",
+      "sector_code": "finans"
+    },
+    {
+      "symbol": "SEKUR",
+      "name": "Sekuro Plastik Ambalaj Sanayi A.S.",
+      "sector": "Islenebilen Endustriler",
+      "sector_code": "process_industries"
+    },
+    {
+      "symbol": "SELEC",
+      "name": "Selcuk Ecza Deposu Ticaret ve Sanayi A.S.",
+      "sector": "Dagitim Hizmetleri",
+      "sector_code": "distribution_services"
+    },
+    {
+      "symbol": "SELVA",
+      "name": "SELVA GIDA SANAYI A.S.",
+      "sector": "Dayaniksiz Tuketim Mallari",
+      "sector_code": "consumer_non_durables"
+    },
+    {
+      "symbol": "SERNT",
+      "name": "Seranit Granit Seramik Sanayi ve Ticaret A.S.",
+      "sector": "Uretici Imalat",
+      "sector_code": "producer_manufacturing"
+    },
+    {
+      "symbol": "SEYKM",
+      "name": "Seyitler Kimya Sanayi AS",
+      "sector": "Saglik Teknolojisi",
+      "sector_code": "health_technology"
+    },
+    {
+      "symbol": "SILVR",
+      "name": "Silverline Endustri ve Ticaret A.S.",
+      "sector": "Uretici Imalat",
+      "sector_code": "producer_manufacturing"
+    },
+    {
+      "symbol": "SISE",
+      "name": "Turkiye Sise ve Cam Fabrikalari A.S.",
+      "sector": "Dayanikli Tuketim Mallari",
+      "sector_code": "consumer_durables"
+    },
+    {
+      "symbol": "SKBNK",
+      "name": "Sekerbank T.A.S.",
+      "sector": "Finans",
+      "sector_code": "finans"
+    },
+    {
+      "symbol": "SKTAS",
+      "name": "Soktas Tekstil Sanayi ve Ticaret A.S.",
+      "sector": "Islenebilen Endustriler",
+      "sector_code": "process_industries"
+    },
+    {
+      "symbol": "SKYLP",
+      "name": "Skyalp Finansal Teknolojiler ve Danismanlik A.S",
+      "sector": "Ticari Hizmetler",
+      "sector_code": "commercial_services"
+    },
+    {
+      "symbol": "SKYMD",
+      "name": "Seker Yatirim Menkul Degerler A.S.",
+      "sector": "Finans",
+      "sector_code": "finans"
+    },
+    {
+      "symbol": "SMART",
+      "name": "Smartiks Yazilim AS",
+      "sector": "Teknoloji Hizmetleri",
+      "sector_code": "technology_services"
+    },
+    {
+      "symbol": "SMRTG",
+      "name": "Smart Gunes Enerjisi Teknolojileri Arastirma Gelistirme Uretim Sanayi ve Ticaret",
+      "sector": "Elektronik Teknoloji",
+      "sector_code": "electronic_technology"
+    },
+    {
+      "symbol": "SMRVA",
+      "name": "Sumer Varlik Yonetim A.S.",
+      "sector": "Ticari Hizmetler",
+      "sector_code": "commercial_services"
+    },
+    {
+      "symbol": "SNGYO",
+      "name": "Sinpas Gayrimenkul Yatirim Ortakligi A.S.",
+      "sector": "Finans",
+      "sector_code": "finans"
+    },
+    {
+      "symbol": "SNICA",
+      "name": "Sanica Isi Sanayi A.S.",
+      "sector": "Uretici Imalat",
+      "sector_code": "producer_manufacturing"
+    },
+    {
+      "symbol": "SNPAM",
+      "name": "Sonmez Pamuklu Sanayii A.S.",
+      "sector": "Islenebilen Endustriler",
+      "sector_code": "process_industries"
+    },
+    {
+      "symbol": "SODSN",
+      "name": "Sodas Sodyum Sanayii AS",
+      "sector": "Islenebilen Endustriler",
+      "sector_code": "process_industries"
+    },
+    {
+      "symbol": "SOKE",
+      "name": "Soke Degirmencilik Sanayi ve Ticaret AS",
+      "sector": "Islenebilen Endustriler",
+      "sector_code": "process_industries"
+    },
+    {
+      "symbol": "SOKM",
+      "name": "Sok Marketler Ticaret AS",
+      "sector": "Perakende Ticaret",
+      "sector_code": "retail_trade"
+    },
+    {
+      "symbol": "SONME",
+      "name": "Soenmez Filament Sentetik Iplik ve Elyaf Sanayi Anonim Sirketi",
+      "sector": "Islenebilen Endustriler",
+      "sector_code": "process_industries"
+    },
+    {
+      "symbol": "SRVGY",
+      "name": "Servet Gayrimenkul Yatirim Ortakligi AS",
+      "sector": "Finans",
+      "sector_code": "finans"
+    },
+    {
+      "symbol": "SUMAS",
+      "name": "Sumas Suni Tahta ve Mobilya Sanayii AS",
+      "sector": "Islenebilen Endustriler",
+      "sector_code": "process_industries"
+    },
+    {
+      "symbol": "SUNTK",
+      "name": "Sun Tekstil Sanayi ve Ticaret A.S.",
+      "sector": "Dayaniksiz Tuketim Mallari",
+      "sector_code": "consumer_non_durables"
+    },
+    {
+      "symbol": "SURGY",
+      "name": "Sur Tatil Evleri Gayrimenkul Yatirim Ortakligi A.S.",
+      "sector": "Finans",
+      "sector_code": "finans"
+    },
+    {
+      "symbol": "SUWEN",
+      "name": "Suwen Tekstil San. Paz. AS",
+      "sector": "Perakende Ticaret",
+      "sector_code": "retail_trade"
+    },
+    {
+      "symbol": "SVGYO",
+      "name": "Savur Gayrimenkul Yatirim Ortakligi A.S",
+      "sector": "Finans",
+      "sector_code": "finans"
+    },
+    {
+      "symbol": "TABGD",
+      "name": "TAB Gida Sanayi ve Ticaret A.S.",
+      "sector": "Tuketici Hizmetleri",
+      "sector_code": "consumer_services"
+    },
+    {
+      "symbol": "TARKM",
+      "name": "Tarkim Bitki Koruma Sanayi ve Ticaret A.S.",
+      "sector": "Islenebilen Endustriler",
+      "sector_code": "process_industries"
+    },
+    {
+      "symbol": "TATEN",
+      "name": "Tatlipinar Enerji Uretim A.S.",
+      "sector": "Elektrik, Su, Gaz Hizmetleri",
+      "sector_code": "utilities"
+    },
+    {
+      "symbol": "TATGD",
+      "name": "Tat Gida Sanayi A.S.",
+      "sector": "Dayaniksiz Tuketim Mallari",
+      "sector_code": "consumer_non_durables"
+    },
+    {
+      "symbol": "TAVHL",
+      "name": "TAV Havalimanlari Holding A.S.",
+      "sector": "Ulastirma",
+      "sector_code": "transportation"
+    },
+    {
+      "symbol": "TBORG",
+      "name": "Turk Tuborg Bira ve Malt Sanayii A.S.",
+      "sector": "Dayaniksiz Tuketim Mallari",
+      "sector_code": "consumer_non_durables"
+    },
+    {
+      "symbol": "TCELL",
+      "name": "Turkcell Iletisim Hizmetleri A.S.",
+      "sector": "Iletisim",
+      "sector_code": "communications"
+    },
+    {
+      "symbol": "TCKRC",
+      "name": "Kirac Galvaniz Telekominikasyon Metal Makine Insaat Elektrik Sanayi Ve Ticaret AS",
+      "sector": "Uretici Imalat",
+      "sector_code": "producer_manufacturing"
+    },
+    {
+      "symbol": "TDGYO",
+      "name": "Trend Gayrimenkul Yatirim Ortakligi AS",
+      "sector": "Finans",
+      "sector_code": "finans"
+    },
+    {
+      "symbol": "TEHOL",
+      "name": "Tera Yatirim Teknoloji Holding A.S.",
+      "sector": "Finans",
+      "sector_code": "finans"
+    },
+    {
+      "symbol": "TEKTU",
+      "name": "Tek-Art Insaat Ticaret Turizm Sanayi ve Yatirimlar Anonim Sirketi",
+      "sector": "Tuketici Hizmetleri",
+      "sector_code": "consumer_services"
+    },
+    {
+      "symbol": "TERA",
+      "name": "Tera Yatirim Menkul Degerler AS",
+      "sector": "Finans",
+      "sector_code": "finans"
+    },
+    {
+      "symbol": "TEZOL",
+      "name": "Europap Tezol Paper Industry and Trade Inc.",
+      "sector": "Dayaniksiz Tuketim Mallari",
+      "sector_code": "consumer_non_durables"
+    },
+    {
+      "symbol": "TGSAS",
+      "name": "TGS Dis Ticaret AS",
+      "sector": "Dagitim Hizmetleri",
+      "sector_code": "distribution_services"
+    },
+    {
+      "symbol": "THYAO",
+      "name": "Turk Hava Yollari A.O.",
+      "sector": "Ulastirma",
+      "sector_code": "transportation"
+    },
+    {
+      "symbol": "TKFEN",
+      "name": "Tekfen Holding Anonim Sirketi",
+      "sector": "Endustriyel Hizmetler",
+      "sector_code": "industrial_services"
+    },
+    {
+      "symbol": "TKNSA",
+      "name": "Teknosa Ic ve Dis Ticaret AS",
+      "sector": "Perakende Ticaret",
+      "sector_code": "retail_trade"
+    },
+    {
+      "symbol": "TLMAN",
+      "name": "Trabzon Liman Isletmeciligi AS",
+      "sector": "Ulastirma",
+      "sector_code": "transportation"
+    },
+    {
+      "symbol": "TMPOL",
+      "name": "Temapol Polimer Plastik Ve Insaat Sanayi Ticaret A..S",
+      "sector": "Islenebilen Endustriler",
+      "sector_code": "process_industries"
+    },
+    {
+      "symbol": "TMSN",
+      "name": "Tumosan Motor Ve Traktor Sanayi AS",
+      "sector": "Uretici Imalat",
+      "sector_code": "producer_manufacturing"
+    },
+    {
+      "symbol": "TNZTP",
+      "name": "TAPDI OKSIJEN OZEL SAGLIK VE EGITIM HIZMETLERI SANAYI TICARET A.S.",
+      "sector": "Saglik Hizmetleri",
+      "sector_code": "health_services"
+    },
+    {
+      "symbol": "TOASO",
+      "name": "Tofas Turk Otomobil Fabrikasi A.S.",
+      "sector": "Dayanikli Tuketim Mallari",
+      "sector_code": "consumer_durables"
+    },
+    {
+      "symbol": "TRALT",
+      "name": "Turk Altin Isletmeleri A.S.",
+      "sector": "Enerji Disi Mineraller",
+      "sector_code": "non_energy_minerals"
+    },
+    {
+      "symbol": "TRCAS",
+      "name": "Turcas Holding A.S.",
+      "sector": "Elektrik, Su, Gaz Hizmetleri",
+      "sector_code": "utilities"
+    },
+    {
+      "symbol": "TRENJ",
+      "name": "TR Dogal Enerji Kaynaklari Arastirma ve Uretim Anonim Sirketi",
+      "sector": "Enerji Mineralleri",
+      "sector_code": "energy_minerals"
+    },
+    {
+      "symbol": "TRGYO",
+      "name": "Torunlar Gayrimenkul Yatirim Ortakligi A.S.",
+      "sector": "Finans",
+      "sector_code": "finans"
+    },
+    {
+      "symbol": "TRHOL",
+      "name": "Tera Financial Investments Holding A.S.",
+      "sector": "Finans",
+      "sector_code": "finans"
+    },
+    {
+      "symbol": "TRILC",
+      "name": "Turk Ilac ve Serum Sanayi AS",
+      "sector": "Saglik Teknolojisi",
+      "sector_code": "health_technology"
+    },
+    {
+      "symbol": "TRMET",
+      "name": "TR Anadolu Metal Madencilik Isletmeleri Anonim Sirketi",
+      "sector": "Enerji Disi Mineraller",
+      "sector_code": "non_energy_minerals"
+    },
+    {
+      "symbol": "TSGYO",
+      "name": "TSKB Gayrimenkul Yatirim Ortakligi Anonim Sirketi",
+      "sector": "Finans",
+      "sector_code": "finans"
+    },
+    {
+      "symbol": "TSKB",
+      "name": "Turkiye Sinai Kalkinma Bankasi A.S.",
+      "sector": "Finans",
+      "sector_code": "finans"
+    },
+    {
+      "symbol": "TSPOR",
+      "name": "Trabzonspor Sportif Yatirim ve Futbol Isletmeciligi Ticaret A.S.",
+      "sector": "Tuketici Hizmetleri",
+      "sector_code": "consumer_services"
+    },
+    {
+      "symbol": "TTKOM",
+      "name": "Turk Telekomunikasyon A.S.",
+      "sector": "Iletisim",
+      "sector_code": "communications"
+    },
+    {
+      "symbol": "TTRAK",
+      "name": "Turk Traktor ve Ziraat Makineleri A.S.",
+      "sector": "Uretici Imalat",
+      "sector_code": "producer_manufacturing"
+    },
+    {
+      "symbol": "TUCLK",
+      "name": "Tugcelik Aluminyum ve Metal Mamulleri Sanayi ve Ticaret A.S.",
+      "sector": "Enerji Disi Mineraller",
+      "sector_code": "non_energy_minerals"
+    },
+    {
+      "symbol": "TUKAS",
+      "name": "Tukas Gida Sanayi ve Ticaret Anonim Sirketi",
+      "sector": "Dayaniksiz Tuketim Mallari",
+      "sector_code": "consumer_non_durables"
+    },
+    {
+      "symbol": "TUPRS",
+      "name": "Turkiye Petrol Rafinerileri A.S.",
+      "sector": "Enerji Mineralleri",
+      "sector_code": "energy_minerals"
+    },
+    {
+      "symbol": "TUREX",
+      "name": "TUREKS TURIZM TASIMACILIK A.S.",
+      "sector": "Finans",
+      "sector_code": "finans"
+    },
+    {
+      "symbol": "TURGG",
+      "name": "TURKER PROJE GAYRIMENKUL VE YATIRIM GELISTIRME A.S.",
+      "sector": "Finans",
+      "sector_code": "finans"
+    },
+    {
+      "symbol": "TURSG",
+      "name": "Turkiye Sigorta A.S.",
+      "sector": "Finans",
+      "sector_code": "finans"
+    },
+    {
+      "symbol": "UCAYM",
+      "name": "Ucay Muhendislik Enerji ve Iklimlendirme Teknolojileri",
+      "sector": "Endustriyel Hizmetler",
+      "sector_code": "industrial_services"
+    },
+    {
+      "symbol": "UFUK",
+      "name": "Ufuk Yatirim Yonetim Ve Gayrimenkul A.S.",
+      "sector": "Finans",
+      "sector_code": "finans"
+    },
+    {
+      "symbol": "ULAS",
+      "name": "Ulaslar Turizm Energi Tarim Gida ve Insaat Yatirimlari A.S.",
+      "sector": "Tuketici Hizmetleri",
+      "sector_code": "consumer_services"
+    },
+    {
+      "symbol": "ULKER",
+      "name": "Ulker Biskuvi Sanayi A.S.",
+      "sector": "Dayaniksiz Tuketim Mallari",
+      "sector_code": "consumer_non_durables"
+    },
+    {
+      "symbol": "ULUFA",
+      "name": "Ulusal Faktoring A.S.",
+      "sector": "Finans",
+      "sector_code": "finans"
+    },
+    {
+      "symbol": "ULUSE",
+      "name": "Ulusoy Elektrik Imalat Taahhut ve Ticaret AS",
+      "sector": "Uretici Imalat",
+      "sector_code": "producer_manufacturing"
+    },
+    {
+      "symbol": "ULUUN",
+      "name": "Ulusoy Un Sanayi ve Ticaret AS",
+      "sector": "Islenebilen Endustriler",
+      "sector_code": "process_industries"
+    },
+    {
+      "symbol": "UNLU",
+      "name": "Unlu Yatirim Holding A.S.",
+      "sector": "Finans",
+      "sector_code": "finans"
+    },
+    {
+      "symbol": "USAK",
+      "name": "Usak Seramik Sanayii A.S.",
+      "sector": "Uretici Imalat",
+      "sector_code": "producer_manufacturing"
+    },
+    {
+      "symbol": "USDTR",
+      "name": "Finans Asset Management American Dollar Foreign ETF",
+      "sector": "Cesitli",
+      "sector_code": "miscellaneous"
+    },
+    {
+      "symbol": "VAKBN",
+      "name": "Turkiye Vakiflar Bankasi Turk Anonim Ortakligi",
+      "sector": "Finans",
+      "sector_code": "finans"
+    },
+    {
+      "symbol": "VAKFA",
+      "name": "Vakif Faktoring A.S.",
+      "sector": "Finans",
+      "sector_code": "finans"
+    },
+    {
+      "symbol": "VAKFN",
+      "name": "Vakif Finansal Kiralama AS",
+      "sector": "Finans",
+      "sector_code": "finans"
+    },
+    {
+      "symbol": "VAKKO",
+      "name": "Vakko Tekstil ve Hazir Giyim Sanayi Isletmeleri A.S.",
+      "sector": "Dayaniksiz Tuketim Mallari",
+      "sector_code": "consumer_non_durables"
+    },
+    {
+      "symbol": "VANGD",
+      "name": "Vanet Gida Sanayi Ic ve Dis Ticaret AS",
+      "sector": "Dagitim Hizmetleri",
+      "sector_code": "distribution_services"
+    },
+    {
+      "symbol": "VBTYZ",
+      "name": "VBT Yazilim AS",
+      "sector": "Teknoloji Hizmetleri",
+      "sector_code": "technology_services"
+    },
+    {
+      "symbol": "VERTU",
+      "name": "Verusaturk Girisim Sermayesi Yatirim Ortakligi AS",
+      "sector": "Finans",
+      "sector_code": "finans"
+    },
+    {
+      "symbol": "VERUS",
+      "name": "Verusa Holding AS",
+      "sector": "Finans",
+      "sector_code": "finans"
+    },
+    {
+      "symbol": "VESBE",
+      "name": "Vestel Beyaz Esya Sanayi ve Ticaret A.S.",
+      "sector": "Dayanikli Tuketim Mallari",
+      "sector_code": "consumer_durables"
+    },
+    {
+      "symbol": "VESTL",
+      "name": "Vestel Elektronik Sanayi ve Ticaret A.S.",
+      "sector": "Dayanikli Tuketim Mallari",
+      "sector_code": "consumer_durables"
+    },
+    {
+      "symbol": "VKFYO",
+      "name": "Vakif Menkul Kiymet Yatirim Ortakligi A.S.",
+      "sector": "Finans",
+      "sector_code": "finans"
+    },
+    {
+      "symbol": "VKGYO",
+      "name": "Vakif Gayrimenkul Yatirim Ortakligi Anonim Sirketi",
+      "sector": "Finans",
+      "sector_code": "finans"
+    },
+    {
+      "symbol": "VKING",
+      "name": "Viking Kagit ve Seluloz A.S.",
+      "sector": "Dayaniksiz Tuketim Mallari",
+      "sector_code": "consumer_non_durables"
+    },
+    {
+      "symbol": "VRGYO",
+      "name": "Vera Konsept Gayrimenkul Yatirim Ortakligi A.S.",
+      "sector": "Finans",
+      "sector_code": "finans"
+    },
+    {
+      "symbol": "VSNMD",
+      "name": "Visne Madencilik Uretim Sanayi ve Ticaret AS",
+      "sector": "Enerji Disi Mineraller",
+      "sector_code": "non_energy_minerals"
+    },
+    {
+      "symbol": "YAPRK",
+      "name": "Yaprak Sut ve Besi Ciftikleri Sanayi Ve Ticaret AS",
+      "sector": "Islenebilen Endustriler",
+      "sector_code": "process_industries"
+    },
+    {
+      "symbol": "YATAS",
+      "name": "Yatas Yatak ve Yorgan Sanayi ve Ticaret Anonim Sirketi",
+      "sector": "Dagitim Hizmetleri",
+      "sector_code": "distribution_services"
+    },
+    {
+      "symbol": "YAYLA",
+      "name": "Yayla Enerji Uretim Turizm ve Insaat Ticaret AS",
+      "sector": "Endustriyel Hizmetler",
+      "sector_code": "industrial_services"
+    },
+    {
+      "symbol": "YBTAS",
+      "name": "Yibitas Yozgat Isci Birligi Insaat Malzemeleri Ticaret Ve San",
+      "sector": "Enerji Disi Mineraller",
+      "sector_code": "non_energy_minerals"
+    },
+    {
+      "symbol": "YEOTK",
+      "name": "YEO Teknoloji Enerji ve Endustri A.S.",
+      "sector": "Elektrik, Su, Gaz Hizmetleri",
+      "sector_code": "utilities"
+    },
+    {
+      "symbol": "YESIL",
+      "name": "Yesil Yatirim Holding AS",
+      "sector": "Cesitli",
+      "sector_code": "miscellaneous"
+    },
+    {
+      "symbol": "YGGYO",
+      "name": "Yeni Gimat Gayrimenkul Yatirim Ortakligi AS",
+      "sector": "Finans",
+      "sector_code": "finans"
+    },
+    {
+      "symbol": "YIGIT",
+      "name": "Yigit Aku Malzemeleri Nakliyat Turizm Insaat Sanayi Ve Ticaret",
+      "sector": "Uretici Imalat",
+      "sector_code": "producer_manufacturing"
+    },
+    {
+      "symbol": "YKBNK",
+      "name": "Yapi ve Kredi Bankasi A.S.",
+      "sector": "Finans",
+      "sector_code": "finans"
+    },
+    {
+      "symbol": "YKSLN",
+      "name": "Yukselen Celik AS",
+      "sector": "Dagitim Hizmetleri",
+      "sector_code": "distribution_services"
+    },
+    {
+      "symbol": "YONGA",
+      "name": "Yonga Mobilya SANAYI ve TICARET AS",
+      "sector": "Dayanikli Tuketim Mallari",
+      "sector_code": "consumer_durables"
+    },
+    {
+      "symbol": "YUNSA",
+      "name": "Yunsa Yunlu Sanayi ve Ticaret A.S.",
+      "sector": "Islenebilen Endustriler",
+      "sector_code": "process_industries"
+    },
+    {
+      "symbol": "YYAPI",
+      "name": "Yesil Yapi Endustrisi A.S.",
+      "sector": "Endustriyel Hizmetler",
+      "sector_code": "industrial_services"
+    },
+    {
+      "symbol": "YYLGD",
+      "name": "Yayla Agro Gida Sanayi ve Nakliyat AS",
+      "sector": "Islenebilen Endustriler",
+      "sector_code": "process_industries"
+    },
+    {
+      "symbol": "Z30KE",
+      "name": "Ziraat Portfoy Katilim 30 Esit Agirlikli Endeksi Hisse Senedi Yogun Borsa Yatirim Fonu Capitalisation Units",
+      "sector": "Cesitli",
+      "sector_code": "miscellaneous"
+    },
+    {
+      "symbol": "Z30KP",
+      "name": "Ziraat Portfoy Katilim 30 Endeksi Hisse Senedi Yogun Borsa Yatirim Fonu ETF Capitalisation Units",
+      "sector": "Cesitli",
+      "sector_code": "miscellaneous"
+    },
+    {
+      "symbol": "ZEDUR",
+      "name": "Zedur Enerji ElekTrik Uretim A.S.",
+      "sector": "Tuketici Hizmetleri",
+      "sector_code": "consumer_services"
+    },
+    {
+      "symbol": "ZERGY",
+      "name": "Zeray Gayrimenkul Yatirim Ortakligi AS",
+      "sector": "Finans",
+      "sector_code": "finans"
+    },
+    {
+      "symbol": "ZGOLD",
+      "name": "Ziraat Portfolio Gold Participation ETF",
+      "sector": "Cesitli",
+      "sector_code": "miscellaneous"
+    },
+    {
+      "symbol": "ZGYO",
+      "name": "Z Gayrimenkul Yatirim Ortakligi A.S.",
+      "sector": "Finans",
+      "sector_code": "finans"
+    },
+    {
+      "symbol": "ZOREN",
+      "name": "Zorlu Enerji Elektrik Uretim A.S.",
+      "sector": "Elektrik, Su, Gaz Hizmetleri",
+      "sector_code": "utilities"
+    },
+    {
+      "symbol": "ZPBDL",
+      "name": "ZIRAAT PORTFOY BIST BANKA DISI LIKIT 10 ENDEKSI HISSE SENEDI YOGUN BORSA YATIRIM FONU Capitalisation Units",
+      "sector": "Diger",
+      "sector_code": "diger"
+    },
+    {
+      "symbol": "ZPLIB",
+      "name": "Ziraat Portfoy BIST Likit Banka Endeksi Hisse Senedi Yogun Borsa Yatirim Fonu",
+      "sector": "Diger",
+      "sector_code": "diger"
+    },
+    {
+      "symbol": "ZPT10",
+      "name": "ZIRAAT PORTFOY YILDIZ PAZAR TEKNOLOJI VE ILETISIM 10 ENDEKSI HISSE SENEDI YOGUN BORSA YATIRIM FONU Units Capitalisation",
+      "sector": "Diger",
+      "sector_code": "diger"
+    },
+    {
+      "symbol": "ZRE20",
+      "name": "ZIRAAT PORTFOY RISK ESIT BANKA DISI 20 ENDEKSI HISSE SENEDI YOGUN BORSA YATIRIM FONU Units Capitalisation",
+      "sector": "Cesitli",
+      "sector_code": "miscellaneous"
+    },
+    {
+      "symbol": "ZRGYO",
+      "name": "Ziraat Gayrimenkul Yatirim Ortakligi AS",
+      "sector": "Finans",
+      "sector_code": "finans"
+    },
+    {
+      "symbol": "ZSR25",
+      "name": "ZIRAAT PORTFOY BIST SURDURULEBILIRLIK 25 ENDEKSI HISSE SENEDI YOGUN BORSA YATIRIM FONU Units -- Distribution",
+      "sector": "Cesitli",
+      "sector_code": "miscellaneous"
+    }
   ],
   "sectors": {
-    "bankacilik": {
-      "name": "Bankacılık",
-      "stocks": [ "AKBNK", "GARAN", "ISCTR", "YKBNK", "HALKB", "VAKBN", "TSKB", "ALBRK", "SKBNK" ]
+    "commercial_services": {
+      "name": "Ticari Hizmetler",
+      "stocks": [
+        "AKYHO",
+        "BINBN",
+        "EDATA",
+        "GATEG",
+        "IHAAS",
+        "MACKO",
+        "MCARD",
+        "PCILT",
+        "PKART",
+        "PRZMA",
+        "SAMAT",
+        "SKYLP",
+        "SMRVA"
+      ]
     },
-    "ulastirma": {
-      "name": "Ulaştırma",
-      "stocks": [ "THYAO", "PGSUS", "TAVHL", "DOCO" ]
+    "communications": {
+      "name": "Iletisim",
+      "stocks": [
+        "KRONT",
+        "TCELL",
+        "TTKOM"
+      ]
     },
-    "iletisim": {
-      "name": "İletişim",
-      "stocks": [ "TCELL", "TTKOM" ]
+    "consumer_durables": {
+      "name": "Dayanikli Tuketim Mallari",
+      "stocks": [
+        "ADEL",
+        "ARCLK",
+        "ASUZU",
+        "BRISA",
+        "BRKO",
+        "CGCAM",
+        "DGNMO",
+        "FROTO",
+        "FZLGY",
+        "GOODY",
+        "IHEVA",
+        "KLSYN",
+        "KUTPO",
+        "KUVVA",
+        "OTKAR",
+        "SISE",
+        "TOASO",
+        "VESBE",
+        "VESTL",
+        "YONGA"
+      ]
     },
-    "teknoloji": {
-      "name": "Teknoloji",
-      "stocks": [ "ASELS", "MIATK", "KONTR", "SDTTR", "REEDER", "LOGO", "INDES" ]
+    "consumer_non_durables": {
+      "name": "Dayaniksiz Tuketim Mallari",
+      "stocks": [
+        "AEFES",
+        "AGHOL",
+        "ALKLC",
+        "ARMGD",
+        "ATAKP",
+        "AVOD",
+        "BALSU",
+        "BAYRK",
+        "BESLR",
+        "CCOLA",
+        "CEMZY",
+        "DAGI",
+        "DARDL",
+        "DERHL",
+        "DERIM",
+        "DESA",
+        "DMRGD",
+        "DUNYH",
+        "DURKN",
+        "EFOR",
+        "ELITE",
+        "ENSRI",
+        "ERSU",
+        "FADE",
+        "FRIGO",
+        "GOKNR",
+        "GUNDG",
+        "IZINV",
+        "KENT",
+        "KLRHO",
+        "KNFRT",
+        "KOTON",
+        "KRPLS",
+        "KRSTL",
+        "KRVGD",
+        "LILAK",
+        "LRSHO",
+        "LYDYE",
+        "MAVI",
+        "MERKO",
+        "METRO",
+        "MEYSU",
+        "MNDRS",
+        "OBAMS",
+        "ORCAY",
+        "OYLUM",
+        "PENGD",
+        "PETUN",
+        "PINSU",
+        "PNSUT",
+        "RODRG",
+        "SEGMN",
+        "SELVA",
+        "SUNTK",
+        "TATGD",
+        "TBORG",
+        "TEZOL",
+        "TUKAS",
+        "ULKER",
+        "VAKKO",
+        "VKING"
+      ]
     },
-    "enerji": {
-      "name": "Enerji",
-      "stocks": [ "TUPRS", "ENJSA", "AKSEN", "ODAS", "ZOREN", "ASTOR", "CWENE", "ALFAS", "EUPWR", "SMRTG", "YEOTK", "GWIND", "ENERY", "AYGAZ" ]
+    "consumer_services": {
+      "name": "Tuketici Hizmetleri",
+      "stocks": [
+        "ATATR",
+        "AYCES",
+        "BIGCH",
+        "BIGTK",
+        "BJKAS",
+        "BLUME",
+        "BYDNR",
+        "CEOEM",
+        "DOCO",
+        "ETILR",
+        "FENER",
+        "FLAP",
+        "GRSEL",
+        "GSRAY",
+        "GZNMI",
+        "HURGZ",
+        "IHGZT",
+        "IHYAY",
+        "KERVN",
+        "KSTUR",
+        "MAALT",
+        "MARTI",
+        "MERIT",
+        "NTHOL",
+        "PKENT",
+        "TABGD",
+        "TEKTU",
+        "TSPOR",
+        "ULAS",
+        "ZEDUR"
+      ]
     },
-    "holding": {
-      "name": "Holding",
-      "stocks": [ "KCHOL", "SAHOL", "DOHOL", "ALARK", "ENKAI", "TKFEN", "AGHOL", "GSDHO" ]
+    "diger": {
+      "name": "Diger",
+      "stocks": [
+        "ALTIN",
+        "ISGLK",
+        "OPK30",
+        "OPT25",
+        "OPTGY",
+        "OPTLR",
+        "OPX30",
+        "ZPBDL",
+        "ZPLIB",
+        "ZPT10"
+      ]
     },
-    "metal": {
-      "name": "Metal",
-      "stocks": [ "EREGL", "KRDMD", "BRSAN", "KCAER", "CEMTS" ]
+    "distribution_services": {
+      "name": "Dagitim Hizmetleri",
+      "stocks": [
+        "ARENA",
+        "ARZUM",
+        "AZTEK",
+        "CASA",
+        "COSMO",
+        "DCTTR",
+        "DESPC",
+        "DGATE",
+        "GRTHO",
+        "INDES",
+        "INGRM",
+        "LYDHO",
+        "MARKA",
+        "MOBTL",
+        "PENTA",
+        "SELEC",
+        "TGSAS",
+        "VANGD",
+        "YATAS",
+        "YKSLN"
+      ]
     },
-    "madencilik": {
-      "name": "Madencilik",
-      "stocks": [ "KOZAL", "KOZAA", "IPEKE" ]
+    "electronic_technology": {
+      "name": "Elektronik Teknoloji",
+      "stocks": [
+        "ALCTL",
+        "ALTNY",
+        "ASELS",
+        "CWENE",
+        "EMPAE",
+        "ESCOM",
+        "GESAN",
+        "KAREL",
+        "MAKIM",
+        "ONRYT",
+        "PAPIL",
+        "SDTTR",
+        "SMRTG"
+      ]
     },
-    "kimya": {
-      "name": "Kimya",
-      "stocks": [ "PETKM", "SASA", "GUBRF", "KORDS", "AKSA", "KMPUR" ]
+    "energy_minerals": {
+      "name": "Enerji Mineralleri",
+      "stocks": [
+        "KCHOL",
+        "TRENJ",
+        "TUPRS"
+      ]
     },
-    "otomotiv": {
-      "name": "Otomotiv",
-      "stocks": [ "FROTO", "TOASO", "DOAS", "OTKAR", "KARSN", "TTRAK", "EGEEN" ]
+    "finans": {
+      "name": "Finans",
+      "stocks": [
+        "A1CAP",
+        "AAGYO",
+        "ADESE",
+        "ADGYO",
+        "AGESA",
+        "AGYO",
+        "AHSGY",
+        "AKBNK",
+        "AKFGY",
+        "AKGRT",
+        "AKMGY",
+        "AKSGY",
+        "ALARK",
+        "ALBRK",
+        "ALGYO",
+        "ANHYT",
+        "ANSGR",
+        "ASGYO",
+        "ATAGY",
+        "AVGYO",
+        "AVPGY",
+        "BEGYO",
+        "BORLS",
+        "BRKVY",
+        "BULGS",
+        "CRDFA",
+        "DAPGM",
+        "DENGE",
+        "DGGYO",
+        "DMLKT",
+        "DSTKF",
+        "DZGYO",
+        "ECZYT",
+        "EDIP",
+        "EGEGY",
+        "EKGYO",
+        "ENDAE",
+        "ENPRA",
+        "ESCAR",
+        "ETYAT",
+        "EUHOL",
+        "EUKYO",
+        "EUYO",
+        "EYGYO",
+        "GARAN",
+        "GARFA",
+        "GEDIK",
+        "GLBMD",
+        "GLCVY",
+        "GLRYH",
+        "GLYHO",
+        "GOZDE",
+        "GRNYO",
+        "HALKB",
+        "HDFGS",
+        "HEDEF",
+        "HLGYO",
+        "HUBVC",
+        "ICBCT",
+        "ICUGS",
+        "IDGYO",
+        "IHLAS",
+        "IHLGM",
+        "INFO",
+        "INVEO",
+        "INVES",
+        "ISBTR",
+        "ISCTR",
+        "ISFIN",
+        "ISGSY",
+        "ISGYO",
+        "ISKUR",
+        "ISMEN",
+        "KGYO",
+        "KLGYO",
+        "KLNMA",
+        "KRGYO",
+        "KTLEV",
+        "KUYAS",
+        "KZBGY",
+        "KZGYO",
+        "LIDER",
+        "LIDFA",
+        "LXGYO",
+        "MARMR",
+        "MHRGY",
+        "MRGYO",
+        "MSGYO",
+        "NUGYO",
+        "OSMEN",
+        "OYAYO",
+        "OYYAT",
+        "OZGYO",
+        "OZKGY",
+        "PAGYO",
+        "PEKGY",
+        "PRDGS",
+        "PSGYO",
+        "QNBFK",
+        "QNBTR",
+        "RAYSG",
+        "RGYAS",
+        "RYGYO",
+        "SAHOL",
+        "SEGYO",
+        "SEKFK",
+        "SKBNK",
+        "SKYMD",
+        "SNGYO",
+        "SRVGY",
+        "SURGY",
+        "SVGYO",
+        "TDGYO",
+        "TEHOL",
+        "TERA",
+        "TRGYO",
+        "TRHOL",
+        "TSGYO",
+        "TSKB",
+        "TUREX",
+        "TURGG",
+        "TURSG",
+        "UFUK",
+        "ULUFA",
+        "UNLU",
+        "VAKBN",
+        "VAKFA",
+        "VAKFN",
+        "VERTU",
+        "VERUS",
+        "VKFYO",
+        "VKGYO",
+        "VRGYO",
+        "YGGYO",
+        "YKBNK",
+        "ZERGY",
+        "ZGYO",
+        "ZRGYO"
+      ]
     },
-    "perakende": {
-      "name": "Perakende",
-      "stocks": [ "BIMAS", "MGROS", "SOKM", "TABGD" ]
+    "health_services": {
+      "name": "Saglik Hizmetleri",
+      "stocks": [
+        "AVHOL",
+        "EGEPO",
+        "LKMNH",
+        "MPARK",
+        "TNZTP"
+      ]
     },
-    "gida": {
-      "name": "Gıda",
-      "stocks": [ "ULKER", "CCOLA", "AEFES", "TATGD", "TUKAS", "PNSUT" ]
+    "health_technology": {
+      "name": "Saglik Teknolojisi",
+      "stocks": [
+        "ANGEN",
+        "DEVA",
+        "ECILC",
+        "GENIL",
+        "KAYSE",
+        "MEDTR",
+        "ONCSM",
+        "RTALB",
+        "SEYKM",
+        "TRILC"
+      ]
     },
-    "tarim": {
-      "name": "Tarım",
-      "stocks": [ "HEKTS" ]
+    "industrial_services": {
+      "name": "Endustriyel Hizmetler",
+      "stocks": [
+        "AKFIS",
+        "ANELE",
+        "ENKAI",
+        "GLRMK",
+        "NATEN",
+        "NIBAS",
+        "ORGE",
+        "RALYH",
+        "TKFEN",
+        "UCAYM",
+        "YAYLA",
+        "YYAPI"
+      ]
     },
-    "gyo": {
-      "name": "GYO",
-      "stocks": [ "EKGYO", "TRGYO", "ISGYO", "ZRGYO", "HLGYO" ]
+    "miscellaneous": {
+      "name": "Cesitli",
+      "stocks": [
+        "APBDL",
+        "APX30",
+        "ATLAS",
+        "ATSYH",
+        "AVTUR",
+        "BRYAT",
+        "GLDTR",
+        "GMSTR",
+        "ISYAT",
+        "MTRYO",
+        "OSTIM",
+        "PAHOL",
+        "QTEMZ",
+        "USDTR",
+        "YESIL",
+        "Z30KE",
+        "Z30KP",
+        "ZGOLD",
+        "ZRE20",
+        "ZSR25"
+      ]
     },
-    "beyaz_esya": {
-      "name": "Beyaz Eşya",
-      "stocks": [ "ARCLK", "VESTL" ]
+    "non_energy_minerals": {
+      "name": "Enerji Disi Mineraller",
+      "stocks": [
+        "AFYON",
+        "AKCNS",
+        "BASCM",
+        "BIENY",
+        "BOBET",
+        "BRLSM",
+        "BRSAN",
+        "BSOKE",
+        "BTCIM",
+        "BUCIM",
+        "BURCE",
+        "CELHA",
+        "CEMAS",
+        "CEMTS",
+        "CIMSA",
+        "CMBTN",
+        "CMENT",
+        "CUSAN",
+        "CVKMD",
+        "DOFER",
+        "DOGUB",
+        "ERBOS",
+        "ERCB",
+        "EREGL",
+        "FORMT",
+        "GOLTS",
+        "ISDMR",
+        "IZMDC",
+        "KCAER",
+        "KOCMT",
+        "KONYA",
+        "KRDMA",
+        "KRDMB",
+        "KRDMD",
+        "LMKDC",
+        "MARBL",
+        "MEGMT",
+        "NUHCM",
+        "ORMA",
+        "OYAKC",
+        "PNLSN",
+        "PRKME",
+        "QUAGR",
+        "TRALT",
+        "TRMET",
+        "TUCLK",
+        "VSNMD",
+        "YBTAS"
+      ]
     },
-    "cam": {
-      "name": "Cam",
-      "stocks": [ "SISE" ]
+    "process_industries": {
+      "name": "Islenebilen Endustriler",
+      "stocks": [
+        "ACSEL",
+        "AKHAN",
+        "AKSA",
+        "ALKA",
+        "ALKIM",
+        "ARSAN",
+        "ATEKS",
+        "BAGFS",
+        "BAHKM",
+        "BAKAB",
+        "BANVT",
+        "BARMA",
+        "BLCYT",
+        "BNTAS",
+        "BORSK",
+        "BOSSA",
+        "BRKSN",
+        "BRMEN",
+        "DIRIT",
+        "DNISI",
+        "DURDO",
+        "DYOBY",
+        "EGGUB",
+        "EGPRO",
+        "EKIZ",
+        "EKSUN",
+        "EMNIS",
+        "GEDZA",
+        "GENKM",
+        "GUBRF",
+        "HATEK",
+        "HEKTS",
+        "IEYHO",
+        "INTEK",
+        "ISBIR",
+        "ISSEN",
+        "KAPLM",
+        "KARTN",
+        "KLKIM",
+        "KONKA",
+        "KOPOL",
+        "KORDS",
+        "KRTEK",
+        "KTSKR",
+        "LUKSK",
+        "MEGAP",
+        "MERCN",
+        "MNDTR",
+        "MRSHL",
+        "OFSYM",
+        "OTTO",
+        "OZRDN",
+        "OZSUB",
+        "PETKM",
+        "POLHO",
+        "POLTK",
+        "PSDTC",
+        "RUBNS",
+        "RUZYE",
+        "SANFM",
+        "SANKO",
+        "SASA",
+        "SEKUR",
+        "SKTAS",
+        "SNPAM",
+        "SODSN",
+        "SOKE",
+        "SONME",
+        "SUMAS",
+        "TARKM",
+        "TMPOL",
+        "ULUUN",
+        "YAPRK",
+        "YUNSA",
+        "YYLGD"
+      ]
     },
-    "seramik": {
-      "name": "Seramik",
-      "stocks": [ "KLSER", "QUAGR" ]
+    "producer_manufacturing": {
+      "name": "Uretici Imalat",
+      "stocks": [
+        "ALCAR",
+        "ALVES",
+        "ASTOR",
+        "AYES",
+        "BALAT",
+        "BERA",
+        "BFREN",
+        "BMSCH",
+        "BMSTL",
+        "BURVA",
+        "BVSAN",
+        "DITAS",
+        "DMSAS",
+        "DOFRB",
+        "DOKTA",
+        "EGEEN",
+        "EGSER",
+        "EKOS",
+        "EMKEL",
+        "EPLAS",
+        "EUPWR",
+        "EUREN",
+        "FMIZP",
+        "FRMPL",
+        "GENTS",
+        "GEREL",
+        "GIPTA",
+        "HATSN",
+        "HKTM",
+        "IMASM",
+        "INTEM",
+        "ISKPL",
+        "IZFAS",
+        "JANTS",
+        "KARSN",
+        "KATMR",
+        "KBORU",
+        "KLMSN",
+        "KLSER",
+        "KLYPV",
+        "KMPUR",
+        "MAKTK",
+        "MANAS",
+        "MEKAG",
+        "MZHLD",
+        "OZATD",
+        "OZYSR",
+        "PARSN",
+        "PRKAB",
+        "RNPOL",
+        "SAFKR",
+        "SANEL",
+        "SARKY",
+        "SAYAS",
+        "SERNT",
+        "SILVR",
+        "SNICA",
+        "TCKRC",
+        "TMSN",
+        "TTRAK",
+        "ULUSE",
+        "USAK",
+        "YIGIT"
+      ]
     },
-    "cimento": {
-      "name": "Çimento",
-      "stocks": [ "AKCNS", "CIMSA", "OYAKC", "BTCIM", "BOBET" ]
+    "retail_trade": {
+      "name": "Perakende Ticaret",
+      "stocks": [
+        "ARTMS",
+        "BEYAZ",
+        "BIMAS",
+        "BIZIM",
+        "CRFSA",
+        "DOAS",
+        "DOHOL",
+        "EBEBK",
+        "GMTAS",
+        "KIMMR",
+        "MEPET",
+        "MGROS",
+        "MOPAS",
+        "SOKM",
+        "SUWEN",
+        "TKNSA"
+      ]
     },
-    "tekstil": {
-      "name": "Tekstil",
-      "stocks": [ "MAVI", "YUNSA", "SUWEN" ]
+    "technology_services": {
+      "name": "Teknoloji Hizmetleri",
+      "stocks": [
+        "AGROT",
+        "ARDYZ",
+        "ATATP",
+        "BINHO",
+        "FONET",
+        "FORTE",
+        "HTTBT",
+        "KFEIN",
+        "LINK",
+        "LOGO",
+        "MIATK",
+        "MTRKS",
+        "NETAS",
+        "NETCD",
+        "OBASE",
+        "ODINE",
+        "PATEK",
+        "REEDR",
+        "SMART",
+        "VBTYZ"
+      ]
     },
-    "mali": {
-      "name": "Mali",
-      "stocks": [ "ISMEN", "INVES" ]
+    "transportation": {
+      "name": "Ulastirma",
+      "stocks": [
+        "CLEBI",
+        "GSDDE",
+        "GSDHO",
+        "HOROZ",
+        "HRKET",
+        "MMCAS",
+        "PASEU",
+        "PGSUS",
+        "PLTUR",
+        "RYSAS",
+        "TAVHL",
+        "THYAO",
+        "TLMAN"
+      ]
     },
-    "saglik": {
-      "name": "Sağlık",
-      "stocks": [ "MPARK", "GENIL" ]
-    },
-    "makine": {
-      "name": "Makine",
-      "stocks": [ "TMSN", "GESAN" ]
+    "utilities": {
+      "name": "Elektrik, Su, Gaz Hizmetleri",
+      "stocks": [
+        "A1YEN",
+        "AHGAZ",
+        "AKENR",
+        "AKFYE",
+        "AKSEN",
+        "AKSUE",
+        "ALFAS",
+        "ARASE",
+        "ARFYE",
+        "AYDEM",
+        "AYEN",
+        "AYGAZ",
+        "BASGZ",
+        "BESTE",
+        "BIGEN",
+        "BIOEN",
+        "CANTE",
+        "CATES",
+        "CONSE",
+        "ECOGR",
+        "ENERY",
+        "ENJSA",
+        "ENTRA",
+        "ESEN",
+        "GWIND",
+        "HUNER",
+        "IZENR",
+        "KONTR",
+        "MAGEN",
+        "MOGAN",
+        "NTGAZ",
+        "ODAS",
+        "PAMEL",
+        "TATEN",
+        "TRCAS",
+        "YEOTK",
+        "ZOREN"
+      ]
     }
   }
 }
