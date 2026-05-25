@@ -32,6 +32,7 @@ jobs:
 
       - name: Show diff summary
         run: |
+          git --no-pager status --short -- yat.json emk.json byf.json || true
           git --no-pager diff --stat -- yat.json emk.json byf.json || true
 
       - name: Commit and push if changed
@@ -39,11 +40,14 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
 
-          if git diff --quiet -- yat.json emk.json byf.json; then
+          # Önce stage et — yeni (untracked) dosyalar da görünsün
+          git add yat.json emk.json byf.json
+
+          # Sonra staged diff kontrolü — untracked dosyalar dahil
+          if git diff --cached --quiet -- yat.json emk.json byf.json; then
             echo "::notice::No fund data changes — skipping commit."
             exit 0
           fi
 
-          git add yat.json emk.json byf.json
           git commit -m "chore(tefas): nightly refresh $(date -u +'%Y-%m-%dT%H:%MZ')"
           git push
