@@ -1,8 +1,8 @@
 {
   "kind": "BYF",
-  "updated_at": "2026-06-03T04:11:15Z",
-  "source": "tefas.gov.tr/api/funds/fonGetiriBazliBilgiGetir",
-  "count": 31,
+  "updated_at": "2026-06-03T13:00:00Z",
+  "source": "manual + tefas.gov.tr",
+  "count": 50,
   "funds": [
     {
       "code": "BLH",
@@ -461,7 +461,7 @@
         "3y": 141.1835,
         "5y": 883.9237
       },
-      "borsaTicker": "ZGYO"
+      "borsaTicker": "ZRE20"
     },
     {
       "code": "ZSR",
@@ -532,21 +532,327 @@
       "borsaTicker": "ZTURK"
     },
     {
-       "code": "GMSTR",
-       "name": "QNB PORTFÖY GÜMÜŞ KATILIM BORSA YATIRIM FONU",
-       "category": "Emtia / BYF",
-       "active": true,
-       "risk": "5",
-       "returns": {
-         "1m": null,
-         "3m": null,
-         "6m": null,
-         "1y": null,
-         "ytd": null,
-         "3y": null,
-         "5y": null
-       },
-       "borsaTicker": "GMSTR"
-     }
-   ]
+      "code": "GMSTR",
+      "name": "QNB PORTFÖY GÜMÜŞ KATILIM BORSA YATIRIM FONU",
+      "category": "Emtia / BYF",
+      "active": true,
+      "risk": "5",
+      "returns": {
+        "1m": null,
+        "3m": null,
+        "6m": null,
+        "1y": null,
+        "ytd": null,
+        "3y": null,
+        "5y": null
+      },
+      "borsaTicker": "GMSTR"
+    },
+    {
+      "code": "APBDL",
+      "name": "AK PORTFÖY BIST BANKA DIŞI LİKİT 10 ENDEKSİ HİSSE SENEDİ YOĞUN BORSA YATIRIM FONU",
+      "category": "Hisse Senedi Yoğun",
+      "active": true,
+      "risk": "7",
+      "returns": {
+        "1m": null,
+        "3m": null,
+        "6m": null,
+        "1y": null,
+        "ytd": null,
+        "3y": null,
+        "5y": null
+      },
+      "borsaTicker": "APBDL"
+    },
+    {
+      "code": "APGLD",
+      "name": "AK PORTFÖY ALTIN KATILIM BORSA YATIRIM FONU",
+      "category": "Emtia / BYF",
+      "active": true,
+      "risk": "5",
+      "returns": {
+        "1m": null,
+        "3m": null,
+        "6m": null,
+        "1y": null,
+        "ytd": null,
+        "3y": null,
+        "5y": null
+      },
+      "borsaTicker": "APGLD"
+    },
+    {
+      "code": "APLIB",
+      "name": "AK PORTFÖY BIST LİKİT BANKA ENDEKSİ HİSSE SENEDİ YOĞUN BORSA YATIRIM FONU",
+      "category": "Hisse Senedi Yoğun",
+      "active": true,
+      "risk": "7",
+      "returns": {
+        "1m": null,
+        "3m": null,
+        "6m": null,
+        "1y": null,
+        "ytd": null,
+        "3y": null,
+        "5y": null
+      },
+      "borsaTicker": "APLIB"
+    },
+    {
+      "code": "APMDL",
+      "name": "AK PORTFÖY BIST 100 ENDEKSİ MODEL HİSSE SENEDİ YOĞUN BORSA YATIRIM FONU",
+      "category": "Hisse Senedi Yoğun",
+      "active": true,
+      "risk": "7",
+      "returns": {
+        "1m": null,
+        "3m": null,
+        "6m": null,
+        "1y": null,
+        "ytd": null,
+        "3y": null,
+        "5y": null
+      },
+      "borsaTicker": "APMDL"
+    },
+    {
+      "code": "APX30",
+      "name": "AK PORTFÖY BIST 30 ENDEKSİ HİSSE SENEDİ YOĞUN BORSA YATIRIM FONU",
+      "category": "Hisse Senedi Yoğun",
+      "active": true,
+      "risk": "7",
+      "returns": {
+        "1m": null,
+        "3m": null,
+        "6m": null,
+        "1y": null,
+        "ytd": null,
+        "3y": null,
+        "5y": null
+      },
+      "borsaTicker": "APX30"
+    },
+    {
+      "code": "GLDTR",
+      "name": "QNB PORTFÖY ALTIN KATILIM BORSA YATIRIM FONU",
+      "category": "Emtia / BYF",
+      "active": true,
+      "risk": "5",
+      "returns": {
+        "1m": null,
+        "3m": null,
+        "6m": null,
+        "1y": null,
+        "ytd": null,
+        "3y": null,
+        "5y": null
+      },
+      "borsaTicker": "GLDTR"
+    },
+    {
+      "code": "ISGLK",
+      "name": "İŞ PORTFÖY ALTIN KATILIM BORSA YATIRIM FONU",
+      "category": "Emtia / BYF",
+      "active": true,
+      "risk": "5",
+      "returns": {
+        "1m": null,
+        "3m": null,
+        "6m": null,
+        "1y": null,
+        "ytd": null,
+        "3y": null,
+        "5y": null
+      },
+      "borsaTicker": "ISGLK"
+    },
+    {
+      "code": "OPK30",
+      "name": "OSMANLI PORTFÖY KATILIM 30 ENDEKSİ HİSSE SENEDİ YOĞUN BORSA YATIRIM FONU",
+      "category": "Hisse Senedi Yoğun",
+      "active": true,
+      "risk": "7",
+      "returns": {
+        "1m": null,
+        "3m": null,
+        "6m": null,
+        "1y": null,
+        "ytd": null,
+        "3y": null,
+        "5y": null
+      },
+      "borsaTicker": "OPK30"
+    },
+    {
+      "code": "OPT25",
+      "name": "OSMANLI PORTFÖY BIST TEMETTÜ 25 ENDEKSİ HİSSE SENEDİ YOĞUN BORSA YATIRIM FONU",
+      "category": "Hisse Senedi Yoğun",
+      "active": true,
+      "risk": "7",
+      "returns": {
+        "1m": null,
+        "3m": null,
+        "6m": null,
+        "1y": null,
+        "ytd": null,
+        "3y": null,
+        "5y": null
+      },
+      "borsaTicker": "OPT25"
+    },
+    {
+      "code": "OPTGY",
+      "name": "OSMANLI PORTFÖY KAR PAYI ODAKLI BIST GYO ENDEKSİ HİSSE SENEDİ YOĞUN BORSA YATIRIM FONU",
+      "category": "Hisse Senedi Yoğun",
+      "active": true,
+      "risk": "7",
+      "returns": {
+        "1m": null,
+        "3m": null,
+        "6m": null,
+        "1y": null,
+        "ytd": null,
+        "3y": null,
+        "5y": null
+      },
+      "borsaTicker": "OPTGY"
+    },
+    {
+      "code": "OPTLR",
+      "name": "OSMANLI PORTFÖY BIST 30 ENDEKSİ HİSSE SENEDİ YOĞUN BORSA YATIRIM FONU",
+      "category": "Hisse Senedi Yoğun",
+      "active": true,
+      "risk": "7",
+      "returns": {
+        "1m": null,
+        "3m": null,
+        "6m": null,
+        "1y": null,
+        "ytd": null,
+        "3y": null,
+        "5y": null
+      },
+      "borsaTicker": "OPTLR"
+    },
+    {
+      "code": "OPX30",
+      "name": "OSMANLI PORTFÖY BIST 30 ENDEKSİ HİSSE SENEDİ YOĞUN BORSA YATIRIM FONU",
+      "category": "Hisse Senedi Yoğun",
+      "active": true,
+      "risk": "7",
+      "returns": {
+        "1m": null,
+        "3m": null,
+        "6m": null,
+        "1y": null,
+        "ytd": null,
+        "3y": null,
+        "5y": null
+      },
+      "borsaTicker": "OPX30"
+    },
+    {
+      "code": "USDTR",
+      "name": "FİNANS PORTFÖY AMERİKAN DOLARI YABANCI BORSA YATIRIM FONU",
+      "category": "Döviz / BYF",
+      "active": true,
+      "risk": "4",
+      "returns": {
+        "1m": null,
+        "3m": null,
+        "6m": null,
+        "1y": null,
+        "ytd": null,
+        "3y": null,
+        "5y": null
+      },
+      "borsaTicker": "USDTR"
+    },
+    {
+      "code": "Z30KE",
+      "name": "ZİRAAT PORTFÖY KATILIM 30 EŞİT AĞIRLIKLI ENDEKSİ HİSSE SENEDİ YOĞUN BORSA YATIRIM FONU",
+      "category": "Hisse Senedi Yoğun",
+      "active": true,
+      "risk": "7",
+      "returns": {
+        "1m": null,
+        "3m": null,
+        "6m": null,
+        "1y": null,
+        "ytd": null,
+        "3y": null,
+        "5y": null
+      },
+      "borsaTicker": "Z30KE"
+    },
+    {
+      "code": "Z30KP",
+      "name": "ZİRAAT PORTFÖY KATILIM 30 ENDEKSİ HİSSE SENEDİ YOĞUN BORSA YATIRIM FONU",
+      "category": "Hisse Senedi Yoğun",
+      "active": true,
+      "risk": "7",
+      "returns": {
+        "1m": null,
+        "3m": null,
+        "6m": null,
+        "1y": null,
+        "ytd": null,
+        "3y": null,
+        "5y": null
+      },
+      "borsaTicker": "Z30KP"
+    },
+    {
+      "code": "ZPT10",
+      "name": "ZİRAAT PORTFÖY YILDIZ PAZAR TEKNOLOJİ VE İLETİŞİM 10 ENDEKSİ HİSSE SENEDİ YOĞUN BORSA YATIRIM FONU",
+      "category": "Hisse Senedi Yoğun",
+      "active": true,
+      "risk": "7",
+      "returns": {
+        "1m": null,
+        "3m": null,
+        "6m": null,
+        "1y": null,
+        "ytd": null,
+        "3y": null,
+        "5y": null
+      },
+      "borsaTicker": "ZPT10"
+    },
+    {
+      "code": "ZRE20",
+      "name": "ZİRAAT PORTFÖY RİSK EŞİT BANKA DIŞI 20 ENDEKSİ HİSSE SENEDİ YOĞUN BORSA YATIRIM FONU",
+      "category": "Hisse Senedi Yoğun",
+      "active": true,
+      "risk": "7",
+      "returns": {
+        "1m": null,
+        "3m": null,
+        "6m": null,
+        "1y": null,
+        "ytd": null,
+        "3y": null,
+        "5y": null
+      },
+      "borsaTicker": "ZRE20"
+    },
+    {
+      "code": "ZSR25",
+      "name": "ZİRAAT PORTFÖY BIST SÜRDÜRÜLEBİLİRLİK 25 ENDEKSİ HİSSE SENEDİ YOĞUN BORSA YATIRIM FONU",
+      "category": "Hisse Senedi Yoğun",
+      "active": true,
+      "risk": "7",
+      "returns": {
+        "1m": null,
+        "3m": null,
+        "6m": null,
+        "1y": null,
+        "ytd": null,
+        "3y": null,
+        "5y": null
+      },
+      "borsaTicker": "ZSR25"
+    }
+  ]
 }
