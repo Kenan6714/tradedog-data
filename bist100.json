@@ -1546,12 +1546,6 @@
       "sector_code": "finans"
     },
     {
-      "symbol": "GMSTR",
-      "name": "QNB Portföy Gümüş Katılım BYF",
-      "sector": "Çeşitli",
-      "sector_code": "miscellaneous"
-    },
-    {
       "symbol": "GMTAS",
       "name": "Gimat Mağazacılık İnşaat Sanayi ve Ticaret A.Ş.",
       "sector": "Perakende Ticaret",
@@ -3875,7 +3869,7 @@
     },
     "miscellaneous": {
       "name": "Çeşitli",
-      "stocks": ["APBDL", "APGLD", "APLIB", "APMDL", "APX30", "ATLAS", "ATSYH", "AVTUR", "BRYAT", "GLDTR", "GMSTR", "ISIST", "ISYAT", "MTRYO", "OSTIM", "PAHOL", "QTEMZ", "USDTR", "YESIL", "Z30KE", "Z30KP", "ZGOLD", "ZRE20", "ZSR25"]
+      "stocks": ["APBDL", "APGLD", "APLIB", "APMDL", "APX30", "ATLAS", "ATSYH", "AVTUR", "BRYAT", "GLDTR", "ISIST", "ISYAT", "MTRYO", "OSTIM", "PAHOL", "QTEMZ", "USDTR", "YESIL", "Z30KE", "Z30KP", "ZGOLD", "ZRE20", "ZSR25"]
     },
     "non_energy_minerals": {
       "name": "Enerji Dışı Mineraller",
