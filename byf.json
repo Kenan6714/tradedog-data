@@ -530,6 +530,23 @@
         "5y": null
       },
       "borsaTicker": "ZTURK"
-    }
-  ]
+    },
+    {
+       "code": "GMSTR",
+       "name": "QNB PORTFÖY GÜMÜŞ KATILIM BORSA YATIRIM FONU",
+       "category": "Emtia / BYF",
+       "active": true,
+       "risk": "5",
+       "returns": {
+         "1m": null,
+         "3m": null,
+         "6m": null,
+         "1y": null,
+         "ytd": null,
+         "3y": null,
+         "5y": null
+       },
+       "borsaTicker": "GMSTR"
+     }
+   ]
 }
