@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-05-17",
-  "version": "4.1",
+  "last_updated": "2026-06-03",
+  "version": "4.4",
   "update_frequency": "quarterly",
   "bist100": [
     {
@@ -232,12 +232,6 @@
       "sector_code": "consumer_non_durables"
     },
     {
-      "symbol": "ALTIN",
-      "name": "Darphane Altın Sertifikası",
-      "sector": "Diğer",
-      "sector_code": "diger"
-    },
-    {
       "symbol": "ALTNY",
       "name": "Altınay Savunma Teknolojileri A.Ş.",
       "sector": "Elektronik Teknoloji",
@@ -272,36 +266,6 @@
       "name": "Anadolu Anonim Türk Sigorta Şirketi A.Ş.",
       "sector": "Finans",
       "sector_code": "finans"
-    },
-    {
-      "symbol": "APBDL",
-      "name": "Ak Portföy BIST Banka Dışı Likit 10 Endeksi Hisse Senedi Yoğun BYF",
-      "sector": "Çeşitli",
-      "sector_code": "miscellaneous"
-    },
-    {
-      "symbol": "APGLD",
-      "name": "Ak Portföy Altın Katılım BYF",
-      "sector": "Çeşitli",
-      "sector_code": "miscellaneous"
-    },
-    {
-      "symbol": "APLIB",
-      "name": "Ak Portföy BIST Likit Banka Endeksi Hisse Senedi Yoğun BYF",
-      "sector": "Çeşitli",
-      "sector_code": "miscellaneous"
-    },
-    {
-      "symbol": "APMDL",
-      "name": "Ak Portföy BIST 100 Endeksi Model Hisse Senedi Yoğun BYF",
-      "sector": "Çeşitli",
-      "sector_code": "miscellaneous"
-    },
-    {
-      "symbol": "APX30",
-      "name": "Ak Portföy BIST 30 Endeksi Hisse Senedi Yoğun BYF",
-      "sector": "Çeşitli",
-      "sector_code": "miscellaneous"
     },
     {
       "symbol": "ARASE",
@@ -1192,6 +1156,12 @@
       "sector_code": "producer_manufacturing"
     },
     {
+      "symbol": "EKDMR",
+      "name": "Ekinciler Demir ve Çelik Sanayi A.Ş.",
+      "sector": "Demir, Çelik, Metal",
+      "sector_code": "metal"
+    },
+    {
       "symbol": "EKGYO",
       "name": "Emlak Konut Gayrimenkul Yatırım Ortaklığı A.Ş.",
       "sector": "Finans",
@@ -1520,12 +1490,6 @@
       "name": "Gelecek Varlık Yönetimi A.Ş.",
       "sector": "Finans",
       "sector_code": "finans"
-    },
-    {
-      "symbol": "GLDTR",
-      "name": "QNB Portföy Altın Katılım BYF",
-      "sector": "Çeşitli",
-      "sector_code": "miscellaneous"
     },
     {
       "symbol": "GLRMK",
@@ -1870,12 +1834,6 @@
       "sector_code": "finans"
     },
     {
-      "symbol": "ISGLK",
-      "name": "İş Portföy Altın Katılım BYF",
-      "sector": "Diğer",
-      "sector_code": "diger"
-    },
-    {
       "symbol": "ISGSY",
       "name": "İş Girişim Sermayesi Yatırım Ortaklığı A.Ş.",
       "sector": "Finans",
@@ -1886,12 +1844,6 @@
       "name": "İş Gayrimenkul Yatırım Ortaklığı A.Ş.",
       "sector": "Finans",
       "sector_code": "finans"
-    },
-    {
-      "symbol": "ISIST",
-      "name": "İş Bankası İştirakleri Endeksi",
-      "sector": "Çeşitli",
-      "sector_code": "miscellaneous"
     },
     {
       "symbol": "ISKPL",
@@ -2632,36 +2584,6 @@
       "sector_code": "electronic_technology"
     },
     {
-      "symbol": "OPK30",
-      "name": "Osmanlı Portföy Katılım 30 Endeksi Hisse Senedi Yoğun BYF",
-      "sector": "Diğer",
-      "sector_code": "diger"
-    },
-    {
-      "symbol": "OPT25",
-      "name": "Osmanlı Portföy BIST Tem 25 Endeksi Hisse Senedi Yoğun BYF",
-      "sector": "Diğer",
-      "sector_code": "diger"
-    },
-    {
-      "symbol": "OPTGY",
-      "name": "Osmanlı Portföy Kar Payı Odaklı BIST GYO Endeksi Hisse Senedi Yoğun BYF",
-      "sector": "Diğer",
-      "sector_code": "diger"
-    },
-    {
-      "symbol": "OPTLR",
-      "name": "Osmanlı Portföy BIST 30 Endeksi Hisse Senedi Yoğun BYF",
-      "sector": "Diğer",
-      "sector_code": "diger"
-    },
-    {
-      "symbol": "OPX30",
-      "name": "Osmanlı Portföy BIST 30 Endeksi Hisse Senedi Yoğun BYF (ETF)",
-      "sector": "Diğer",
-      "sector_code": "diger"
-    },
-    {
       "symbol": "ORCAY",
       "name": "Orçay Ortaköy Çay Sanayi ve Ticaret A.Ş.",
       "sector": "Dayanıksız Tüketim Malları",
@@ -2942,12 +2864,6 @@
       "name": "QNB Bank A.Ş.",
       "sector": "Finans",
       "sector_code": "finans"
-    },
-    {
-      "symbol": "QTEMZ",
-      "name": "DJIST - Dow Jones Istanbul 20",
-      "sector": "Çeşitli",
-      "sector_code": "miscellaneous"
     },
     {
       "symbol": "QUAGR",
@@ -3544,6 +3460,12 @@
       "sector_code": "process_industries"
     },
     {
+      "symbol": "UMPAS",
+      "name": "Umpaş Holding A.Ş.",
+      "sector": "Holding ve Yatırım",
+      "sector_code": "holding"
+    },
+    {
       "symbol": "UNLU",
       "name": "Ünlü Yatırım Holding A.Ş.",
       "sector": "Finans",
@@ -3554,12 +3476,6 @@
       "name": "Uşak Seramik Sanayii A.Ş.",
       "sector": "Üretici İmalat",
       "sector_code": "producer_manufacturing"
-    },
-    {
-      "symbol": "USDTR",
-      "name": "Finans Asset Management American Dollar Foreign ETF",
-      "sector": "Çeşitli",
-      "sector_code": "miscellaneous"
     },
     {
       "symbol": "VAKBN",
@@ -3736,18 +3652,6 @@
       "sector_code": "process_industries"
     },
     {
-      "symbol": "Z30KE",
-      "name": "Ziraat Portföy Katılım 30 Eşit Ağırlıklı Endeksi Hisse Senedi Yoğun BYF",
-      "sector": "Çeşitli",
-      "sector_code": "miscellaneous"
-    },
-    {
-      "symbol": "Z30KP",
-      "name": "Ziraat Portföy Katılım 30 Endeksi Hisse Senedi Yoğun BYF",
-      "sector": "Çeşitli",
-      "sector_code": "miscellaneous"
-    },
-    {
       "symbol": "ZEDUR",
       "name": "Zedur Enerji Elektrik Üretim A.Ş.",
       "sector": "Tüketici Hizmetleri",
@@ -3758,12 +3662,6 @@
       "name": "Zeray Gayrimenkul Yatırım Ortaklığı A.Ş.",
       "sector": "Finans",
       "sector_code": "finans"
-    },
-    {
-      "symbol": "ZGOLD",
-      "name": "Ziraat Portföy Altın Katılım BYF",
-      "sector": "Çeşitli",
-      "sector_code": "miscellaneous"
     },
     {
       "symbol": "ZGYO",
@@ -3778,127 +3676,752 @@
       "sector_code": "utilities"
     },
     {
-      "symbol": "ZPBDL",
-      "name": "Ziraat Portföy BIST Banka Dışı Likit 10 Endeksi Hisse Senedi Yoğun BYF",
-      "sector": "Diğer",
-      "sector_code": "diger"
-    },
-    {
-      "symbol": "ZPLIB",
-      "name": "Ziraat Portföy BIST Likit Banka Endeksi Hisse Senedi Yoğun BYF",
-      "sector": "Diğer",
-      "sector_code": "diger"
-    },
-    {
-      "symbol": "ZPT10",
-      "name": "Ziraat Portföy Yıldız Pazar Teknoloji ve İletişim 10 Endeksi Hisse Senedi Yoğun BYF",
-      "sector": "Diğer",
-      "sector_code": "diger"
-    },
-    {
-      "symbol": "ZRE20",
-      "name": "Ziraat Portföy Risk Eşit Banka Dışı 20 Endeksi Hisse Senedi Yoğun BYF",
-      "sector": "Çeşitli",
-      "sector_code": "miscellaneous"
-    },
-    {
       "symbol": "ZRGYO",
       "name": "Ziraat Gayrimenkul Yatırım Ortaklığı A.Ş.",
       "sector": "Finans",
       "sector_code": "finans"
-    },
-    {
-      "symbol": "ZSR25",
-      "name": "Ziraat Portföy BIST Sürdürülebilirlik 25 Endeksi Hisse Senedi Yoğun BYF",
-      "sector": "Çeşitli",
-      "sector_code": "miscellaneous"
     }
   ],
   "sectors": {
     "commercial_services": {
       "name": "Ticari Hizmetler",
-      "stocks": ["AKYHO", "BINBN", "EDATA", "GATEG", "IHAAS", "MACKO", "MCARD", "PCILT", "PKART", "PRZMA", "SAMAT", "SKYLP", "SMRVA"]
+      "stocks": [
+        "AKYHO",
+        "BINBN",
+        "EDATA",
+        "GATEG",
+        "IHAAS",
+        "MACKO",
+        "MCARD",
+        "PCILT",
+        "PKART",
+        "PRZMA",
+        "SAMAT",
+        "SKYLP",
+        "SMRVA"
+      ]
     },
     "communications": {
       "name": "İletişim",
-      "stocks": ["KRONT", "TCELL", "TTKOM"]
+      "stocks": [
+        "KRONT",
+        "TCELL",
+        "TTKOM"
+      ]
     },
     "consumer_durables": {
       "name": "Dayanıklı Tüketim Malları",
-      "stocks": ["ADEL", "ARCLK", "ASUZU", "BRISA", "BRKO", "CGCAM", "DGNMO", "FROTO", "FZLGY", "GOODY", "IHEVA", "KLSYN", "KUTPO", "KUVVA", "OTKAR", "SISE", "TOASO", "VESBE", "VESTL", "YONGA"]
+      "stocks": [
+        "ADEL",
+        "ARCLK",
+        "ASUZU",
+        "BRISA",
+        "BRKO",
+        "CGCAM",
+        "DGNMO",
+        "FROTO",
+        "FZLGY",
+        "GOODY",
+        "IHEVA",
+        "KLSYN",
+        "KUTPO",
+        "KUVVA",
+        "OTKAR",
+        "SISE",
+        "TOASO",
+        "VESBE",
+        "VESTL",
+        "YONGA"
+      ]
     },
     "consumer_non_durables": {
       "name": "Dayanıksız Tüketim Malları",
-      "stocks": ["AEFES", "AGHOL", "ALKLC", "ARMGD", "ATAKP", "AVOD", "BALSU", "BAYRK", "BESLR", "CCOLA", "CEMZY", "DAGI", "DARDL", "DERHL", "DERIM", "DESA", "DMRGD", "DUNYH", "DURKN", "EFOR", "ELITE", "ENSRI", "ERSU", "FADE", "FRIGO", "GOKNR", "GUNDG", "IZINV", "KENT", "KLRHO", "KNFRT", "KOTON", "KRPLS", "KRSTL", "KRVGD", "LILAK", "LRSHO", "LYDYE", "MAVI", "MERKO", "METRO", "MEYSU", "MNDRS", "OBAMS", "ORCAY", "OYLUM", "PENGD", "PETUN", "PINSU", "PNSUT", "RODRG", "SEGMN", "SELVA", "SUNTK", "TATGD", "TBORG", "TEZOL", "TUKAS", "ULKER", "VAKKO", "VKING"]
+      "stocks": [
+        "AEFES",
+        "AGHOL",
+        "ALKLC",
+        "ARMGD",
+        "ATAKP",
+        "AVOD",
+        "BALSU",
+        "BAYRK",
+        "BESLR",
+        "CCOLA",
+        "CEMZY",
+        "DAGI",
+        "DARDL",
+        "DERHL",
+        "DERIM",
+        "DESA",
+        "DMRGD",
+        "DUNYH",
+        "DURKN",
+        "EFOR",
+        "ELITE",
+        "ENSRI",
+        "ERSU",
+        "FADE",
+        "FRIGO",
+        "GOKNR",
+        "GUNDG",
+        "IZINV",
+        "KENT",
+        "KLRHO",
+        "KNFRT",
+        "KOTON",
+        "KRPLS",
+        "KRSTL",
+        "KRVGD",
+        "LILAK",
+        "LRSHO",
+        "LYDYE",
+        "MAVI",
+        "MERKO",
+        "METRO",
+        "MEYSU",
+        "MNDRS",
+        "OBAMS",
+        "ORCAY",
+        "OYLUM",
+        "PENGD",
+        "PETUN",
+        "PINSU",
+        "PNSUT",
+        "RODRG",
+        "SEGMN",
+        "SELVA",
+        "SUNTK",
+        "TATGD",
+        "TBORG",
+        "TEZOL",
+        "TUKAS",
+        "ULKER",
+        "VAKKO",
+        "VKING"
+      ]
     },
     "consumer_services": {
       "name": "Tüketici Hizmetleri",
-      "stocks": ["ATATR", "AYCES", "BIGCH", "BIGTK", "BJKAS", "BLUME", "BYDNR", "CEOEM", "DOCO", "ETILR", "FENER", "FLAP", "GRSEL", "GSRAY", "GZNMI", "HURGZ", "IHGZT", "IHYAY", "KERVN", "KSTUR", "MAALT", "MARTI", "MERIT", "NTHOL", "PKENT", "TABGD", "TEKTU", "TSPOR", "ULAS", "ZEDUR"]
+      "stocks": [
+        "ATATR",
+        "AYCES",
+        "BIGCH",
+        "BIGTK",
+        "BJKAS",
+        "BLUME",
+        "BYDNR",
+        "CEOEM",
+        "DOCO",
+        "ETILR",
+        "FENER",
+        "FLAP",
+        "GRSEL",
+        "GSRAY",
+        "GZNMI",
+        "HURGZ",
+        "IHGZT",
+        "IHYAY",
+        "KERVN",
+        "KSTUR",
+        "MAALT",
+        "MARTI",
+        "MERIT",
+        "NTHOL",
+        "PKENT",
+        "TABGD",
+        "TEKTU",
+        "TSPOR",
+        "ULAS",
+        "ZEDUR"
+      ]
     },
     "diger": {
       "name": "Diğer",
-      "stocks": ["ALTIN", "ISGLK", "OPK30", "OPT25", "OPTGY", "OPTLR", "OPX30", "ZPBDL", "ZPLIB", "ZPT10"]
+      "stocks": [
+        "ALTIN",
+        "ISGLK",
+        "OPK30",
+        "OPT25",
+        "OPTGY",
+        "OPTLR",
+        "OPX30",
+        "ZPBDL",
+        "ZPLIB",
+        "ZPT10"
+      ]
     },
     "distribution_services": {
       "name": "Dağıtım Hizmetleri",
-      "stocks": ["ARENA", "ARZUM", "AZTEK", "CASA", "COSMO", "DCTTR", "DESPC", "DGATE", "GRTHO", "INDES", "INGRM", "LYDHO", "MARKA", "MOBTL", "PENTA", "SELEC", "TGSAS", "VANGD", "YATAS", "YKSLN"]
+      "stocks": [
+        "ARENA",
+        "ARZUM",
+        "AZTEK",
+        "CASA",
+        "COSMO",
+        "DCTTR",
+        "DESPC",
+        "DGATE",
+        "GRTHO",
+        "INDES",
+        "INGRM",
+        "LYDHO",
+        "MARKA",
+        "MOBTL",
+        "PENTA",
+        "SELEC",
+        "TGSAS",
+        "VANGD",
+        "YATAS",
+        "YKSLN"
+      ]
     },
     "electronic_technology": {
       "name": "Elektronik Teknoloji",
-      "stocks": ["ALCTL", "ALTNY", "ASELS", "CWENE", "EMPAE", "ESCOM", "GESAN", "KAREL", "MAKIM", "ONRYT", "PAPIL", "SDTTR", "SMRTG"]
+      "stocks": [
+        "ALCTL",
+        "ALTNY",
+        "ASELS",
+        "CWENE",
+        "EMPAE",
+        "ESCOM",
+        "GESAN",
+        "KAREL",
+        "MAKIM",
+        "ONRYT",
+        "PAPIL",
+        "SDTTR",
+        "SMRTG"
+      ]
     },
     "energy_minerals": {
       "name": "Enerji Mineralleri",
-      "stocks": ["KCHOL", "TRENJ", "TUPRS"]
+      "stocks": [
+        "KCHOL",
+        "TRENJ",
+        "TUPRS"
+      ]
     },
     "finans": {
       "name": "Finans",
-      "stocks": ["A1CAP", "AAGYO", "ADESE", "ADGYO", "AGESA", "AGYO", "AHSGY", "AKBNK", "AKFGY", "AKGRT", "AKMGY", "AKSGY", "ALARK", "ALBRK", "ALGYO", "ANHYT", "ANSGR", "ASGYO", "ATAGY", "AVGYO", "AVPGY", "BEGYO", "BORLS", "BRKVY", "BULGS", "CRDFA", "DAPGM", "DENGE", "DGGYO", "DMLKT", "DSTKF", "DZGYO", "ECZYT", "EDIP", "EGEGY", "EKGYO", "ENDAE", "ENPRA", "ESCAR", "ETYAT", "EUHOL", "EUKYO", "EUYO", "EYGYO", "GARAN", "GARFA", "GEDIK", "GLBMD", "GLCVY", "GLRYH", "GLYHO", "GOZDE", "GRNYO", "HALKB", "HALKS", "HDFGS", "HEDEF", "HLGYO", "HUBVC", "ICBCT", "ICUGS", "IDGYO", "IHLAS", "IHLGM", "INFO", "INVEO", "INVES", "ISATR", "ISBTR", "ISCTR", "ISFIN", "ISGSY", "ISGYO", "ISKUR", "ISMEN", "KGYO", "KLGYO", "KLNMA", "KRGYO", "KTLEV", "KUYAS", "KZBGY", "KZGYO", "LIDER", "LIDFA", "LXGYO", "MARMR", "MHRGY", "MRGYO", "MSGYO", "NUGYO", "OSMEN", "OYAYO", "OYYAT", "OZGYO", "OZKGY", "PAGYO", "PEKGY", "PRDGS", "PSGYO", "QNBFK", "QNBTR", "RAYSG", "RGYAS", "RYGYO", "SAHOL", "SEGYO", "SEKFK", "SKBNK", "SKYMD", "SNGYO", "SRVGY", "SURGY", "SVGYO", "TDGYO", "TEHOL", "TERA", "TRGYO", "TRHOL", "TSGYO", "TSKB", "TUREX", "TURGG", "TURSG", "UFUK", "ULUFA", "UNLU", "VAKBN", "VAKFA", "VAKFN", "VERTU", "VERUS", "VKFYO", "VKGYO", "VRGYO", "YGGYO", "YKBNK", "ZERGY", "ZGYO", "ZRGYO"]
+      "stocks": [
+        "A1CAP",
+        "AAGYO",
+        "ADESE",
+        "ADGYO",
+        "AGESA",
+        "AGYO",
+        "AHSGY",
+        "AKBNK",
+        "AKFGY",
+        "AKGRT",
+        "AKMGY",
+        "AKSGY",
+        "ALARK",
+        "ALBRK",
+        "ALGYO",
+        "ANHYT",
+        "ANSGR",
+        "ASGYO",
+        "ATAGY",
+        "AVGYO",
+        "AVPGY",
+        "BEGYO",
+        "BORLS",
+        "BRKVY",
+        "BULGS",
+        "CRDFA",
+        "DAPGM",
+        "DENGE",
+        "DGGYO",
+        "DMLKT",
+        "DSTKF",
+        "DZGYO",
+        "ECZYT",
+        "EDIP",
+        "EGEGY",
+        "EKGYO",
+        "ENDAE",
+        "ENPRA",
+        "ESCAR",
+        "ETYAT",
+        "EUHOL",
+        "EUKYO",
+        "EUYO",
+        "EYGYO",
+        "GARAN",
+        "GARFA",
+        "GEDIK",
+        "GLBMD",
+        "GLCVY",
+        "GLRYH",
+        "GLYHO",
+        "GOZDE",
+        "GRNYO",
+        "HALKB",
+        "HALKS",
+        "HDFGS",
+        "HEDEF",
+        "HLGYO",
+        "HUBVC",
+        "ICBCT",
+        "ICUGS",
+        "IDGYO",
+        "IHLAS",
+        "IHLGM",
+        "INFO",
+        "INVEO",
+        "INVES",
+        "ISATR",
+        "ISBTR",
+        "ISCTR",
+        "ISFIN",
+        "ISGSY",
+        "ISGYO",
+        "ISKUR",
+        "ISMEN",
+        "KGYO",
+        "KLGYO",
+        "KLNMA",
+        "KRGYO",
+        "KTLEV",
+        "KUYAS",
+        "KZBGY",
+        "KZGYO",
+        "LIDER",
+        "LIDFA",
+        "LXGYO",
+        "MARMR",
+        "MHRGY",
+        "MRGYO",
+        "MSGYO",
+        "NUGYO",
+        "OSMEN",
+        "OYAYO",
+        "OYYAT",
+        "OZGYO",
+        "OZKGY",
+        "PAGYO",
+        "PEKGY",
+        "PRDGS",
+        "PSGYO",
+        "QNBFK",
+        "QNBTR",
+        "RAYSG",
+        "RGYAS",
+        "RYGYO",
+        "SAHOL",
+        "SEGYO",
+        "SEKFK",
+        "SKBNK",
+        "SKYMD",
+        "SNGYO",
+        "SRVGY",
+        "SURGY",
+        "SVGYO",
+        "TDGYO",
+        "TEHOL",
+        "TERA",
+        "TRGYO",
+        "TRHOL",
+        "TSGYO",
+        "TSKB",
+        "TUREX",
+        "TURGG",
+        "TURSG",
+        "UFUK",
+        "ULUFA",
+        "UNLU",
+        "VAKBN",
+        "VAKFA",
+        "VAKFN",
+        "VERTU",
+        "VERUS",
+        "VKFYO",
+        "VKGYO",
+        "VRGYO",
+        "YGGYO",
+        "YKBNK",
+        "ZERGY",
+        "ZGYO",
+        "ZRGYO"
+      ]
     },
     "health_services": {
       "name": "Sağlık Hizmetleri",
-      "stocks": ["AVHOL", "EGEPO", "LKMNH", "MPARK", "TNZTP"]
+      "stocks": [
+        "AVHOL",
+        "EGEPO",
+        "LKMNH",
+        "MPARK",
+        "TNZTP"
+      ]
     },
     "health_technology": {
       "name": "Sağlık Teknolojisi",
-      "stocks": ["ANGEN", "DEVA", "ECILC", "GENIL", "KAYSE", "MEDTR", "ONCSM", "RTALB", "SEYKM", "TRILC"]
+      "stocks": [
+        "ANGEN",
+        "DEVA",
+        "ECILC",
+        "GENIL",
+        "KAYSE",
+        "MEDTR",
+        "ONCSM",
+        "RTALB",
+        "SEYKM",
+        "TRILC"
+      ]
     },
     "industrial_services": {
       "name": "Endüstriyel Hizmetler",
-      "stocks": ["AKFIS", "ANELE", "ENKAI", "GLRMK", "NATEN", "NIBAS", "ORGE", "RALYH", "TKFEN", "UCAYM", "YAYLA", "YYAPI"]
+      "stocks": [
+        "AKFIS",
+        "ANELE",
+        "ENKAI",
+        "GLRMK",
+        "NATEN",
+        "NIBAS",
+        "ORGE",
+        "RALYH",
+        "TKFEN",
+        "UCAYM",
+        "YAYLA",
+        "YYAPI"
+      ]
     },
     "miscellaneous": {
       "name": "Çeşitli",
-      "stocks": ["APBDL", "APGLD", "APLIB", "APMDL", "APX30", "ATLAS", "ATSYH", "AVTUR", "BRYAT", "GLDTR", "ISIST", "ISYAT", "MTRYO", "OSTIM", "PAHOL", "QTEMZ", "USDTR", "YESIL", "Z30KE", "Z30KP", "ZGOLD", "ZRE20", "ZSR25"]
+      "stocks": [
+        "APBDL",
+        "APGLD",
+        "APLIB",
+        "APMDL",
+        "APX30",
+        "ATLAS",
+        "ATSYH",
+        "AVTUR",
+        "BRYAT",
+        "GLDTR",
+        "ISIST",
+        "ISYAT",
+        "MTRYO",
+        "OSTIM",
+        "PAHOL",
+        "QTEMZ",
+        "USDTR",
+        "YESIL",
+        "Z30KE",
+        "Z30KP",
+        "ZGOLD",
+        "ZRE20",
+        "ZSR25"
+      ]
     },
     "non_energy_minerals": {
       "name": "Enerji Dışı Mineraller",
-      "stocks": ["AFYON", "AKCNS", "BASCM", "BIENY", "BOBET", "BRLSM", "BRSAN", "BSOKE", "BTCIM", "BUCIM", "BURCE", "CELHA", "CEMAS", "CEMTS", "CIMSA", "CMBTN", "CMENT", "CUSAN", "CVKMD", "DOFER", "DOGUB", "ERBOS", "ERCB", "EREGL", "FORMT", "GOLTS", "ISDMR", "IZMDC", "KCAER", "KOCMT", "KONYA", "KRDMA", "KRDMB", "KRDMD", "LMKDC", "MARBL", "MEGMT", "NUHCM", "ORMA", "OYAKC", "PNLSN", "PRKME", "QUAGR", "TRALT", "TRMET", "TUCLK", "VSNMD", "YBTAS"]
+      "stocks": [
+        "AFYON",
+        "AKCNS",
+        "BASCM",
+        "BIENY",
+        "BOBET",
+        "BRLSM",
+        "BRSAN",
+        "BSOKE",
+        "BTCIM",
+        "BUCIM",
+        "BURCE",
+        "CELHA",
+        "CEMAS",
+        "CEMTS",
+        "CIMSA",
+        "CMBTN",
+        "CMENT",
+        "CUSAN",
+        "CVKMD",
+        "DOFER",
+        "DOGUB",
+        "ERBOS",
+        "ERCB",
+        "EREGL",
+        "FORMT",
+        "GOLTS",
+        "ISDMR",
+        "IZMDC",
+        "KCAER",
+        "KOCMT",
+        "KONYA",
+        "KRDMA",
+        "KRDMB",
+        "KRDMD",
+        "LMKDC",
+        "MARBL",
+        "MEGMT",
+        "NUHCM",
+        "ORMA",
+        "OYAKC",
+        "PNLSN",
+        "PRKME",
+        "QUAGR",
+        "TRALT",
+        "TRMET",
+        "TUCLK",
+        "VSNMD",
+        "YBTAS"
+      ]
     },
     "process_industries": {
       "name": "İşlenebilen Endüstriler",
-      "stocks": ["ACSEL", "AKHAN", "AKSA", "ALKA", "ALKIM", "ARSAN", "ATEKS", "BAGFS", "BAHKM", "BAKAB", "BANVT", "BARMA", "BLCYT", "BNTAS", "BORSK", "BOSSA", "BRKSN", "BRMEN", "DIRIT", "DNISI", "DURDO", "DYOBY", "EGGUB", "EGPRO", "EKIZ", "EKSUN", "EMNIS", "GEDZA", "GENKM", "GUBRF", "HATEK", "HEKTS", "IEYHO", "INTEK", "ISBIR", "ISSEN", "KAPLM", "KARTN", "KLKIM", "KONKA", "KOPOL", "KORDS", "KRTEK", "KTSKR", "LUKSK", "MEGAP", "MERCN", "MNDTR", "MRSHL", "OFSYM", "OTTO", "OZRDN", "OZSUB", "PETKM", "POLHO", "POLTK", "PSDTC", "RUBNS", "RUZYE", "SANFM", "SANKO", "SASA", "SEKUR", "SKTAS", "SNPAM", "SODSN", "SOKE", "SONME", "SUMAS", "TARKM", "TMPOL", "ULUUN", "YAPRK", "YUNSA", "YYLGD"]
+      "stocks": [
+        "ACSEL",
+        "AKHAN",
+        "AKSA",
+        "ALKA",
+        "ALKIM",
+        "ARSAN",
+        "ATEKS",
+        "BAGFS",
+        "BAHKM",
+        "BAKAB",
+        "BANVT",
+        "BARMA",
+        "BLCYT",
+        "BNTAS",
+        "BORSK",
+        "BOSSA",
+        "BRKSN",
+        "BRMEN",
+        "DIRIT",
+        "DNISI",
+        "DURDO",
+        "DYOBY",
+        "EGGUB",
+        "EGPRO",
+        "EKIZ",
+        "EKSUN",
+        "EMNIS",
+        "GEDZA",
+        "GENKM",
+        "GUBRF",
+        "HATEK",
+        "HEKTS",
+        "IEYHO",
+        "INTEK",
+        "ISBIR",
+        "ISSEN",
+        "KAPLM",
+        "KARTN",
+        "KLKIM",
+        "KONKA",
+        "KOPOL",
+        "KORDS",
+        "KRTEK",
+        "KTSKR",
+        "LUKSK",
+        "MEGAP",
+        "MERCN",
+        "MNDTR",
+        "MRSHL",
+        "OFSYM",
+        "OTTO",
+        "OZRDN",
+        "OZSUB",
+        "PETKM",
+        "POLHO",
+        "POLTK",
+        "PSDTC",
+        "RUBNS",
+        "RUZYE",
+        "SANFM",
+        "SANKO",
+        "SASA",
+        "SEKUR",
+        "SKTAS",
+        "SNPAM",
+        "SODSN",
+        "SOKE",
+        "SONME",
+        "SUMAS",
+        "TARKM",
+        "TMPOL",
+        "ULUUN",
+        "YAPRK",
+        "YUNSA",
+        "YYLGD"
+      ]
     },
     "producer_manufacturing": {
       "name": "Üretici İmalat",
-      "stocks": ["ALCAR", "ALVES", "ASTOR", "AYES", "BALAT", "BERA", "BFREN", "BMSCH", "BMSTL", "BURVA", "BVSAN", "DITAS", "DMSAS", "DOFRB", "DOKTA", "EGEEN", "EGSER", "EKOS", "EMKEL", "EPLAS", "EUPWR", "EUREN", "FMIZP", "FRMPL", "GENTS", "GEREL", "GIPTA", "HATSN", "HKTM", "IMASM", "INTEM", "ISKPL", "IZFAS", "JANTS", "KARSN", "KATMR", "KBORU", "KLMSN", "KLSER", "KLYPV", "KMPUR", "MAKTK", "MANAS", "MEKAG", "MZHLD", "OZATD", "OZYSR", "PARSN", "PRKAB", "RNPOL", "SAFKR", "SANEL", "SARKY", "SAYAS", "SERNT", "SILVR", "SNICA", "TCKRC", "TMSN", "TTRAK", "ULUSE", "USAK", "YIGIT"]
+      "stocks": [
+        "ALCAR",
+        "ALVES",
+        "ASTOR",
+        "AYES",
+        "BALAT",
+        "BERA",
+        "BFREN",
+        "BMSCH",
+        "BMSTL",
+        "BURVA",
+        "BVSAN",
+        "DITAS",
+        "DMSAS",
+        "DOFRB",
+        "DOKTA",
+        "EGEEN",
+        "EGSER",
+        "EKOS",
+        "EMKEL",
+        "EPLAS",
+        "EUPWR",
+        "EUREN",
+        "FMIZP",
+        "FRMPL",
+        "GENTS",
+        "GEREL",
+        "GIPTA",
+        "HATSN",
+        "HKTM",
+        "IMASM",
+        "INTEM",
+        "ISKPL",
+        "IZFAS",
+        "JANTS",
+        "KARSN",
+        "KATMR",
+        "KBORU",
+        "KLMSN",
+        "KLSER",
+        "KLYPV",
+        "KMPUR",
+        "MAKTK",
+        "MANAS",
+        "MEKAG",
+        "MZHLD",
+        "OZATD",
+        "OZYSR",
+        "PARSN",
+        "PRKAB",
+        "RNPOL",
+        "SAFKR",
+        "SANEL",
+        "SARKY",
+        "SAYAS",
+        "SERNT",
+        "SILVR",
+        "SNICA",
+        "TCKRC",
+        "TMSN",
+        "TTRAK",
+        "ULUSE",
+        "USAK",
+        "YIGIT"
+      ]
     },
     "retail_trade": {
       "name": "Perakende Ticaret",
-      "stocks": ["ARTMS", "BEYAZ", "BIMAS", "BIZIM", "CRFSA", "DOAS", "DOHOL", "EBEBK", "GMTAS", "KIMMR", "MEPET", "MGROS", "MOPAS", "SOKM", "SUWEN", "TKNSA"]
+      "stocks": [
+        "ARTMS",
+        "BEYAZ",
+        "BIMAS",
+        "BIZIM",
+        "CRFSA",
+        "DOAS",
+        "DOHOL",
+        "EBEBK",
+        "GMTAS",
+        "KIMMR",
+        "MEPET",
+        "MGROS",
+        "MOPAS",
+        "SOKM",
+        "SUWEN",
+        "TKNSA"
+      ]
     },
     "technology_services": {
       "name": "Teknoloji Hizmetleri",
-      "stocks": ["AGROT", "ARDYZ", "ATATP", "BINHO", "FONET", "FORTE", "HTTBT", "KFEIN", "LINK", "LOGO", "MIATK", "MTRKS", "NETAS", "NETCD", "OBASE", "ODINE", "PATEK", "REEDR", "SMART", "VBTYZ"]
+      "stocks": [
+        "AGROT",
+        "ARDYZ",
+        "ATATP",
+        "BINHO",
+        "FONET",
+        "FORTE",
+        "HTTBT",
+        "KFEIN",
+        "LINK",
+        "LOGO",
+        "MIATK",
+        "MTRKS",
+        "NETAS",
+        "NETCD",
+        "OBASE",
+        "ODINE",
+        "PATEK",
+        "REEDR",
+        "SMART",
+        "VBTYZ"
+      ]
     },
     "transportation": {
       "name": "Ulaştırma",
-      "stocks": ["CLEBI", "GSDDE", "GSDHO", "HOROZ", "HRKET", "MMCAS", "PASEU", "PGSUS", "PLTUR", "RYSAS", "TAVHL", "THYAO", "TLMAN"]
+      "stocks": [
+        "CLEBI",
+        "GSDDE",
+        "GSDHO",
+        "HOROZ",
+        "HRKET",
+        "MMCAS",
+        "PASEU",
+        "PGSUS",
+        "PLTUR",
+        "RYSAS",
+        "TAVHL",
+        "THYAO",
+        "TLMAN"
+      ]
     },
     "utilities": {
       "name": "Elektrik, Su, Gaz Hizmetleri",
-      "stocks": ["A1YEN", "AHGAZ", "AKENR", "AKFYE", "AKSEN", "AKSUE", "ALFAS", "ARASE", "ARFYE", "AYDEM", "AYEN", "AYGAZ", "BASGZ", "BESTE", "BIGEN", "BIOEN", "CANTE", "CATES", "CONSE", "ECOGR", "ENERY", "ENJSA", "ENTRA", "ESEN", "GWIND", "HUNER", "IZENR", "KONTR", "MAGEN", "MOGAN", "NTGAZ", "ODAS", "PAMEL", "TATEN", "TRCAS", "YEOTK", "ZOREN"]
+      "stocks": [
+        "A1YEN",
+        "AHGAZ",
+        "AKENR",
+        "AKFYE",
+        "AKSEN",
+        "AKSUE",
+        "ALFAS",
+        "ARASE",
+        "ARFYE",
+        "AYDEM",
+        "AYEN",
+        "AYGAZ",
+        "BASGZ",
+        "BESTE",
+        "BIGEN",
+        "BIOEN",
+        "CANTE",
+        "CATES",
+        "CONSE",
+        "ECOGR",
+        "ENERY",
+        "ENJSA",
+        "ENTRA",
+        "ESEN",
+        "GWIND",
+        "HUNER",
+        "IZENR",
+        "KONTR",
+        "MAGEN",
+        "MOGAN",
+        "NTGAZ",
+        "ODAS",
+        "PAMEL",
+        "TATEN",
+        "TRCAS",
+        "YEOTK",
+        "ZOREN"
+      ]
     }
   }
 }
-     
