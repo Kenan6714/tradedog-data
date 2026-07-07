@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-06-03",
-  "version": "4.4",
+  "last_updated": "2026-07-07",
+  "version": "4.5",
   "update_frequency": "quarterly",
   "bist100": [
     {
@@ -538,6 +538,12 @@
       "sector_code": "utilities"
     },
     {
+      "symbol": "BETAE",
+      "name": "Beta Enerji ve Teknoloji A.Ş.",
+      "sector": "Elektrik, Su, Gaz Hizmetleri",
+      "sector_code": "utilities"
+    },
+    {
       "symbol": "BEYAZ",
       "name": "Beyaz Filo Oto Kiralama A.Ş.",
       "sector": "Perakende Ticaret",
@@ -976,12 +982,6 @@
       "sector_code": "producer_manufacturing"
     },
     {
-      "symbol": "DMLKT",
-      "name": "Emlak Konut GYO Sertifikası",
-      "sector": "Finans",
-      "sector_code": "finans"
-    },
-    {
       "symbol": "DMRGD",
       "name": "DMR Unlu Mamuller Üretim Gıda Toptan Perakende İhracat A.Ş.",
       "sector": "Dayanıksız Tüketim Malları",
@@ -1158,8 +1158,8 @@
     {
       "symbol": "EKDMR",
       "name": "Ekinciler Demir ve Çelik Sanayi A.Ş.",
-      "sector": "Demir, Çelik, Metal",
-      "sector_code": "metal"
+      "sector": "Enerji Dışı Mineraller",
+      "sector_code": "non_energy_minerals"
     },
     {
       "symbol": "EKGYO",
@@ -1602,12 +1602,6 @@
     {
       "symbol": "HALKB",
       "name": "Türkiye Halk Bankası A.Ş.",
-      "sector": "Finans",
-      "sector_code": "finans"
-    },
-    {
-      "symbol": "HALKS",
-      "name": "Halk Sigorta A.Ş.",
       "sector": "Finans",
       "sector_code": "finans"
     },
@@ -2602,6 +2596,12 @@
       "sector_code": "non_energy_minerals"
     },
     {
+      "symbol": "ORZAX",
+      "name": "Orzaks İlaç ve Kimya Sanayi Ticaret A.Ş.",
+      "sector": "Sağlık Teknolojisi",
+      "sector_code": "health_technology"
+    },
+    {
       "symbol": "OSMEN",
       "name": "Osmanlı Yatırım Menkul Değerler A.Ş.",
       "sector": "Finans",
@@ -3124,6 +3124,12 @@
       "sector_code": "process_industries"
     },
     {
+      "symbol": "SOHOE",
+      "name": "Soho Giyim ve Enerji A.Ş.",
+      "sector": "Dayanıksız Tüketim Malları",
+      "sector_code": "consumer_non_durables"
+    },
+    {
       "symbol": "SOKE",
       "name": "Söke Değirmencilik Sanayi ve Ticaret A.Ş.",
       "sector": "İşlenebilen Endüstriler",
@@ -3462,8 +3468,8 @@
     {
       "symbol": "UMPAS",
       "name": "Umpaş Holding A.Ş.",
-      "sector": "Holding ve Yatırım",
-      "sector_code": "holding"
+      "sector": "Finans",
+      "sector_code": "finans"
     },
     {
       "symbol": "UNLU",
@@ -3790,6 +3796,7 @@
         "RODRG",
         "SEGMN",
         "SELVA",
+        "SOHOE",
         "SUNTK",
         "TATGD",
         "TBORG",
@@ -3833,21 +3840,6 @@
         "TSPOR",
         "ULAS",
         "ZEDUR"
-      ]
-    },
-    "diger": {
-      "name": "Diğer",
-      "stocks": [
-        "ALTIN",
-        "ISGLK",
-        "OPK30",
-        "OPT25",
-        "OPTGY",
-        "OPTLR",
-        "OPX30",
-        "ZPBDL",
-        "ZPLIB",
-        "ZPT10"
       ]
     },
     "distribution_services": {
@@ -3933,7 +3925,6 @@
         "DAPGM",
         "DENGE",
         "DGGYO",
-        "DMLKT",
         "DSTKF",
         "DZGYO",
         "ECZYT",
@@ -3958,7 +3949,6 @@
         "GOZDE",
         "GRNYO",
         "HALKB",
-        "HALKS",
         "HDFGS",
         "HEDEF",
         "HLGYO",
@@ -4030,6 +4020,7 @@
         "TURSG",
         "UFUK",
         "ULUFA",
+        "UMPAS",
         "UNLU",
         "VAKBN",
         "VAKFA",
@@ -4066,6 +4057,7 @@
         "KAYSE",
         "MEDTR",
         "ONCSM",
+        "ORZAX",
         "RTALB",
         "SEYKM",
         "TRILC"
@@ -4091,29 +4083,15 @@
     "miscellaneous": {
       "name": "Çeşitli",
       "stocks": [
-        "APBDL",
-        "APGLD",
-        "APLIB",
-        "APMDL",
-        "APX30",
         "ATLAS",
         "ATSYH",
         "AVTUR",
         "BRYAT",
-        "GLDTR",
-        "ISIST",
         "ISYAT",
         "MTRYO",
         "OSTIM",
         "PAHOL",
-        "QTEMZ",
-        "USDTR",
-        "YESIL",
-        "Z30KE",
-        "Z30KP",
-        "ZGOLD",
-        "ZRE20",
-        "ZSR25"
+        "YESIL"
       ]
     },
     "non_energy_minerals": {
@@ -4140,6 +4118,7 @@
         "CVKMD",
         "DOFER",
         "DOGUB",
+        "EKDMR",
         "ERBOS",
         "ERCB",
         "EREGL",
@@ -4398,6 +4377,7 @@
         "AYGAZ",
         "BASGZ",
         "BESTE",
+        "BETAE",
         "BIGEN",
         "BIOEN",
         "CANTE",
