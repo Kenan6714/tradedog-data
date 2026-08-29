@@ -1,6 +1,6 @@
 {
   "kind": "YAT",
-  "updated_at": "2026-08-28T09:55:24Z",
+  "updated_at": "2026-08-29T05:54:47Z",
   "source": "tefas.gov.tr/api/funds/fonGetiriBazliBilgiGetir",
   "count": 1059,
   "funds": [
@@ -329,7 +329,7 @@
       "name": "AK PORTFÖY İKİNCİ DEĞİŞKEN FON",
       "category": "Değişken Şemsiye Fonu",
       "active": true,
-      "risk": "6",
+      "risk": "2",
       "returns": {
         "1m": 2.3885,
         "3m": 6.7491,
@@ -5392,8 +5392,8 @@
         "6m": -20.3081,
         "1y": 92.875,
         "ytd": 1.2983,
-        "3y": 362.0002,
-        "5y": 1147.2537
+        "3y": 362.0001,
+        "5y": 1147.2536
       }
     },
     {
@@ -6889,7 +6889,7 @@
       "name": "AK PORTFÖY TEKNOLOJİ ŞİRKETLERİ HİSSE SENEDİ (TL) FONU (HİSSE SENEDİ YOĞUN FON)",
       "category": "Hisse Senedi Şemsiye Fonu",
       "active": true,
-      "risk": "7",
+      "risk": "6",
       "returns": {
         "1m": 3.64,
         "3m": 11.8251,
@@ -7931,12 +7931,12 @@
       "active": true,
       "risk": "5",
       "returns": {
-        "1m": 3.9175,
-        "3m": 16.963,
-        "6m": 32.9366,
-        "1y": 49.0863,
-        "ytd": 42.1051,
-        "3y": 182.6398,
+        "1m": 4.0009,
+        "3m": 17.0569,
+        "6m": 33.0433,
+        "1y": 49.2059,
+        "ytd": 42.2192,
+        "3y": 182.8666,
         "5y": null
       }
     },
@@ -9113,7 +9113,7 @@
       "name": "AK PORTFÖY ENERJİ ŞİRKETLERİ HİSSE SENEDİ (TL) FONU (HİSSE SENEDİ YOĞUN FON)",
       "category": "Hisse Senedi Şemsiye Fonu",
       "active": true,
-      "risk": null,
+      "risk": "6",
       "returns": {
         "1m": -1.1722,
         "3m": 4.0712,
@@ -16393,7 +16393,7 @@
       "name": "AK PORTFÖY YAPAY ZEKA TEKNOLOJİLERİ ŞİRKETLERİ DEĞİŞKEN FON",
       "category": "Değişken Şemsiye Fonu",
       "active": true,
-      "risk": "3",
+      "risk": "4",
       "returns": {
         "1m": 13.4443,
         "3m": null,

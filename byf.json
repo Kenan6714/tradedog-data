@@ -1,8 +1,8 @@
 {
   "kind": "BYF",
-  "updated_at": "2026-08-28T09:55:24Z",
+  "updated_at": "2026-08-29T05:54:48Z",
   "source": "tefas.gov.tr/api/funds/fonGetiriBazliBilgiGetir",
-  "count": 35,
+  "count": 37,
   "funds": [
     {
       "code": "BLH",
@@ -396,6 +396,23 @@
       "borsaTicker": "ZSILV"
     },
     {
+      "code": "ZBY",
+      "name": "ZİRAAT PORTFÖY BIST 100 ENDEKSİ MODEL PORTFÖY HİSSE SENEDİ YOĞUN BORSA YATIRIM FONU",
+      "category": "Endeks Fon",
+      "active": false,
+      "risk": "7",
+      "returns": {
+        "1m": null,
+        "3m": null,
+        "6m": null,
+        "1y": null,
+        "ytd": null,
+        "3y": null,
+        "5y": null
+      },
+      "borsaTicker": "ZBY"
+    },
+    {
       "code": "ZEA",
       "name": "ZİRAAT PORTFÖY BIST 30 EŞİT AĞIRLIKLI ENDEKSİ HİSSE SENEDİ YOĞUN BORSA YATIRIM FONU",
       "category": "Hisse Senedi Yoğun",
@@ -462,6 +479,23 @@
         "5y": 935.0877
       },
       "borsaTicker": "ZHYS"
+    },
+    {
+      "code": "ZKL",
+      "name": "ZİRAAT PORTFÖY BIST KATILIM 100 ENDEKSİ MODEL PORTFÖY HİSSE SENEDİ YOĞUN BORSA YATIRIM FONU",
+      "category": "Endeks Fon",
+      "active": false,
+      "risk": null,
+      "returns": {
+        "1m": null,
+        "3m": null,
+        "6m": null,
+        "1y": null,
+        "ytd": null,
+        "3y": null,
+        "5y": null
+      },
+      "borsaTicker": "ZKL"
     },
     {
       "code": "ZKP",
