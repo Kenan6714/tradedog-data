@@ -1,8 +1,8 @@
 {
   "kind": "BYF",
-  "updated_at": "2026-11-06T05:25:49Z",
+  "updated_at": "2026-11-07T04:54:12Z",
   "source": "tefas.gov.tr/api/funds/fonGetiriBazliBilgiGetir",
-  "count": 37,
+  "count": 38,
   "funds": [
     {
       "code": "BLH",
@@ -360,6 +360,23 @@
         "5y": null
       },
       "borsaTicker": "OYAGB"
+    },
+    {
+      "code": "OS3",
+      "name": "OSMANLI PORTFÖY BIST 30 KALDIRAÇLI 2X ENDEKSİ HİSSE SENEDİ YOĞUN (TL) BORSA YATIRIM FONU",
+      "category": "Hisse Senedi Fonu",
+      "active": false,
+      "risk": null,
+      "returns": {
+        "1m": null,
+        "3m": null,
+        "6m": null,
+        "1y": null,
+        "ytd": null,
+        "3y": null,
+        "5y": null
+      },
+      "borsaTicker": "OS3"
     },
     {
       "code": "ZBB",
